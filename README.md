@@ -1,6 +1,7 @@
-<div align=center><img src=https://media.forgecdn.net/attachments/722/800/word.png></div>   
+<div align=center><img src=https://i2.mcmod.cn/editor/upload/20230831/1693448871_544101_Jrwj.webp></div>   
 
 [![CurseForge downloads](http://cf.way2muchnoise.eu/full_908131_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/provefrom)
+[![Provefrom mcmod](https://img.shields.io/badge/Provefrom%20-mcmod%20-green)](https://www.mcmod.cn/modpack/569.html)
 
 # Provefrom
 Provefrom embarks on an epic journey, a thrilling and exhilarating MMORPG-Styled modpack for Minecraft 1.16.5. Designed to deliver a massive and authentic journey to every adventurer. Take on perilous dungeons and exotic dimensions. Battle various bosses. Or build your dream cottage in stylized biomes after the battles. Provefrom includes an abundance of leisure mods, ensuring everyone finds their own unique plesure and engagement throughout the journey.
@@ -34,9 +35,9 @@ Beyond the perils and challenges of the journey, adventurers can find a slice of
 
 ## ⭐Gallery:
 
-<div align=center><img src=https://media.forgecdn.net/attachments/726/307/lif.png></div>  
-<div align=center><img src=https://media.forgecdn.net/attachments/726/313/3.png></div>  
-<div align=center><img src=https://media.forgecdn.net/attachments/721/218/image_2.png></div>  
+<div align=center><img src=overrides\config\fancymenu\slideshows\mainwindow\images\image_1.png></div>  
+<div align=center><img src=overrides\config\fancymenu\slideshows\mainwindow\images\image_5.png></div>  
+<div align=center><img src=overrides\config\fancymenu\slideshows\mainwindow\images\image_9.png></div>  
 
 
 ### Notes:
