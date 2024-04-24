@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:ghast",
+  "weight": 10,
+  "display": {
+    "scale": 0.4,
+    "xoffset": 0,
+    "yoffset": 24,
+    "nameplate": false,
+    "particles": true,
+    "volume": 0.5,
+    "side": "LEFT"
+  },
+  "data": {
+    "nbt": "{}",
+    "tick": true,
+    "onground": true,
+    "inwater": true,
+    "aggressive": false,
+    "inlove": false,
+    "walk": false,
+    "crouch": false
+  }
+}

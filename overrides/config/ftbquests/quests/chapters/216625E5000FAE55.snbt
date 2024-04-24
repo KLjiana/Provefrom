@@ -1,0 +1,3103 @@
+{
+	id: "216625E5000FAE55"
+	group: "5836B7C1B847157F"
+	order_index: 0
+	filename: "216625E5000FAE55"
+	title: "&dA.开局"
+	icon: "witherstormmod:withered_nether_star"
+	subtitle: [
+		"&e如何在忘却之世苟延残喘"
+		"&e在忘却之世里你需要廉价，有用的生存方法"
+		"&d主要是引导性的任务，没有过多的奖励"
+		"&4希望你能苟活下来，活得顺畅当然最好！"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -0.5d
+			y: -5.0d
+			width: 28.0d
+			height: 16.0d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/window.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			width: 8.0d
+			height: 8.0d
+			rotation: 45.0d
+			image: "byg:textures/block/rainbow_eucalyptus_crafting_table_top.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: 31.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/nether.png"
+			hover: ["进入下界"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: 14.5d
+			width: 2.5d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/nether.png"
+			hover: ["进入下界"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 29.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/end.png"
+			hover: ["进入末地"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: 17.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/end.png"
+			hover: ["进入末地"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 45.0d
+			image: "ftbteams:textures/add.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "&2开局"
+			icon: "minecraft:grass_block"
+			x: -0.5d
+			y: 4.0d
+			shape: "hexagon"
+			description: [
+				"&o&e*欢迎来到忘却之世，冒险者！                                       "
+				"&6本任务书由&dSusanlynaa&6大大制作                         &o&b——附：请记得将界面尺寸改为1或2，否则任务书内容过多将难以查看（同时整合包推荐使用）&9（不要听这个b讲的，因为长的文本可以滚轮翻）                                            "
+				"&3任务书作者留言：                                  "
+				"&dSusan：&e哈喽介里素苏珊，偶是任务书的作者。李问偶为什么要来介个整合包做任务酥？偶也不知道，只知道加拿说要女装o(=•ェ•=)m                                           "
+				"&dSusan：&e本人素第一次做任务酥，有喜多经验不蛀的地方，希望大家多多谅解（_>w<_）                                         "
+				"&6现在我们把目光移向整合包作者——&9KL_jiana                                         "
+				"&9KL_jiana：&e这里是加拿，整合包始创者，现在的开发者之一٩( 'ω' )و                                                            不过有问题不要问我，我是整合包作者，我没玩过整合包，我想打游戏 - =͟͟͞͞ =͟͟͞͞ ﾍ( ´Д`)ﾉ                              "
+				"&9KL_jiana：&e还有，女装是不可能滴+（>w<）+"
+			]
+			id: "0322A080515531C9"
+			tasks: [
+				{
+					id: "7EF1296120097E66"
+					type: "dimension"
+					title: "主世界"
+					icon: "minecraft:grass_block"
+					dimension: "minecraft:overworld"
+				}
+				{
+					id: "3FE535EA524512E4"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "26AF20D32D817C6C"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "&e战斗系统"
+			icon: {
+				id: "stalwart_dungeons:tungsten_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 5.0d
+			description: [
+				"&6增加了&d爬墙功能&6，默认&3左shift键&6。具体为&e趴在墙上按住左shift可在墙上停留松开左shift键可再次跳跃，以达到爬墙的功能。"
+				" &6剑现在的挥砍必须要冷却cd满了才可以会砍出去。"
+				" &e盾牌&6更加的平衡，减少了防御的前摇，但是使用盾牌后会进入&d冷却&6，成功在&d恰当时间&e格挡攻击&6就不会。"
+				" "
+				"&e录入武器章节的武器均不能合成！"
+			]
+			dependencies: ["0322A080515531C9"]
+			hide: true
+			id: "7FDFB0226E83581E"
+			tasks: [{
+				id: "1EBCE85813941B09"
+				type: "checkmark"
+				title: "战斗系统"
+			}]
+			rewards: [{
+				id: "296CA2FD9CD811A4"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "&e末地的去路"
+			icon: "endrem:ancient_portal_frame"
+			x: -2.5d
+			y: 5.0d
+			description: ["&6本整合包的&e最终目标&6为&d击败末影龙&6，&d末影龙&6被进行了一定的&4强化&6，而去&5末地&6的&e方法&6也被进行了&d《小幅度》&6的&e修改&6，需要集齐&e12颗&d末影之眼&6，每个眼睛的&e获取方式&6不同，需多&e冒险&6获得"]
+			dependencies: ["0322A080515531C9"]
+			hide: true
+			id: "7DB97A16AE013EFD"
+			tasks: [{
+				id: "4A851CB3969A3B03"
+				type: "checkmark"
+				title: "末地的去路"
+			}]
+			rewards: [{
+				id: "13E24F1448D23DEA"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "&e备份"
+			icon: {
+				id: "quark:backpack"
+				Count: 1b
+				tag: {
+					Inventory: [
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+				}
+			}
+			x: -2.5d
+			y: 3.5d
+			description: [
+				""
+				"&6整合包内自带备份模组，设置&3每六十分钟备份一次&6，可备份&312份文件&6，多余的会替换最旧的文件。备份保存在：游戏主文件夹&3\\backups&6里。里面每一个压缩包都是存档"
+			]
+			dependencies: ["0322A080515531C9"]
+			hide: true
+			id: "6C8FB28A0045A754"
+			tasks: [{
+				id: "300EAC602E9454DF"
+				type: "checkmark"
+				title: "备份"
+			}]
+			rewards: [{
+				id: "73588F58516D1AC6"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "&e游戏难度的问题"
+			icon: "minecraft:nether_star"
+			x: 1.5d
+			y: 3.5d
+			description: [
+				"&6关于游戏难度的事，整合包偏向&4硬核困难&6，需有一定的mc知识与一定的操作。游戏进度大部分靠&d击败boss&6推进，&dboss&6会掉落利于推进游戏的物品。整合包中还加入了&d祛魔台&6，可将高附魔低等级的装备&d祛魔&6，来强化自己。"
+				"&6若遇到&e新物品&6，打开&e物品栏&6，默认&3i键&6可跳转到&2百科&6查看用途"
+				""
+				"&e篝火&6会更加的真实，放置为&e熄灭状态&6，可用&e打火石&6，其靠近&e篝火将会提供&d生命回复1&6的效果"
+			]
+			dependencies: ["0322A080515531C9"]
+			hide: true
+			id: "37C27E388EE9E0D3"
+			tasks: [{
+				id: "28BE6817F4C612F8"
+				type: "checkmark"
+				title: "游戏难度的问题"
+			}]
+			rewards: [{
+				id: "497CF9AAB286E30C"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "万物之始"
+			icon: "minecraft:crafting_table"
+			x: -0.5d
+			y: 9.5d
+			shape: "hexagon"
+			description: ["好了，你已经了解了整合包的大致了，那么让我们开始游戏吧"]
+			dependencies: ["07FE3BA0118B1539"]
+			min_required_tasks: 1
+			id: "767220DF97234A37"
+			tasks: [
+				{
+					id: "17EAA13ADFCB9F80"
+					type: "item"
+					title: "工作台"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:workbench"
+						}
+					}
+				}
+				{
+					id: "6B606DAE510C2A06"
+					type: "item"
+					item: "minecraft:crafting_table"
+				}
+			]
+			rewards: [{
+				id: "5C94905EA1ECA469"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: 12.0d
+			description: ["做工具的需要"]
+			dependencies: ["767220DF97234A37"]
+			id: "6FDA4A052AAF745E"
+			tasks: [{
+				id: "261E62479C62E026"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+		}
+		{
+			title: "木板！！！"
+			x: -0.5d
+			y: 8.0d
+			description: ["那让我们来合成个木板吧"]
+			dependencies: ["7312E5E7DBB88FC1"]
+			dependency_requirement: "one_completed"
+			id: "07FE3BA0118B1539"
+			tasks: [{
+				id: "5AB8ED57BE7EEA62"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "077FB386A865B476"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "故事由一块原木开始"
+			x: -0.5d
+			y: 6.0d
+			subtitle: "啥原木都行"
+			description: [
+				"搞多点搞多点！"
+				"搞多点搞多点！"
+				"搞多点搞多点！"
+				"想致富，___"
+				"想致富，___"
+				"想致富，___"
+				"1"
+				"1"
+				"111"
+				"111"
+				"111"
+				"1"
+			]
+			dependencies: ["0322A080515531C9"]
+			hide: true
+			hide_text_until_complete: true
+			id: "7312E5E7DBB88FC1"
+			tasks: [{
+				id: "3E00E6558A715329"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "753D3B4C3BD74C2A"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: -2.5d
+			y: 12.5d
+			dependencies: ["6FDA4A052AAF745E"]
+			id: "11286771D912F8EF"
+			tasks: [{
+				id: "6854870216002BA9"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 13.0d
+			dependencies: ["6FDA4A052AAF745E"]
+			id: "6E8B75BE07565931"
+			tasks: [{
+				id: "20A5D7CF0D90BD46"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 13.5d
+			description: ["木稿，获取石头！"]
+			dependencies: ["6FDA4A052AAF745E"]
+			id: "6D3841CFA7459895"
+			tasks: [{
+				id: "187BA098D90D6D48"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 13.0d
+			dependencies: ["6FDA4A052AAF745E"]
+			id: "5D51E2E5FC02F415"
+			tasks: [{
+				id: "1DCF41746E4A3B54"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 12.5d
+			dependencies: ["6FDA4A052AAF745E"]
+			id: "152A23D08780BBAE"
+			tasks: [{
+				id: "2C171AADD41A3656"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "木制头盔"
+			x: 1.5d
+			y: 8.0d
+			description: ["会增加一点防御力的木制盔甲"]
+			dependencies: ["767220DF97234A37"]
+			id: "2D4B3E4F46B2F559"
+			tasks: [{
+				id: "45C2FD845ADC2B03"
+				type: "item"
+				item: {
+					id: "woodarmor:wooden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "木制胸甲"
+			x: 2.5d
+			y: 9.0d
+			description: ["会增加一点防御力的木制盔甲"]
+			dependencies: ["767220DF97234A37"]
+			id: "61D5C76AF8EEBB7B"
+			tasks: [{
+				id: "1F975F81E10AA70A"
+				type: "item"
+				item: {
+					id: "woodarmor:wooden_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "木制护腿"
+			x: 2.5d
+			y: 10.0d
+			description: ["会增加一点防御力的木制盔甲"]
+			dependencies: ["767220DF97234A37"]
+			id: "735E614356F1262A"
+			tasks: [{
+				id: "18F9FAEAB1C6D20B"
+				type: "item"
+				item: {
+					id: "woodarmor:wooden_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "木制靴子"
+			x: 1.5d
+			y: 11.0d
+			description: ["会增加一点防御力的木制盔甲"]
+			dependencies: ["767220DF97234A37"]
+			id: "6F6CB9F8051A47CA"
+			tasks: [{
+				id: "0EDA6BCA18A2EBE9"
+				type: "item"
+				item: {
+					id: "woodarmor:wooden_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "更进一步"
+			x: -0.5d
+			y: 15.0d
+			description: ["有了木稿，也该升级了"]
+			dependencies: ["6D3841CFA7459895"]
+			id: "1CE7BC379F073082"
+			tasks: [{
+				id: "20B11B499C9E926F"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.5d
+			description: ["可恶啊，这甘蔗不能吃；那它能拿来干什么呢"]
+			dependencies: ["767220DF97234A37"]
+			id: "03644047B9CF75C4"
+			tasks: [{
+				id: "56613F488847886D"
+				type: "item"
+				item: "minecraft:sugar_cane"
+				count: 3L
+			}]
+		}
+		{
+			title: "P A P E R"
+			x: -4.0d
+			y: 9.0d
+			description: ["纸？"]
+			dependencies: ["03644047B9CF75C4"]
+			id: "74429674CAF3A2A7"
+			tasks: [{
+				id: "58469134BD9D7151"
+				type: "item"
+				item: "minecraft:paper"
+				count: 3L
+			}]
+		}
+		{
+			title: "第一把远程武器"
+			x: -4.0d
+			y: 7.5d
+			description: ["回旋镖！！！"]
+			dependencies: ["74429674CAF3A2A7"]
+			id: "16A44DCF9250A464"
+			tasks: [{
+				id: "7C747466960E1427"
+				type: "item"
+				item: {
+					id: "hunterillager:boomerang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 18.0d
+			description: ["石稿，获取铁"]
+			dependencies: ["1CE7BC379F073082"]
+			id: "53F3557D03C0F7F9"
+			tasks: [{
+				id: "6EA4B8944BDC4B6A"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 16.5d
+			dependencies: ["1CE7BC379F073082"]
+			id: "43A1A84AE8CCF54B"
+			tasks: [{
+				id: "2FCBB59641FCC0B1"
+				type: "item"
+				item: {
+					id: "minecraft:stone_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 17.0d
+			dependencies: ["1CE7BC379F073082"]
+			id: "6A7FE6B2CFC1EE89"
+			tasks: [{
+				id: "583C8EA27BD812FB"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 17.0d
+			dependencies: ["1CE7BC379F073082"]
+			id: "1AD2A126A2825914"
+			tasks: [{
+				id: "7303BB05B0D408F8"
+				type: "item"
+				item: {
+					id: "minecraft:stone_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 16.5d
+			dependencies: ["1CE7BC379F073082"]
+			id: "2616D27ACEE4E3E9"
+			tasks: [{
+				id: "191F9F1D48F19D05"
+				type: "item"
+				item: {
+					id: "minecraft:stone_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "big chests"
+			x: -4.0d
+			y: 10.0d
+			dependencies: ["767220DF97234A37"]
+			id: "1E4F54AE90D0E260"
+			tasks: [{
+				id: "2DEF57793C5F570B"
+				type: "item"
+				title: "Any #forge:chests"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			title: "热门话题"
+			x: 1.0d
+			y: 14.5d
+			dependencies: ["1CE7BC379F073082"]
+			id: "57CBD13D48C3DF01"
+			tasks: [{
+				id: "25816C6A8E309072"
+				type: "item"
+				title: "Any #betterendforge:furnaces"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "betterendforge:furnaces"
+					}
+				}
+			}]
+		}
+		{
+			title: "烧！"
+			x: 0.5d
+			y: 21.0d
+			dependencies: ["68A534C6C1555497"]
+			hide_text_until_complete: true
+			id: "22390F1338B853D2"
+			tasks: [{
+				id: "4D5B346380DA9347"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 39L
+			}]
+		}
+		{
+			title: "另一方面的"
+			x: -3.0d
+			y: 20.0d
+			dependencies: ["2AA7B4A1F3B9210F"]
+			id: "7067D32E725F2FBB"
+			tasks: [{
+				id: "1B2C6DB7A9CE728B"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 39L
+			}]
+		}
+		{
+			title: "民以食为天"
+			x: -2.5d
+			y: 10.5d
+			dependencies: ["767220DF97234A37"]
+			id: "12967D4322AA6167"
+			tasks: [{
+				id: "5BA0F84EAB00A55A"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 3L
+			}]
+		}
+		{
+			title: "教练，我想睡觉！"
+			x: -2.0d
+			y: 11.5d
+			dependencies: ["767220DF97234A37"]
+			id: "63F6C040B700B743"
+			tasks: [{
+				id: "4C450B96C169EE8D"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
+			}]
+		}
+		{
+			title: "&e武器和装备的品质"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "minecraft:frost_walker"
+					}]
+				}
+			}
+			x: -0.5d
+			y: 2.5d
+			description: [
+				"&6在这个整合包当中，武器和装备都将会有&d品质"
+				"&6你可以将武器或装备放入&d锻造台&6进行&e重铸"
+				"&6需要使用其对应的&d材料&6进行&e重铸"
+				""
+				"&e其中一些没有可重铸材料的可以用&5哭泣的黑曜石&e来重铸"
+				"{image:minecraft:textures/block/crying_obsidian.png width:100 height:100 align:1}"
+			]
+			dependencies: ["0322A080515531C9"]
+			hide: true
+			id: "5BEF729E8659F456"
+			tasks: [{
+				id: "7F4DA4C32B0C3324"
+				type: "checkmark"
+				title: "武器和装备的品质"
+			}]
+			rewards: [{
+				id: "3151A829944B7B0D"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: -4.0d
+			y: 11.0d
+			dependencies: ["1E4F54AE90D0E260"]
+			id: "56AE72DD98C1A74D"
+			tasks: [{
+				id: "6B1D998161A43253"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 12.0d
+			dependencies: ["56AE72DD98C1A74D"]
+			id: "0EE4410196D63CE6"
+			tasks: [{
+				id: "6D93FF405B882FFD"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 13.0d
+			dependencies: ["0EE4410196D63CE6"]
+			id: "3990616393E8584E"
+			tasks: [{
+				id: "6AE1DC39777C8EF7"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 19.5d
+			dependencies: ["22390F1338B853D2"]
+			id: "51F8706F8F8691B1"
+			tasks: [{
+				id: "5B885C6B7AB54E96"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 21.0d
+			dependencies: ["22390F1338B853D2"]
+			id: "7300BA6099135EB9"
+			tasks: [{
+				id: "4AB70217307CCB4D"
+				type: "item"
+				item: {
+					id: "minecraft:iron_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 23.5d
+			dependencies: ["22390F1338B853D2"]
+			id: "0C0590D44F4A24A9"
+			tasks: [{
+				id: "614DDACBF63A6433"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 22.5d
+			dependencies: ["22390F1338B853D2"]
+			id: "61309E33023C5BE6"
+			tasks: [{
+				id: "46DA5BCB0E5F0F15"
+				type: "item"
+				item: {
+					id: "minecraft:iron_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 22.5d
+			dependencies: ["22390F1338B853D2"]
+			id: "77305144A0EC3674"
+			tasks: [{
+				id: "4A722855FEA59F7F"
+				type: "item"
+				item: {
+					id: "minecraft:iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 19.0d
+			dependencies: ["22390F1338B853D2"]
+			id: "77A628BDEC0907A3"
+			tasks: [{
+				id: "1309B84E9B8B0326"
+				type: "item"
+				item: {
+					id: "betterendforge:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 21.0d
+			dependencies: ["7067D32E725F2FBB"]
+			id: "289220879FCC2E6E"
+			tasks: [{
+				id: "11B823C53C6969CE"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 18.0d
+			dependencies: ["7067D32E725F2FBB"]
+			id: "0550F29523676F06"
+			tasks: [{
+				id: "0DD60897FC02256E"
+				type: "item"
+				item: {
+					id: "minecraft:golden_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 18.5d
+			dependencies: ["7067D32E725F2FBB"]
+			id: "49120C8147010702"
+			tasks: [{
+				id: "0B58AF59F770E706"
+				type: "item"
+				item: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 20.0d
+			dependencies: ["7067D32E725F2FBB"]
+			id: "5BCC2FBE2578903A"
+			tasks: [{
+				id: "173DE2CB557A2EF4"
+				type: "item"
+				item: {
+					id: "minecraft:golden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 21.5d
+			dependencies: ["7067D32E725F2FBB"]
+			id: "726D268172C534DB"
+			tasks: [{
+				id: "07E988F7C91A709D"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "铁锤"
+			x: 2.5d
+			y: 24.5d
+			subtitle: "更好的镐与斧（伤害）的结合"
+			dependencies: ["22390F1338B853D2"]
+			id: "513BAD92B23C70AD"
+			tasks: [{
+				id: "61E07944837EF308"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 18.5d
+			subtitle: "更好的镐与斧（伤害）的结合"
+			dependencies: ["7067D32E725F2FBB"]
+			id: "2C40CE079309C4AD"
+			tasks: [{
+				id: "5936509C780635FC"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:golden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 22.0d
+			dependencies: ["7067D32E725F2FBB"]
+			id: "296A3EEA8E85E841"
+			tasks: [{
+				id: "6C1C8C54DBD110AE"
+				type: "item"
+				item: {
+					id: "betterendforge:golden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "钻石"
+			x: -3.0d
+			y: 27.0d
+			subtitle: "戴明！"
+			dependencies: ["0C0590D44F4A24A9"]
+			id: "05B4B23F02EC513A"
+			tasks: [{
+				id: "4E96D7B4B14D0E20"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 24.5d
+			subtitle: "末影之刃"
+			dependencies: ["05B4B23F02EC513A"]
+			id: "0A435FBED9B1EDBD"
+			tasks: [{
+				id: "0A86F992B157314A"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 24.5d
+			dependencies: ["05B4B23F02EC513A"]
+			id: "3AA59A88B76C57F6"
+			tasks: [{
+				id: "43EC4C9A2B85E93F"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 28.0d
+			dependencies: ["05B4B23F02EC513A"]
+			id: "50B2BA843C1F6FE9"
+			tasks: [{
+				id: "78A8B1F0A24348B6"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 26.0d
+			dependencies: ["05B4B23F02EC513A"]
+			id: "2D118D8215559362"
+			tasks: [{
+				id: "641E2EB5D40B525B"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 26.0d
+			dependencies: ["05B4B23F02EC513A"]
+			id: "1B701983C16F97F2"
+			tasks: [{
+				id: "614AA2579E0D590D"
+				type: "item"
+				item: {
+					id: "betterendforge:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 29.5d
+			subtitle: "和钻石没多大关系"
+			description: ["击败石傀儡掉落"]
+			dependencies: ["05B4B23F02EC513A"]
+			id: "14559AAFB17C8825"
+			tasks: [{
+				id: "52FDE66B862E83E7"
+				type: "item"
+				item: "quark:diamond_heart"
+			}]
+		}
+		{
+			title: "皮卡镖"
+			x: -2.0d
+			y: 32.0d
+			subtitle: "纳米追踪，小子"
+			dependencies: ["14559AAFB17C8825"]
+			id: "30B881FBABDAC724"
+			tasks: [{
+				id: "1A15CECB15CBF9F5"
+				type: "item"
+				item: {
+					id: "quark:pickarang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 29.5d
+			dependencies: ["05B4B23F02EC513A"]
+			id: "3923F5BE6DF28204"
+			tasks: [{
+				id: "65A845B12C2D3539"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 30.0d
+			subtitle: "更好的镐与斧（伤害）的结合"
+			dependencies: ["05B4B23F02EC513A"]
+			id: "4B20BBA2E633614D"
+			tasks: [{
+				id: "54E2BA689C33F6B6"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 33.0d
+			dependencies: ["4D80F587D29AAD82"]
+			hide: true
+			id: "2F1315377E1DBB11"
+			tasks: [{
+				id: "6ABDB1B26BF4DC44"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 33.5d
+			dependencies: ["3923F5BE6DF28204"]
+			hide: true
+			id: "078141076BD325EF"
+			tasks: [{
+				id: "13F11C31643C209E"
+				type: "item"
+				item: "byg:raw_pendorite"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 35.5d
+			dependencies: ["078141076BD325EF"]
+			id: "78FBEC4E1F3C8B14"
+			tasks: [{
+				id: "6FC6C7629F9A7F59"
+				type: "item"
+				item: "byg:pendorite_scraps"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 32.0d
+			subtitle: "巧克力"
+			dependencies: ["3923F5BE6DF28204"]
+			hide: true
+			id: "4D80F587D29AAD82"
+			tasks: [{
+				id: "595CF23F10E91887"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 19.5d
+			dependencies: ["53F3557D03C0F7F9"]
+			id: "68A534C6C1555497"
+			tasks: [{
+				id: "496FCC2241B249B7"
+				type: "item"
+				item: "cavesandcliffs:raw_iron"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 34.0d
+			dependencies: ["2F1315377E1DBB11"]
+			id: "344503CCA492D496"
+			tasks: [{
+				id: "4BE5937EB7FFBE87"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 38.0d
+			dependencies: [
+				"78FBEC4E1F3C8B14"
+				"29204D533F9FCDC1"
+			]
+			id: "5A04D50AD780315D"
+			tasks: [{
+				id: "32C427327BF34532"
+				type: "item"
+				item: "byg:pendorite_ingot"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 31.5d
+			dependencies: ["344503CCA492D496"]
+			id: "41AFF1710D95CB71"
+			tasks: [{
+				id: "407154DF74CEE199"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 31.5d
+			dependencies: ["344503CCA492D496"]
+			id: "370911E894BEA519"
+			tasks: [{
+				id: "5B5E3E83059875A2"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 33.5d
+			dependencies: ["344503CCA492D496"]
+			id: "49493A22D23E690C"
+			tasks: [{
+				id: "2141249864CE94CB"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 35.5d
+			dependencies: ["344503CCA492D496"]
+			id: "164CD613B2998716"
+			tasks: [{
+				id: "597CEB8C307C454B"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 36.5d
+			dependencies: ["344503CCA492D496"]
+			id: "2F67C6657018B0A9"
+			tasks: [{
+				id: "7E99D0100FC7DC0B"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 34.5d
+			dependencies: ["344503CCA492D496"]
+			id: "6F809A0575092AB5"
+			tasks: [{
+				id: "6EC00DB67415CEF7"
+				type: "item"
+				item: {
+					id: "betterendforge:netherite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 35.0d
+			subtitle: "更好的镐和斧（伤害）的结合"
+			dependencies: ["344503CCA492D496"]
+			id: "3C6618E4858C8920"
+			tasks: [{
+				id: "4181A727BAD57EB1"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:netherite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 36.0d
+			dependencies: ["5A04D50AD780315D"]
+			id: "7CDEDF1CD53BAC45"
+			tasks: [{
+				id: "60B6BD5C7730A543"
+				type: "item"
+				item: {
+					id: "byg:pendorite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 38.0d
+			dependencies: ["5A04D50AD780315D"]
+			id: "58CEC75FF67444D1"
+			tasks: [{
+				id: "263C5CAB81911E27"
+				type: "item"
+				item: {
+					id: "byg:pendorite_battleaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 40.5d
+			dependencies: ["5A04D50AD780315D"]
+			id: "7CF5EF7C335E548F"
+			tasks: [{
+				id: "6CFDABEEEEB19693"
+				type: "item"
+				item: {
+					id: "byg:pendorite_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 40.5d
+			dependencies: ["5A04D50AD780315D"]
+			id: "1B922B8472302C61"
+			tasks: [{
+				id: "5614950D460257CF"
+				type: "item"
+				item: {
+					id: "byg:pendorite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 38.0d
+			dependencies: ["5A04D50AD780315D"]
+			id: "1661AF26C6D51E52"
+			tasks: [{
+				id: "36002DCA9173E403"
+				type: "item"
+				item: {
+					id: "byg:pendorite_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 36.0d
+			dependencies: ["5A04D50AD780315D"]
+			id: "74A1657B0D980AAB"
+			tasks: [{
+				id: "438B41844D45CD50"
+				type: "item"
+				item: {
+					id: "byg:pendorite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 34.0d
+			dependencies: ["3923F5BE6DF28204"]
+			hide: true
+			id: "29031E11A309718D"
+			tasks: [{
+				id: "55B65CDD2BA4389C"
+				type: "item"
+				item: "stalwart_dungeons:tungsten_ore"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 41.5d
+			dependencies: ["29031E11A309718D"]
+			id: "23248F2594FD7ADA"
+			tasks: [{
+				id: "7FF209D57C3DAC9D"
+				type: "item"
+				item: "stalwart_dungeons:tungsten_ingot"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 39.0d
+			dependencies: ["23248F2594FD7ADA"]
+			id: "34B533C0FD0FD387"
+			tasks: [{
+				id: "6D800A6D8CF7AE90"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -15.0d
+			y: 40.5d
+			dependencies: ["23248F2594FD7ADA"]
+			id: "4B081B9EFEE673DE"
+			tasks: [{
+				id: "3ABA9DAFBE98ED3A"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 43.0d
+			dependencies: ["23248F2594FD7ADA"]
+			id: "7020008ABF9EA23D"
+			tasks: [{
+				id: "072E1AEC284C85D9"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 42.5d
+			dependencies: ["23248F2594FD7ADA"]
+			id: "4724B8209B546D84"
+			tasks: [{
+				id: "2D66F98389FB7AA8"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 44.0d
+			dependencies: ["23248F2594FD7ADA"]
+			id: "0E9639F7D53181CF"
+			tasks: [{
+				id: "2A2720C16636D98F"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -17.0d
+			y: 42.5d
+			subtitle: "更好的镐和斧（伤害）的结合"
+			dependencies: ["23248F2594FD7ADA"]
+			id: "2D16283E0052FC37"
+			tasks: [{
+				id: "29C2D23C0414C3DB"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 40.5d
+			dependencies: ["23248F2594FD7ADA"]
+			id: "67AC1D8256B0DBF5"
+			tasks: [{
+				id: "59B645386BB359B3"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 15.5d
+			subtitle: "对，你没看错，木镐就能挖"
+			dependencies: ["6D3841CFA7459895"]
+			id: "6736351C53E9CA25"
+			tasks: [{
+				id: "38DCA5C3CB7305CC"
+				type: "item"
+				item: "betternether:cincinnasite"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 23.5d
+			dependencies: ["0C0590D44F4A24A9"]
+			hide_text_until_complete: true
+			id: "2AA7B4A1F3B9210F"
+			tasks: [{
+				id: "7D0A885BB70F53DA"
+				type: "item"
+				item: "cavesandcliffs:raw_gold"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 17.5d
+			dependencies: ["6736351C53E9CA25"]
+			id: "6E5C3E24A98E4EBE"
+			tasks: [{
+				id: "1AFD77A7EC294853"
+				type: "item"
+				item: "betternether:cincinnasite_ingot"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 16.0d
+			dependencies: ["6E5C3E24A98E4EBE"]
+			id: "5E101724D11CB2CD"
+			tasks: [{
+				id: "2176FB876374C6C2"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 17.5d
+			dependencies: ["6E5C3E24A98E4EBE"]
+			id: "6765C55E94EE5420"
+			tasks: [{
+				id: "434E9D694F4A5042"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 19.0d
+			dependencies: ["6E5C3E24A98E4EBE"]
+			id: "77F271E571CC513C"
+			tasks: [{
+				id: "774BE85183CE2A59"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 19.0d
+			dependencies: ["6E5C3E24A98E4EBE"]
+			id: "4B0AEE5B5D08A21E"
+			tasks: [{
+				id: "740861442E56FF91"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 16.0d
+			dependencies: ["6E5C3E24A98E4EBE"]
+			id: "3791A7F7737CB8DA"
+			tasks: [{
+				id: "0986EE102C0C63E4"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 20.5d
+			dependencies: ["77F271E571CC513C"]
+			id: "125151AB1D618A03"
+			tasks: [{
+				id: "2FDF3391A238BA08"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_shovel_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 20.5d
+			dependencies: ["4B0AEE5B5D08A21E"]
+			id: "1FD8C75E197F281D"
+			tasks: [{
+				id: "1892AC9005611787"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_hoe_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 17.5d
+			dependencies: ["6765C55E94EE5420"]
+			id: "6A8882C5DA73470A"
+			tasks: [{
+				id: "762FFE072398F641"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_axe_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 14.5d
+			dependencies: ["5E101724D11CB2CD"]
+			id: "107A7C4EC306947E"
+			tasks: [{
+				id: "6E2752B9B37C01E0"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_pickaxe_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 14.5d
+			dependencies: ["3791A7F7737CB8DA"]
+			id: "22889F14256592A9"
+			tasks: [{
+				id: "3AF6D5E856C2BEF1"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_sword_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 17.5d
+			dependencies: ["6E5C3E24A98E4EBE"]
+			id: "6FB56E36F232EBE4"
+			tasks: [{
+				id: "3579116C0E29356A"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "剪！"
+			x: -1.0d
+			y: 20.0d
+			dependencies: ["22390F1338B853D2"]
+			id: "5EF5030A10B018BD"
+			tasks: [{
+				id: "28E54CB5960637A5"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 32.5d
+			dependencies: ["3923F5BE6DF28204"]
+			id: "29204D533F9FCDC1"
+			tasks: [{
+				id: "324B8CE4DC24BE31"
+				type: "item"
+				item: "byg:emeraldite_shards"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 35.0d
+			dependencies: ["29204D533F9FCDC1"]
+			hide: true
+			id: "7E6730E358E2A090"
+			tasks: [{
+				id: "3C242E4D9EB60514"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -0.75d
+			y: 33.75d
+			dependencies: ["7E6730E358E2A090"]
+			size: 1.5d
+			id: "3CAB2F1B9EAB8949"
+			tasks: [{
+				id: "4B009AB6447F3FA9"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 28.5d
+			dependencies: ["3923F5BE6DF28204"]
+			id: "5884EB3A2CB744B7"
+			tasks: [{
+				id: "6E3A0F9380F2395C"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 27.5d
+			dependencies: ["5884EB3A2CB744B7"]
+			id: "3E0C93142C816527"
+			tasks: [{
+				id: "4D67B0DC93BF196D"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 25.5d
+			dependencies: ["3E0C93142C816527"]
+			id: "296505B2FD4A542C"
+			tasks: [{
+				id: "29B86DDB8A21C01B"
+				type: "item"
+				item: "betterendforge:thallasium_pickaxe_head"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 26.5d
+			dependencies: ["3E0C93142C816527"]
+			id: "7A0CA6B1D1366030"
+			tasks: [{
+				id: "4EC244248F7ADF53"
+				type: "item"
+				item: "betterendforge:thallasium_axe_head"
+			}]
+		}
+		{
+			x: -17.5d
+			y: 26.5d
+			dependencies: ["3E0C93142C816527"]
+			id: "23CCC243257AA52D"
+			tasks: [{
+				id: "5C7DEB6A35053212"
+				type: "item"
+				item: "betterendforge:thallasium_shovel_head"
+			}]
+		}
+		{
+			x: -17.5d
+			y: 28.5d
+			dependencies: ["3E0C93142C816527"]
+			id: "6A4F86BE2D28D6C6"
+			tasks: [{
+				id: "07F8124346DDB203"
+				type: "item"
+				item: "betterendforge:thallasium_hoe_head"
+			}]
+		}
+		{
+			title: "赛蓝剑柄和剑刃"
+			x: -16.0d
+			y: 29.5d
+			dependencies: ["3E0C93142C816527"]
+			id: "7E4B68EC10BD080F"
+			tasks: [
+				{
+					id: "740D6C88D276E596"
+					type: "item"
+					item: "betterendforge:thallasium_sword_handle"
+				}
+				{
+					id: "57A839167CE95AAC"
+					type: "item"
+					item: "betterendforge:thallasium_sword_blade"
+				}
+			]
+		}
+		{
+			x: -16.0d
+			y: 24.0d
+			dependencies: ["296505B2FD4A542C"]
+			id: "1F55C9EAC1B72F66"
+			tasks: [{
+				id: "46AC770EBCA29008"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 24.5d
+			dependencies: ["7A0CA6B1D1366030"]
+			id: "5A6C64B90D9697AC"
+			tasks: [{
+				id: "1C4A4DAD265F6383"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -17.5d
+			y: 24.5d
+			dependencies: ["23CCC243257AA52D"]
+			id: "6DF413417FB81267"
+			tasks: [{
+				id: "79992556F76810BF"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -17.5d
+			y: 30.5d
+			dependencies: ["6A4F86BE2D28D6C6"]
+			id: "22CAFD009ABD76E4"
+			tasks: [{
+				id: "51E0D1A3A05EA0E6"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: 31.5d
+			dependencies: ["7E4B68EC10BD080F"]
+			id: "61D45717DDEAE944"
+			tasks: [{
+				id: "0EC85DE9D8D46B63"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 27.0d
+			description: ["通过寻找破碎威斯克小岛挖掘水晶或矿物"]
+			dependencies: ["3923F5BE6DF28204"]
+			id: "5F703E3A81C73825"
+			tasks: [{
+				id: "747359028B126869"
+				type: "item"
+				item: "byg:ametrine_gems"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 25.5d
+			dependencies: ["5F703E3A81C73825"]
+			id: "3463808508E6083F"
+			tasks: [{
+				id: "5440933CB0B05B8B"
+				type: "item"
+				item: "byg:ametrine_horse_armor"
+			}]
+		}
+		{
+			title: "石头套装"
+			x: 3.0d
+			y: 15.5d
+			dependencies: ["1CE7BC379F073082"]
+			id: "1A975FEF8E8AD09B"
+			tasks: [
+				{
+					id: "4BE3F91EE20F38B3"
+					type: "item"
+					item: {
+						id: "woodarmor:stone_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45EEE79CD36CFAA5"
+					type: "item"
+					item: {
+						id: "woodarmor:stone_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "26A6E884F7E84F29"
+					type: "item"
+					item: {
+						id: "woodarmor:stone_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "45CDF555F2FED502"
+					type: "item"
+					item: {
+						id: "woodarmor:stone_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "整装上阵"
+			x: 4.5d
+			y: 19.5d
+			dependencies: ["22390F1338B853D2"]
+			id: "63E0BDAC23D4CB16"
+			tasks: [
+				{
+					id: "1ABBC1B1ADD6DC0D"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F19FE5281E7FCDD"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5915CE0A63D73583"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "626BCD4861CD1227"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "金光闪闪"
+			x: -6.5d
+			y: 21.5d
+			dependencies: ["7067D32E725F2FBB"]
+			id: "0DF1728075BAF243"
+			tasks: [
+				{
+					id: "2C5EB0A5D32AFAA6"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C872F6402C038F4"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F512BD81F7B7FA6"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46A8B84947051731"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "钻石护体"
+			x: 0.0d
+			y: 28.5d
+			dependencies: ["05B4B23F02EC513A"]
+			id: "39B680A4BD1C0D13"
+			tasks: [
+				{
+					id: "367DEF26F2A776E7"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00165A990B546EAA"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E27BB4A1363EB32"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D1151E220AEE9F4"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "残骸裹身"
+			x: -14.5d
+			y: 37.5d
+			dependencies: ["344503CCA492D496"]
+			id: "23969C9D4A8032AE"
+			tasks: [
+				{
+					id: "0A675877B918546A"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BB6F0B4ED684268"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04F8872085B09455"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B3518B5C5690188"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 37.0d
+			dependencies: ["344503CCA492D496"]
+			id: "2DAD581F17C97E34"
+			tasks: [{
+				id: "710F91997D7A6EDD"
+				type: "item"
+				item: "piglin_expansion:divinity_netherite_ingot"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 39.5d
+			dependencies: [
+				"2DAD581F17C97E34"
+				"23969C9D4A8032AE"
+			]
+			id: "64D0CBECF935BF64"
+			tasks: [
+				{
+					id: "7AB145A6FCF9BAAC"
+					type: "item"
+					item: {
+						id: "piglin_expansion:divinity_netherite_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "401267B39C3C330B"
+					type: "item"
+					item: {
+						id: "piglin_expansion:divinity_netherite_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "533DF9B3C0A7B13B"
+					type: "item"
+					item: {
+						id: "piglin_expansion:divinity_netherite_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E4FA6114D49D92C"
+					type: "item"
+					item: {
+						id: "piglin_expansion:divinity_netherite_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "镀金套装"
+			x: -16.5d
+			y: 37.5d
+			dependencies: ["23969C9D4A8032AE"]
+			id: "3E7ED21B9127C21C"
+			tasks: [
+				{
+					id: "56EE85702AADB7CC"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48BF5480A5CB4FC6"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F33CAF75C9C2E0C"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "552A3CC5277B495B"
+					type: "item"
+					item: {
+						id: "bygonenether:gilded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "钨合之众"
+			x: -13.5d
+			y: 44.0d
+			dependencies: ["23248F2594FD7ADA"]
+			id: "63000FA19CABE47A"
+			tasks: [
+				{
+					id: "2387EBADF6A7AE1D"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F6DFBADECC0EEA3"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "261FB7D8103980A1"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F71ABC570700E14"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "一命钨呼"
+			x: -14.5d
+			y: 46.5d
+			dependencies: ["63000FA19CABE47A"]
+			id: "1382B34E5D2C11CD"
+			tasks: [
+				{
+					id: "6824BF2C6D2C65A1"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:warted_tungsten_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2880827E51CC76CE"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:warted_tungsten_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7BED9EAF264DBFB2"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:warted_tungsten_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34DED5C6BC23B5A8"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:warted_tungsten_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 39.5d
+			dependencies: ["67AC1D8256B0DBF5"]
+			id: "336ADF1E3AB6CBB2"
+			tasks: [{
+				id: "18069A60011F9260"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:warted_tungsten_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 42.0d
+			dependencies: ["5A04D50AD780315D"]
+			id: "708C14AAC5E2F873"
+			tasks: [{
+				id: "73AE6541B4457500"
+				type: "item"
+				item: "byg:pendorite_horse_armor"
+			}]
+		}
+		{
+			x: -19.5d
+			y: 26.5d
+			dependencies: ["3E0C93142C816527"]
+			id: "347FCB9F794D8E51"
+			tasks: [{
+				id: "20DD5EFBB3F043CA"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 19.0d
+			dependencies: ["6D3841CFA7459895"]
+			id: "0B1DD352A8238008"
+			tasks: [{
+				id: "612F755126E3FC58"
+				type: "item"
+				item: "betterendforge:ender_shard"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 24.5d
+			dependencies: [
+				"347FCB9F794D8E51"
+				"22390F1338B853D2"
+				"62869AB60558FEC6"
+			]
+			dependency_requirement: "all_started"
+			id: "48C56DF0279B6F5F"
+			tasks: [{
+				id: "7E051B00787A36CA"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 23.0d
+			dependencies: ["48C56DF0279B6F5F"]
+			id: "04066E9F23BBDF66"
+			tasks: [{
+				id: "4202C1E2756E4BBA"
+				type: "item"
+				item: "betterendforge:terminite_pickaxe_head"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 24.0d
+			dependencies: ["48C56DF0279B6F5F"]
+			id: "3E456F7EC3783C38"
+			tasks: [{
+				id: "59A85AC6300E6CE3"
+				type: "item"
+				item: "betterendforge:terminite_shovel_head"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 23.0d
+			dependencies: ["48C56DF0279B6F5F"]
+			id: "661BEE2062EDE1C8"
+			tasks: [{
+				id: "33A3770B91361C90"
+				type: "item"
+				item: "betterendforge:terminite_axe_head"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 24.0d
+			dependencies: ["3E456F7EC3783C38"]
+			id: "65AD2EC738EB572B"
+			tasks: [{
+				id: "547397FC5A2ED03A"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 21.5d
+			dependencies: ["04066E9F23BBDF66"]
+			id: "0A5CFE7888265BCA"
+			tasks: [{
+				id: "491787FBCA12B8D0"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 20.5d
+			dependencies: ["661BEE2062EDE1C8"]
+			id: "4AA611BB527D0E59"
+			tasks: [{
+				id: "75AEE6B53AAD9532"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 26.0d
+			dependencies: ["48C56DF0279B6F5F"]
+			id: "40C05D68D5DC4B53"
+			tasks: [
+				{
+					id: "12BE59680B05CBA3"
+					type: "item"
+					item: "betterendforge:terminite_sword_handle"
+				}
+				{
+					id: "0903DFE8060A1732"
+					type: "item"
+					item: "betterendforge:terminite_sword_blade"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 27.5d
+			dependencies: ["40C05D68D5DC4B53"]
+			id: "7C8483A40E3FA625"
+			tasks: [{
+				id: "3BF4EE764CB84B7A"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 21.5d
+			dependencies: ["0B1DD352A8238008"]
+			id: "62869AB60558FEC6"
+			tasks: [{
+				id: "76DCE828135F786A"
+				type: "item"
+				item: "betterendforge:ender_dust"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 29.5d
+			dependencies: ["3923F5BE6DF28204"]
+			id: "2069D1A7009B8975"
+			tasks: [{
+				id: "6E40128F42A6D103"
+				type: "item"
+				item: "stalwart_dungeons:chorundum"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 28.0d
+			dependencies: ["2069D1A7009B8975"]
+			id: "6FD238CAC1F29FDA"
+			tasks: [{
+				id: "6FBB1EC6BEF8A89E"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:chorundum_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -15.0d
+			y: 29.5d
+			dependencies: ["2069D1A7009B8975"]
+			id: "53DA6B1F22439062"
+			tasks: [{
+				id: "4D227041AAB6DA2A"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:chorundum_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 28.0d
+			dependencies: ["2069D1A7009B8975"]
+			id: "0A0C639C28412F85"
+			tasks: [{
+				id: "2EB1009F71F20486"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:chorundum_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 31.0d
+			dependencies: ["2069D1A7009B8975"]
+			id: "2B25A61E3F557CC3"
+			tasks: [{
+				id: "7557075A184B6BDF"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:chorundum_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 31.0d
+			dependencies: ["2069D1A7009B8975"]
+			id: "1935BA2B4670433C"
+			tasks: [{
+				id: "0A96CAC74629499A"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:chorundum_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 29.0d
+			dependencies: ["2069D1A7009B8975"]
+			id: "2E3D113D5D1C14DB"
+			tasks: [{
+				id: "22D55BF184AE7100"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:chorundum_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "紫颂战士"
+			x: -10.0d
+			y: 30.5d
+			dependencies: ["2069D1A7009B8975"]
+			id: "1D0F750D495402FE"
+			tasks: [
+				{
+					id: "57C24BC79F27ED5A"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:chorundum_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BE48085D700BFB9"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:chorundum_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36A290A1968CCA9E"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:chorundum_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2957C2D0D9131C49"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:chorundum_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "真蓝人"
+			x: -19.5d
+			y: 28.5d
+			dependencies: ["3E0C93142C816527"]
+			id: "1DB52704666EE55F"
+			tasks: [
+				{
+					id: "06655ED6F7148C47"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07536F262309788B"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16129F02AD60281A"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7D247822FA88DC17"
+					type: "item"
+					item: {
+						id: "betterendforge:thallasium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 28.5d
+			dependencies: ["3E0C93142C816527"]
+			id: "3825814BD0C4E2AD"
+			tasks: [{
+				id: "356FD067E2FE6D6E"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

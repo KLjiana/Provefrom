@@ -1,0 +1,17 @@
+
+["Config for Tightened Village Security"]
+	#Make Players Loose Hero Of The Village And Make Villagers Become Nitwits If They Have A Reputation Of -100 Or Lower?
+	"Punish Bad Reputation" = false
+	#Make Kidnapping Villagers With Leads Punish Players? (If Set To True Without A Mod That Lets You Attach Leads To Villagers The Punishment Will Trigger If Your Interact With A Villager With A Lead)
+	"Punish Lead Kidnapping" = false
+	#Make Breaking Villager Workstations Lower Your Reputation?
+	"Punish Breaking Workstations" = true
+	#Make Kidnapping Villagers With Boats Punish Players?
+	"Punish Boat Kidnapping" = true
+	#Make Villagers Kidnapped By Any Means Not Trade With You (Become Nitwits)? (Note That This Option Is Overwritten If Both Punish Bad Reputation And Golems Attack Kidnappers Are Set To True)
+	"Make Kidnapped Villagers Nitwits" = false
+	#Make Kidnapping Villagers Remove Hero Of The Village? (Note That This Option Is Overwritten If Both Punish Bad Reputation And Golems Attack Kidnappers Are Set To True)
+	"Remove Hero Of The Village" = true
+	#Make Iron Golems And Guards Attack All Forms Of Villager Kidnappers?
+	"Golems Attack Kidnappers" = true
+

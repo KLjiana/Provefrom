@@ -1,0 +1,43 @@
+
+[general]
+	#Cute little mobs to fill the emptiness of the main menu.
+	"Menu Entity" = true
+
+[menu_entity]
+	#Blacklist to prevent certain entities form rendering. Problematic entities will be added automatically upon being detected.
+	"Entity Blacklist" = ["minecraft:ender_dragon", "minecraft:evoker_fangs", "minecraft:falling_block", "minecraft:area_effect_cloud", "minecraft:item", "minecraft:fishing_bobber", "minecraft:wither_skeleton", "minecraft:player", "minecraft:strider", "minecraft:enderman", "minecraft:hoglin", "minecraft:zombified_piglin", "minecraft:blaze", "minecraft:magma_cube", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:skeleton", "minecraft:ghast", "minecraft:chicken", "minecraft:zoglin"]
+	#Time in seconds an entity will be shown for. Set to 0 to never change entities.
+	#Range: > 0
+	"Display Time" = 0
+	#When to show reload button on main menu. By default requires the control key to be pressed.
+	#Allowed Values: NEVER, RIGHT_CONTROL, RIGHT_ALWAYS, LEFT_CONTROL, LEFT_ALWAYS
+	"Reload Button" = "RIGHT_ALWAYS"
+	#Offset on x-axis from original position on left side.
+	#Range: > -2147483648
+	"Left X-Offset" = 0
+	#Offset on y-axis from original position on left side.
+	#Range: > -2147483648
+	"Left Y-Offset" = 0
+	#Which side entities can be shown at.
+	#Allowed Values: LEFT, BOTH, RIGHT
+	"Entity Side" = "BOTH"
+	#Offset on x-axis from original position on right side.
+	#Range: > -2147483648
+	"Right X-Offset" = 0
+	#Offset on y-axis from original position on right side.
+	#Range: > -2147483648
+	"Right Y-Offset" = 0
+	#Reload button offset on y-axis from original position.
+	#Range: > -2147483648
+	"Reload Y-Offset" = 0
+	#Reload button offset on x-axis from original position.
+	#Range: > -2147483648
+	"Reload X-Offset" = 0
+	#Size of menu companions.
+	#Range: > 0
+	"Entity Size" = 60
+	#Hurt entity when clicked and there is no ambient sound to play.
+	"Hurt Entity" = false
+	#Play ambient sounds when clicking on menu mobs.
+	"Play Sounds" = true
+

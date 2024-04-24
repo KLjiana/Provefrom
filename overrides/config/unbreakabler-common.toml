@@ -1,0 +1,10 @@
+
+[Unbreakabler]
+	"enable mod" = true
+	#Use 'B' for Blacklist mode, use any other word(s) (e.g.  I love you) for whitelist mode
+	Mode = "B"
+	#Unbreakable tag blacklist/whitelist items
+	Items = ["betterendforge:golden_hammer", "betterendforge:iron_hammer", "betterendforge:golden_hammer", "betterendforge:diamond_hammer", "betterendforge:netherite_hammer", "betterendforge:aeternium_hammer", "betterendforge:thallasium_hammer", "betterendforge:terminite_hammer"]
+	#If this is defined, only the mod that has this modID will be unbreakable.
+	ValidMods = []
+

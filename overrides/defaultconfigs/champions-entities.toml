@@ -1,0 +1,289 @@
+
+#List of entity configurations
+[[entities]]
+	entity = 'conjurer_illager:conjurer'
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["lively", "knocking", "paralyzing", "wounding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "minecraft:elder_guardian"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["wounding", "magnetic", "dampening", "plagued"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "redstone_monstrosity_mod:mooshroom_monstrosity"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["magnetic", "desecrating", "knocking", "wounding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "illageandspillage:magispeller"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["enkindling", "arctic", "paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "redstone_monstrosity_mod:namelessone"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["adaptable", "shielding", "magnetic", "infested"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "redstone_monstrosity_mod:obsidian_monstrosity"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["dampening", "paralyzing", "plagued"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "redstone_monstrosity_mod:redstone_monstrosity"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["shielding", "paralyzing", "adaptable", "shielding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "minecraft:wither"
+	minTier = 1
+	maxTier = 1
+	presetAffixes = ["knocking"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "aquamirae:captain_cornelia"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["paralyzing", "shielding", "wounding", "infested"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "alexsmobs:warped_mosco"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["adaptable", "paralyzing", "knocking", "magnetic"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "alexsmobs:void_worm"
+	minTier = 8
+	maxTier = 8
+	presetAffixes = ["magnetic", "reflective", "paralyzing", "lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:ignis"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["enkindling", "wounding", "paralyzing", "desecrating"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:netherite_monstrosity"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["knocking", "reflective", "wounding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "cataclysm:ender_guardian"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["magnetic", "adaptable", "paralyzing", "desecrating"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mod_lavacow:skeletonking"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["hasty", "paralyzing", "magnetic", "lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mowziesmobs:ferrous_wroughtnaut"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["knocking", "reflective", "wounding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mowziesmobs:barako"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["knocking", "dampening", "paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "mowziesmobs:frostmaw"
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["knocking", "adaptable", "paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "stalwart_dungeons:awful_ghast"
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["knocking", "magnetic", "adaptable", "dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "stalwart_dungeons:nether_keeper"
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["shielding", "magnetic", "adaptable", "paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "stalwart_dungeons:shelterer"
+	minTier = 0
+	maxTier = 0
+	presetAffixes = []
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = "dungeonsmod:crawler"
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["infested", "desecrating", "reflective"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'dungeonsmod:deserted'
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["magnetic", "adaptable", "paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'dungeonsmod:winterhunter'
+	minTier = 2
+	maxTier = 2
+	presetAffixes = ["knocking", "hasty"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'dungeonsmod:king'
+	minTier = 6
+	maxTier = 6
+	presetAffixes = ["adaptable", "paralyzing", "desecrating", "magnetic"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'dungeonsmod:kraken'
+	minTier = 3
+	maxTier = 3
+	presetAffixes = ["dampening", "desecrating", "magnetic"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'dungeonsmod:sun'
+	minTier = 1
+	maxTier = 1
+	presetAffixes = ["lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'dungeonsmod:voidmaster'
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["magnetic", "paralyzing", "desecrating"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'farlanders:titan'
+	minTier = 4
+	maxTier = 4
+	presetAffixes = ["lively", "desecrating", "hasty"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+	
+[[entities]]
+	entity = 'witherstormmod:withered_symbiont'
+	minTier = 8
+	maxTier = 8
+	presetAffixes = ["adaptable", "dampening", "lively", "paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'witherstormmod:wither_storm'
+	minTier = 8
+	maxTier = 8
+	presetAffixes = ["adaptable", "dampening", "lively", "paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'witherstormmod:command_block'
+	minTier = 8
+	maxTier = 8
+	presetAffixes = ["adaptable", "dampening", "lively", "paralyzing"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'meetyourfight:bellringer'
+	minTier = 7
+	maxTier = 7
+	presetAffixes = ["arctic", "paralyzing", "wounding", "dampening"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'meetyourfight:dame_fortuna'
+	minTier = 8
+	maxTier = 8
+	presetAffixes = ["knocking", "paralyzing", "desecrating", "lively"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'meetyourfight:swampjaw'
+	minTier = 5
+	maxTier = 5
+	presetAffixes = ["infested", "enkindling", "wounding"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
+[[entities]]
+	entity = 'minecraft:ender_dragon'
+	minTier = 10
+	maxTier = 10
+	presetAffixes = ["adaptable", "dampening", "lively", "paralyzing", "shielding"]
+	affixList = []
+	affixPermission = "BLACKLIST"

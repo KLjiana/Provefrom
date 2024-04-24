@@ -1,0 +1,700 @@
+{
+	id: "4EF7FAD47FB44E37"
+	group: "6F3A77339C659300"
+	order_index: 0
+	filename: "4EF7FAD47FB44E37"
+	title: "&cF.灾变"
+	icon: "cataclysm:void_core"
+	subtitle: [
+		"&e击败众多强力的boss升级装备！"
+		"&e可不要小看它们，攻击力可谓恐怖如斯！"
+		"&d你需要善于运用不同的攻击方式"
+		"&4大地颤抖，生灵涂炭，灾难之变"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -1.0d
+			y: 2.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/nether.png"
+			hover: ["进入下界"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/end.png"
+			hover: ["进入末地"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "&4灾难之变"
+			x: -1.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "&d迎接太阳的耀芒"
+			description: [
+				"&l&o&d以下内容来自&aMC百科（mcmod.cn）"
+				" "
+				"&c灾&b变&e（L_Ender's &cCata&bclysm&e）是一个增加了困难的地牢、具有挑战性的Boss和强大装备的模组。"
+				" "
+				"&eBoss的部分灵感来自于&cMinecraft.Dungeons&e及其他游戏，与原版Boss相比，它们更加独特、复杂且强大。"
+				" "
+				"&e目前，本模组添加了5个精细的Boss和3个小Boss，每个Boss都有自己的结构和独特技能，以及有特殊能力的掉落装备。探索多种结构，挑战并击败Boss以证明自己，获得强大的装备并继续向前进吧！"
+			]
+			size: 2.3d
+			id: "2EDE4AAFF76059C1"
+			tasks: [{
+				id: "66B8FF914927E4C9"
+				type: "checkmark"
+				title: "&e开启灾厄旅途"
+				icon: "cataclysm:void_core"
+			}]
+			rewards: [{
+				id: "025155CD3F7A14AD"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "&c灵魂锻造厂"
+			x: -1.0d
+			y: 4.8d
+			subtitle: "&6灵魂在此燃烧"
+			description: [
+				"&l&o&d以下内容来自&aMC百科（mcmod.cn）                         "
+				"&e灵魂锻造厂是一座矗立于熔岩海上的黑石锻造厂，这里浓烟滚滚，其间沉睡着一只可怕的巨兽"
+			]
+			dependencies: ["2EDE4AAFF76059C1"]
+			hide: true
+			size: 1.6d
+			id: "6F9AEDEB54C081BE"
+			tasks: [{
+				id: "6605508815EE3351"
+				type: "structure"
+				title: "&e铸造灵魂"
+				icon: "minecraft:gilded_blackstone"
+				structure: "catacly:soul_black_smith"
+			}]
+		}
+		{
+			title: "&4巨兽陨落"
+			x: -1.0d
+			y: 8.0d
+			subtitle: "&6无妄之灾"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				""
+				"&e下界合金巨兽，就像它的“亲戚”红石巨兽一样镇守着一座锻造厂，然而这座锻造厂比烈焰锻造厂小得多，但它依然强大"
+				""
+				"&e首次击败后会完成挑战&d[损坏的下界战争机器]"
+				""
+				"&e下界合金巨兽的外观与红石巨兽类似，然而，它通体由下界合金块、下界砖块（部分身体）、岩浆块（背腹）、玄武岩（腿）以及黑石系列方块（手臂、背面的一个区域）构成，它也“断掉”了一个角，同时它似乎是以熔岩加上红石驱动的。它有3只散发橙光的眼睛和由岩浆块和下界砖块构成的凸字形下颚，其中第三只眼睛在它的前额"
+				""
+				""
+				"&c&l二阶段"
+				"________________________"
+				""
+				"&e当下界合金巨兽的生命值下降到1/3及以下时，它便会无敌一会儿并重重捶地（会振飞或破坏周围比它高的方块），接着大吼，捶地会对生物造成大约20点~22点伤害并使生物燃烧"
+				""
+				"&e此后，撼地猛击将能使目标燃烧。同时下界合金巨兽的技能使用频率和攻击距离也会增加"
+			]
+			dependencies: ["6F9AEDEB54C081BE"]
+			size: 1.6d
+			id: "7CCEF6F85632FE6D"
+			tasks: [{
+				id: "08194BEE591B5ACD"
+				type: "kill"
+				title: "&e击杀1*下界合金巨兽"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+		}
+		{
+			title: "&d炼狱锻锤"
+			x: -3.0d
+			y: 10.5d
+			subtitle: "&e大锤80"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				""
+				"&e强力的大锤，是下界合金巨兽的掉落物（现在不掉啦），13点攻击伤害，0.8攻击速度"
+				""
+				"&e主手手持时对方块右击可产生冲击波，对前方3格内的所有实体造成13点伤害，生命值在一半及以下时还可以使实体燃烧"
+				""
+				"&e制造出冲击波后炼狱锻锤会陷入4秒的冷却时间"
+				""
+				"&e并且，它可以用作一把挖掘等级相当于下界合金镐的镐子"
+			]
+			dependencies: ["7CCEF6F85632FE6D"]
+			id: "6208103D5F7A60DF"
+			tasks: [{
+				id: "45D14959A672DAA1"
+				type: "item"
+				item: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&d地狱之声"
+			x: -1.0d
+			y: 10.5d
+			subtitle: "&e深渊传出的死亡警告"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				""
+				"&e下界合金巨兽有10%概率掉落该唱片，用于播放音乐 魔界Symphony - vs Titans（即下界合金巨兽的Boss战音乐）"
+			]
+			dependencies: ["7CCEF6F85632FE6D"]
+			id: "01F26DF72D10D288"
+			tasks: [{
+				id: "23F688C4479D2EF5"
+				type: "item"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+			}]
+		}
+		{
+			title: "&d恶兽犄角"
+			x: 1.0d
+			y: 10.5d
+			subtitle: "&e合成强力装备的材料"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				""
+				"&e下界合金巨兽的掉落物（必定掉落且只掉落1个），可用于在锻造台上升级下界合金头盔为恶兽头盔"
+			]
+			dependencies: ["7CCEF6F85632FE6D"]
+			id: "536868969480A6B1"
+			tasks: [{
+				id: "7D92E07FC19499D6"
+				type: "item"
+				item: "cataclysm:monstrous_horn"
+			}]
+		}
+		{
+			title: "&d恶兽头盔"
+			x: 1.0d
+			y: 12.5d
+			subtitle: "&e屠下界合金巨兽者终成下界合金巨兽"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				""
+				"&e由下界合金头盔升级而成"
+				""
+				"&e同时，如果在穿戴着它的时候生命值下降至一半或以下，便会触发其技能：产生一次中型爆炸，将附近的生物推开并对其造成伤害，同时给予穿戴者 10 秒的骇人之恶效果。随后它将会进入大约 15 秒的冷却"
+			]
+			dependencies: ["536868969480A6B1"]
+			id: "380907E0CB678EFA"
+			tasks: [{
+				id: "2A753AFF2445B3C3"
+				type: "item"
+				item: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&c燃烧竞技场"
+			x: 2.4d
+			y: 4.8d
+			subtitle: "&6往日光辉"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				""
+				"&e烈焰竞技场，焰魔的栖居之所，虽然已经废弃多年，但其间的烈焰从未熄灭"
+				""
+				" "
+				"&c第一层"
+				"________________________"
+				""
+				"&e高大的廊柱矗立在四周，四面的熔岩流汇聚到中心，其间两座黑石旋转阶梯拔地而起，这是竞技场的第一层"
+				""
+				"&e由东西南北的四个小门可以进入竞技场内部"
+				""
+				"&e走上中间的两座黑石旋转阶梯，不一会儿便可到达第二层"
+				""
+				""
+				"&c第二层"
+				"________________________"
+				""
+				"&e菌光体照亮着地面，四面的楼梯有两座被燃魂守卫着，击杀其中一只燃魂，你便可以获得唤醒焰魔的资格"
+				""
+				"&e沿着四面的楼梯走上去，你就到达了第三层"
+				""
+				""
+				"&c第三层"
+				"________________________                                                          "
+				"&e走上楼梯，前方便是你和焰魔的战斗场地"
+				""
+				"&e而左右两边的门，便连接着竞技场四周的走道"
+			]
+			dependencies: ["6F9AEDEB54C081BE"]
+			hide: true
+			size: 1.6d
+			id: "340882CBEDB90B0F"
+			tasks: [{
+				id: "0D0D9AB4D533208B"
+				type: "structure"
+				title: "&e勇气角逐"
+				icon: "cataclysm:altar_of_fire"
+				structure: "catacly:burning_arena"
+			}]
+		}
+		{
+			title: "&4力量之始"
+			x: 5.5d
+			y: 4.75d
+			subtitle: "&e燃烧的灰烬"
+			description: ["&e由燃魂100%概率掉落，右键火焰祭坛召唤焰魔"]
+			dependencies: ["340882CBEDB90B0F"]
+			id: "2B2925E20E8A5CCA"
+			tasks: [{
+				id: "5EE32E211F67AD02"
+				type: "item"
+				item: "cataclysm:burning_ashes"
+			}]
+		}
+		{
+			title: "&6勇气可嘉"
+			x: 8.8d
+			y: 4.8d
+			subtitle: "&c烈焰的主宰，极强的战士"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				""
+				"&e焰魔，烈焰的主宰，极强的战士"
+				""
+				"&e焰魔有着一双红色的眼睛，全身像烈焰人一样浮空并环绕着烟雾。右手拿着一把可刻有符文的火焰巨剑，左手拿着一块极其巨大的沉重盾牌，全身覆盖着厚重的烈焰盔甲"
+				"                                                                  "
+				"&c&l二阶段"
+				"________________________"
+				""
+				"&e当焰魔的生命下降到2/3（约为67%）及以下时，它将会短暂无敌，举起巨剑放于胸前，并在几秒种后再次挥出，同时散发出火焰粒子和灵魂火粒子，散发出的粒子有伤害，之后进入二阶段"
+				""
+				""
+				"&c&l三阶段"
+				"________________________"
+				""
+				"&e当焰魔的生命下降到1/3（约为33%）及以下时，它将会短暂无敌，将巨剑插入地下，随后伴随着爆炸和灵魂火粒子的扩散（爆炸和粒子均有伤害），其盾牌会粉碎，并在随后的一次挥剑后进入三阶段，其后背会增加一定的防御力"
+			]
+			dependencies: ["2B2925E20E8A5CCA"]
+			size: 1.6d
+			id: "30300D7E85DDAF60"
+			tasks: [{
+				id: "456DF1D698915657"
+				type: "kill"
+				title: "&e击败1*焰魔"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+		}
+		{
+			title: "&d焰魔锭"
+			x: 12.0d
+			y: 4.75d
+			subtitle: "&e很厉害的升级材料"
+			description: [
+				"&o&l&d以下内容来自&amc百科（mcmod.cn）"
+				""
+				"&e珍贵的合金材料，由焰魔固定掉落 3 个，用于制造焰魔套装"
+			]
+			dependencies: ["30300D7E85DDAF60"]
+			hide: true
+			id: "4A67853D91F77901"
+			tasks: [{
+				id: "3D2B26A248BC0CE6"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+			}]
+		}
+		{
+			title: "&d勇气象征—头盔"
+			x: 10.0d
+			y: 7.0d
+			subtitle: "&e很厉害的头盔"
+			dependencies: ["4A67853D91F77901"]
+			id: "122607C7CFAFA7A9"
+			tasks: [{
+				id: "27192921CECAD22D"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&d勇气象征—胸甲"
+			x: 14.0d
+			y: 7.0d
+			subtitle: "&e很厉害的胸甲"
+			dependencies: ["4A67853D91F77901"]
+			id: "60A542BC805EC5B2"
+			tasks: [{
+				id: "66AA843FD7FC5E5B"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&d勇气象征—护腿"
+			x: 10.0d
+			y: 2.5d
+			subtitle: "&e很厉害的护腿"
+			dependencies: ["4A67853D91F77901"]
+			id: "47A11962B3E76F90"
+			tasks: [{
+				id: "4106493852A46D63"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&d勇气象征—靴子"
+			x: 14.0d
+			y: 2.5d
+			subtitle: "&e很厉害的靴子"
+			dependencies: ["4A67853D91F77901"]
+			id: "395FAE1BD9945552"
+			tasks: [{
+				id: "0C4340768379FEAB"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&d大扑棱蛾子"
+			x: 14.0d
+			y: 10.0d
+			subtitle: "&e很厉害的...鞘翅目？"
+			dependencies: ["60A542BC805EC5B2"]
+			id: "40500F35FAB5BFC9"
+			tasks: [{
+				id: "5E299F4DE472CABD"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_elytra_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&d废弃遗迹"
+			x: -1.0d
+			y: -5.0d
+			subtitle: "&b神秘的迷宫"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				" "
+				"&e废弃堡垒是一个生成于末地外岛的建筑，一共分为4层，这里是末影守卫的迷宫堡垒"
+				" "
+				"&e进入建筑后，迎面而来的是一个有着些许虚空石堆和虚空灌注末地石砖的庭院，可以从中间的大门进入建筑内部的迷宫"
+				" "
+				"&e首次进入后会完成进度&d[一座废弃堡垒]。"
+				""
+				"&b&l第一层"
+				"_______________________"
+				""
+				"&e第一层主要是由黑曜石装饰方块、紫珀装饰方块、末地石装饰方块、末地烛和紫颂装饰方块（包括模组中添加的这些方块的变种）组成的庭院迷宫"
+				""
+				"&e特殊房间有入口、末地石砖柱装饰房间、带宝箱的回廊（地牢宝箱战利品）、大箱子房（短的为末地城宝箱战利品，长的为地牢宝箱战利品）、宝箱房（2个箱子都为末地城宝箱战利品）、木桶房（木桶里没东西；这里有1个潜影盒和3只潜影贝，潜影箱为末地城宝箱战利品）、末影傀儡房间、“喷泉”庭院（2个箱子都为末地城宝箱战利品）"
+				""
+				"&e其中“喷泉”庭院有1只潜影贝且是前往第二层的入口"
+				""
+				""
+				"&b&l第二层"
+				"_______________________                                                                             "
+				"&e第二层是由黑曜石装饰方块、末地石装饰方块组成的地下迷宫。"
+				""
+				"&e特殊房间有多个小宝箱房（有的是正常宝箱且为末地城宝箱战利品，有的是末影箱，且除了一个房间的潜影盒之外，每个宝箱旁都有1只潜影贝）、一角的进入房间、一角的末影傀儡房间、一角的末地石砖装饰房间、中间的末影傀儡房间（一个箱子为地牢宝箱战利品，另一个是末影箱）、Boss房间入口                                                                   "
+				"&e其中Boss房间入口需要自己挖开铁活板门才能下去"
+				""
+				""
+				"&b&l第三、四层（Boss房间）"
+				"_______________________                                                                            "
+				"&e顺着损坏的柱子走下去，你便来到了堡垒的最深处，这里是末影守卫的居所。向前靠近中央的生成方块，Boss便会出现并与你战斗。当末影守卫的血量下降到了一半及以下时，它便会无敌并重锤地面，砸坏以自己为中心一定范围内的黑曜石、黑曜石砖等方块，这时你便会发现在此之下还有一层"
+			]
+			dependencies: ["2EDE4AAFF76059C1"]
+			hide: true
+			size: 1.6d
+			min_width: 300
+			id: "516FB3528F47BD94"
+			tasks: [{
+				id: "5478995B3E651DF4"
+				type: "structure"
+				icon: "cataclysm:void_lantern_block"
+				structure: "catacly:ruiined_citadel"
+			}]
+		}
+		{
+			title: "&d以身之驱"
+			x: -3.5d
+			y: -7.0d
+			subtitle: "&b捍卫领土"
+			description: [
+				"&l&o&d以下内容来自于&aMC百科（mcmod.cn）"
+				""
+				"&e末影傀儡看起来由黑曜石和虚空石组成，身上有许多裂痕，还有一双小的紫色的眼睛。它的背后嵌有一个虚空石，似乎是它的动力来源"
+			]
+			dependencies: ["516FB3528F47BD94"]
+			id: "52C34F056576146C"
+			tasks: [{
+				id: "15BBA7609D3ED119"
+				type: "kill"
+				title: "&e击败1*末影傀儡"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			title: "&5破灭的虚空领主"
+			x: -1.0d
+			y: -10.4d
+			subtitle: "&b那是潜影贝吗"
+			description: [
+				"&l&o&d以下内容来自MC百科&a（mcmod.cn）"
+				""
+				"&e末影守卫是一个由紫珀砖块、黑曜石、末地石砖以及虚空石制造而成的强力机械巨怪。它的两肩各长着一块虚空石，身上充满花纹，有着一块紫色的眼睛。它的背后有一块虚空石，似乎是它的动力来源"
+				""
+				"&e末影守卫除召唤的虚空符文、潜影导弹和爆裂冲击外的所有攻击均能破盾（即禁用盾牌）"
+			]
+			dependencies: ["516FB3528F47BD94"]
+			size: 1.6d
+			id: "0EADE47F8F04A310"
+			tasks: [{
+				id: "19D662C22DF2ACAE"
+				type: "kill"
+				title: "击败1*末影守卫"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			subtitle: "&b我不到啊"
+			description: [
+				"&o&l&d以下内容来自&aMC百科（mcmod.cn）"
+				" "
+				"&e不要掉以轻心，这个堡垒中除了守护者之外还有很多被踩到就会立即触发的陷阱"
+				" "
+				"&e其中第一层是随机分布的紫珀陷阱方块，第二层是随机分布的末地石陷阱方块，第三层是在场中心的黑曜石陷阱方块，第四层是在场边缘的黑曜石陷阱方块"
+				" "
+				"&e紫珀陷阱方块会给予生物2秒的缓慢IV，并在所在位置伸出一块虚空符文来攻击生物。末地石陷阱方块会给予生物1秒的失明效果并随机传送生物一段距离。黑曜石陷阱方块会将生物往其位置吸，并在大约5秒后产生强力的爆炸"
+				" "
+				"&e当然，这些陷阱被触发后会有一段冷却时间，期间你踩上去也不会出事。"
+				" "
+				"&e如果操作得当，可以利用黑曜石陷阱方块的爆炸来消耗末影守卫的生命值。"
+			]
+			dependencies: ["516FB3528F47BD94"]
+			id: "09577636E39E2110"
+			tasks: [
+				{
+					id: "5A224A7F86407277"
+					type: "checkmark"
+					title: "&d谁在扎我"
+				}
+				{
+					id: "2E7F4E77A2D5D21A"
+					type: "item"
+					item: "cataclysm:purpur_void_rune_trap_block"
+				}
+				{
+					id: "3201C6F2277BDB44"
+					type: "item"
+					item: "cataclysm:end_stone_teleport_trap_bricks"
+				}
+				{
+					id: "5B6A8C090AD0A965"
+					type: "item"
+					item: "cataclysm:obsidian_explosion_trap_bricks"
+				}
+			]
+		}
+		{
+			title: "&d守卫者护手"
+			x: -3.5d
+			y: -12.5d
+			subtitle: "&b很吸引人的手"
+			description: [
+				"&o&l&d以下内容来自&amc百科（mcmod.cn）"
+				""
+				"&e末影守卫的掉落物，11点攻击伤害，1.3攻击速度"
+				""
+				"&e主手手持时长按右键可以把周围的生物强制拉过来"
+				""
+				"&d&o*或许可以用来对付日之子的蓝冰炸弹？"
+			]
+			dependencies: ["0EADE47F8F04A310"]
+			hide: true
+			id: "140E51853E1D42D3"
+			tasks: [{
+				id: "35E708726A486EFA"
+				type: "item"
+				title: "&e酷酷护手"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
+		{
+			title: "&d深渊之声"
+			x: 1.5d
+			y: -12.5d
+			subtitle: "&b虚无...虚无..."
+			description: [
+				"&o&l&d以下内容来自&amc百科（mcmod.cn）"
+				""
+				"&e末影守卫有 10% 概率掉落该唱片，用于播放音乐 Ean Grimm - Eternal（即末影守卫的Boss战音乐）"
+			]
+			dependencies: ["0EADE47F8F04A310"]
+			hide: true
+			id: "6757826083B3D862"
+			tasks: [{
+				id: "2B14838B8B40091E"
+				type: "item"
+				item: "cataclysm:music_disc_ender_guardian"
+			}]
+		}
+		{
+			title: "&d虚空核心"
+			x: -3.5d
+			y: -9.0d
+			subtitle: "&b晶遁：水晶刺刺！"
+			description: [
+				"&l&o&d以下内容来自MC百科&a（mcmod.cn）"
+				""
+				"&e由末影傀儡掉落，右击脚下的方块会在周围生成一圈虚空符文，右击其他方块会朝着对应的方向直线生成多个虚空符文。召唤出虚空符文后虚空核心会陷入8秒的冷却时间"
+			]
+			dependencies: ["52C34F056576146C"]
+			hide: true
+			id: "6D90ED91BD5811F1"
+			tasks: [{
+				id: "192EAD6D67E5342A"
+				type: "item"
+				item: "cataclysm:void_core"
+			}]
+		}
+		{
+			title: "&d末影甲虫"
+			x: 4.0d
+			y: -5.05d
+			subtitle: "&b&m末影蟑螂"
+			description: [
+				"&o&l&d以下内容来自&amc百科（mcmod.cn）"
+				""
+				"&e末影甲虫是一种奇怪的节肢生物，同时也是虚空之颚的重要来源"
+				""
+				"&e末影甲虫只会在废弃堡垒表层的附近区域自然生成"
+				""
+				"&e相比于一般的蜘蛛，末影甲虫既可以像蜘蛛一样在墙壁上爬行，还可以在方块的底部爬行，这使得它很难对付。然而因为一定的AI问题，末影甲虫有时候不会爬过眼前的方块，而是爬到看得到但攻击不到目标的地方"
+				""
+				"&e末影甲虫的攻击分有颚和无颚两种，因为其大颚在攻击时会有概率碎掉，这样的话就不会掉落虚空之颚了"
+			]
+			dependencies: ["516FB3528F47BD94"]
+			id: "529E0F11FDC53FCC"
+			tasks: [{
+				id: "5AD2581A2EC14BB9"
+				type: "kill"
+				title: "&e击杀1*末影甲虫"
+				entity: "cataclysm:endermaptera"
+				value: 1L
+			}]
+		}
+		{
+			title: "&d虚空之鄂"
+			x: 4.0d
+			y: -2.5d
+			subtitle: "&b&m蟑螂的上巴"
+			description: [
+				"&o&l&d以下内容来自&amc百科（mcmod.cn）"
+				""
+				"&e末影甲虫掉落的材料，用于和光灵箭一起合成强力的虚空散射箭"
+			]
+			dependencies: ["529E0F11FDC53FCC"]
+			hide_text_until_complete: true
+			id: "439AA5F52A00B16C"
+			tasks: [{
+				id: "5721693CE9CF77D1"
+				type: "item"
+				item: "cataclysm:void_jaw"
+			}]
+		}
+		{
+			title: "&d虚空散射箭"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "&b&m用蟑螂上巴做成的破伤风箭矢"
+			description: [
+				"&o&l&d以下内容来自&amc百科（mcmod.cn）"
+				""
+				"&e强力的箭矢，在击中（无论射没射中）时造成伤害并碎裂，向四面八方射出虚空碎片（技术性实体）造成伤害"
+			]
+			dependencies: ["439AA5F52A00B16C"]
+			id: "54E3FE10737571BF"
+			tasks: [{
+				id: "596C4182A287747E"
+				type: "item"
+				item: "cataclysm:void_scatter_arrow"
+			}]
+		}
+		{
+			title: "&c肝疼之块"
+			x: 15.5d
+			y: 4.75d
+			subtitle: "&e话说为什么不能当信标底座"
+			dependencies: ["4A67853D91F77901"]
+			size: 1.6d
+			id: "73BBC9ADA68BD195"
+			tasks: [{
+				id: "4579B60BE0098E84"
+				type: "item"
+				item: "cataclysm:ignitium_block"
+			}]
+		}
+	]
+}

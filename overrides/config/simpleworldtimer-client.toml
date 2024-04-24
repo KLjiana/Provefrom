@@ -1,0 +1,50 @@
+
+#General settings
+[general]
+	#Enable Simple World Timer
+	enable = true
+	#Auto hide timer on various screens like inventory, chat, debug, no-GUI mode (F1), main menu etc.
+	autoHide = true
+	#Relative horizontal position in %. From 0% to 100%.
+	#Range: 0 ~ 100
+	xPosition = 100
+	#Relative vertical position in %. From 0% to 100%.
+	#Range: 0 ~ 100
+	yPosition = 70
+	#Timer preset:
+	#0 - Total World Time
+	#1 - Minecraft Time
+	#2 - Stopwatch
+	#3 - System Time
+	#4 - Custom configuration
+	#Range: 0 ~ 4
+	preset = 4
+	#Source of data for timer:
+	#0 - Total time of world being ticked provided by getTotalWorldTime() function
+	#1 - in-game time provided by getWorldTime() function. Used for day/night cycle.
+	#    Can be changed by 'time set' command. 0 ticks equals 6:00 AM. 24000 ticks for one Minecraft day.
+	#2 - Manual start/stop
+	#3 - System clock;
+	#Range: 0 ~ 3
+	clockType = 1
+	#Starting year for Minecraft time. To make sense of its calendar representation.
+	#Range: > -2147483648
+	startYear = 1
+	#Custom pattern for line 1
+	#Pattern letters of standard java.text.SimpleDateFormat class used.
+	#Additional syntax take effect after:
+	#&d - total days
+	#&w - total ticks
+	#&t - current two-sign ticks in current second (00-19)
+	#If you additionally put it in square brackets then everything within will output only if included values are non-zero
+	#Those should be quoted using single quotes (') to avoid initial interpretation by SimpleDateFormat
+	pattern1 = ""
+	#Custom pattern for line 2
+	pattern2 = "'Day &d' HH:mm"
+	#When was Stopwatch started
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	stopWatchStart = 39252
+	#When was Stopwatch stopped
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	stopWatchStop = 0
+

@@ -1,0 +1,4851 @@
+{
+	id: "218B4447ECFDF7BD"
+	group: "6F3A77339C659300"
+	order_index: 1
+	filename: "f"
+	title: "&eG.食物"
+	icon: "minecraft:bread"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -10.5d
+			y: -14.0d
+			width: 3.0d
+			height: 1.3d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/vegatables.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: -14.0d
+			width: 3.0d
+			height: 1.3d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/fruits.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.0d
+			y: -15.5d
+			width: 3.0d
+			height: 1.3d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/meat.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.5d
+			y: -15.5d
+			width: 3.0d
+			height: 1.3d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/sea_food.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			width: 5.0d
+			height: 2.08d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/dishes.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -26.0d
+			width: 3.0d
+			height: 1.3d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/snacks.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: -26.0d
+			width: 3.0d
+			height: 1.3d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/drinks.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -30.0d
+			width: 4.0d
+			height: 1.7d
+			rotation: 0.0d
+			image: "minecraft:textures/gui/provefrom/title/bad_things.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 0.0d
+			y: -3.5d
+			description: [
+				"&e膳食均衡大幅的改变了玩家的吃饭方式，每一个食物代表着不用的种类，系统里面分别有5个食物组（水果、谷物、蔬菜、蛋白质和糖类）。玩家需要去使用不同的食物来让需求达到平衡状态，而某一方面摄取过多或没有摄取多少食物时，游戏便会给予负面效果，反之则会给予正面效果，而你也无需担心，原版食物种类的单调整合包，增加了Simple Farming等模组，现在已有超过200种的食物！"
+				""
+				"ps：你现在也不用担心食物的问题，因为不扣饱食度了，吃东西就直接回血！"
+			]
+			hide: true
+			id: "5C4265933188EF30"
+			tasks: [{
+				id: "1D2AE37F1B1D7040"
+				type: "checkmark"
+				title: "那些美味的"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -13.0d
+			description: ["吃蔬菜不仅美味,且营养丰富,有益健康。每天吃5-6份新鲜蔬菜,可以说是非常重要的营养习惯。"]
+			hide_dependency_lines: true
+			dependencies: ["5C4265933188EF30"]
+			hide: true
+			id: "582E5DCADDF76930"
+			tasks: [{
+				id: "2EDA85D1231D91F3"
+				type: "checkmark"
+				title: "蔬菜"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -13.0d
+			description: ["水果营养丰富,对身体健康大有好处。适当每日吃2-3份新鲜水果,可以补充营养,促进身体健康。但也要适度,因为水果中的糖分和酸度也不宜过高。"]
+			hide_dependency_lines: true
+			dependencies: ["5C4265933188EF30"]
+			hide: true
+			id: "4C8E131A28699E9F"
+			tasks: [{
+				id: "2DA717C378F95DE6"
+				type: "checkmark"
+				title: "水果"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -14.5d
+			description: ["高质高量的营养供给,但是也要适度,不能吃太多。"]
+			hide_dependency_lines: true
+			dependencies: ["5C4265933188EF30"]
+			hide: true
+			id: "61F2479D3B397C76"
+			tasks: [{
+				id: "6E6E1B33ED3644DD"
+				type: "checkmark"
+				title: "肉类"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -14.5d
+			description: ["海鲜营养丰富而热量低,有益健康。适当每周吃2-3次海鲜,如鱼、虾、蚝等,可以补充身体需求的营养素,增进健康。但也不宜吃太多,避免过多的碘、钠的摄入。"]
+			hide_dependency_lines: true
+			dependencies: ["5C4265933188EF30"]
+			hide: true
+			id: "5CA1AE3E321C22A1"
+			tasks: [{
+				id: "58A2E2650342D647"
+				type: "checkmark"
+				title: "海鲜"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["美味的，好吃的，让人心情愉悦的！"]
+			hide_dependency_lines: true
+			dependencies: ["5C4265933188EF30"]
+			hide: true
+			id: "0496E9A4A26CC6C0"
+			tasks: [{
+				id: "2A21B5F298142C0A"
+				type: "checkmark"
+				title: "菜肴"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -29.0d
+			description: ["怎么会有人喜欢吃这种东西！"]
+			hide_dependency_lines: true
+			dependencies: ["5C4265933188EF30"]
+			hide: true
+			id: "01D79206735C7958"
+			tasks: [{
+				id: "6903A6013B5EA7E1"
+				type: "checkmark"
+				title: "坏东西"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -25.0d
+			description: ["谁不想喝点有味道的！"]
+			hide_dependency_lines: true
+			dependencies: ["5C4265933188EF30"]
+			hide: true
+			id: "6363E34DCC9957F1"
+			tasks: [{
+				id: "22490B4F034337E7"
+				type: "checkmark"
+				title: "饮料"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -25.0d
+			description: ["闲暇之时吃口小零食有什么错呢"]
+			hide_dependency_lines: true
+			dependencies: ["5C4265933188EF30"]
+			hide: true
+			id: "67CACCDF5363DD3F"
+			tasks: [{
+				id: "181C7236D42C21AC"
+				type: "checkmark"
+				title: "小食"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -28.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "380DDC1D47F99C4D"
+			tasks: [{
+				id: "63BC25888679CFBE"
+				type: "item"
+				item: "mod_lavacow:parasite_item_desert"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -28.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "233A5A82FD30C3A4"
+			tasks: [{
+				id: "2F7CC65937EE77F6"
+				type: "item"
+				item: "mod_lavacow:parasite_item_common"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -28.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "6529F4D72CC0E771"
+			tasks: [{
+				id: "038D77315913D0CD"
+				type: "item"
+				item: "mod_lavacow:parasite_item_jungle"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -28.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "680A280216977BB5"
+			tasks: [{
+				id: "0CAC2ADD671FDE40"
+				type: "item"
+				item: {
+					id: "mod_lavacow:frozenthigh"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -28.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "03543EAE653A7180"
+			tasks: [{
+				id: "3C20DFD0E4438667"
+				type: "item"
+				item: "minecraft:pufferfish"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -27.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "5AC4646DE761095A"
+			tasks: [{
+				id: "4119D3F2F24A4F9C"
+				type: "item"
+				item: "minecraft:poisonous_potato"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -27.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "2446468D1D6F60D6"
+			tasks: [{
+				id: "748B5472B730261E"
+				type: "item"
+				item: "minecraft:spider_eye"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -27.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "6029B7903C8D9724"
+			tasks: [{
+				id: "722A8A2A91909C4B"
+				type: "item"
+				item: "mod_lavacow:plagued_porkchop"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -27.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "4B2A884CFEE37934"
+			tasks: [{
+				id: "0F1CFFAA1FC36406"
+				type: "item"
+				item: "witherstormmod:withered_flesh"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -27.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "6689D0E790AB85FD"
+			tasks: [{
+				id: "62A32D3C8E0B8A51"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "4B8F8356CDB75882"
+			tasks: [{
+				id: "49CCA5795D54FBC1"
+				type: "item"
+				item: "simplefarming:squash"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "197A442F5494A646"
+			tasks: [{
+				id: "0827FE449CF24A2B"
+				type: "item"
+				item: "simplefarming:soybean"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "501C8F728706C9BF"
+			tasks: [{
+				id: "7734BC1E6B2F5CE7"
+				type: "item"
+				item: "simplefarming:radish"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "3BA7FB847ED0B13D"
+			tasks: [{
+				id: "521C4895619455E6"
+				type: "item"
+				item: "simplefarming:pepper"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "5C52FFFC266431CA"
+			tasks: [{
+				id: "4E3FB04D521F9244"
+				type: "item"
+				item: "simplefarming:peanut"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "73580FBABA4A3B51"
+			tasks: [{
+				id: "4E9A66726DE53CF5"
+				type: "item"
+				item: "simplefarming:pickle"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "7D67AB7296442D3E"
+			tasks: [{
+				id: "50629E5302C6CB4F"
+				type: "item"
+				item: "simplefarming:yam"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "00E4A9763A1C178D"
+			tasks: [{
+				id: "0300B7DF7344CD4F"
+				type: "item"
+				item: "simplefarming:chicory_root"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "0C22475704643C15"
+			tasks: [{
+				id: "0FB061DFF3482E59"
+				type: "item"
+				item: "alexsmobs:gongylidia"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "76C1345988D60689"
+			tasks: [{
+				id: "5C04127E49BB18C5"
+				type: "item"
+				item: "minecraft:beetroot"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "6494820D4ABB11BB"
+			tasks: [{
+				id: "0CCEA4D6E2320D28"
+				type: "item"
+				item: "simplefarming:sweet_potato"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "6B513A8891D0B021"
+			tasks: [{
+				id: "1DD1E65B39C6288D"
+				type: "item"
+				item: "betterendforge:amber_root_raw"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "296C438BFAA454D7"
+			tasks: [{
+				id: "222F759FBC8B09B1"
+				type: "item"
+				item: "simplefarming:sorghum"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "1FC5D60B4BA06ACE"
+			tasks: [{
+				id: "51BD4ECE26133DBA"
+				type: "item"
+				item: "simplefarming:turnip"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "18398B85C82D4938"
+			tasks: [{
+				id: "0F599CE5E4FD51F6"
+				type: "item"
+				item: "simplefarming:tomato"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "70F3D8EADDEBBF52"
+			tasks: [{
+				id: "122B9D08ECCE78BB"
+				type: "item"
+				item: "simplefarming:zucchini"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "0B99B3FAFC21F73F"
+			tasks: [{
+				id: "39790471BBB7E428"
+				type: "item"
+				item: "simplefarming:habanero"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "637A6BABEB5A96C1"
+			tasks: [{
+				id: "5B4C2120767B6433"
+				type: "item"
+				item: "betterendforge:chorus_mushroom_raw"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "6063924235194362"
+			tasks: [{
+				id: "7AAAE3AB199BAA33"
+				type: "item"
+				item: "simplefarming:onion"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "6FE1F55E0E817679"
+			tasks: [{
+				id: "51B2A90691E7C35E"
+				type: "item"
+				item: "simplefarming:lettuce"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "2E3C2B371F68E205"
+			tasks: [{
+				id: "74D985BCF2FE44E2"
+				type: "item"
+				item: "simplefarming:spinach"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "64A5F6A7923C25CC"
+			tasks: [{
+				id: "4D23F66BD972B056"
+				type: "item"
+				item: "meetyourfight:velvet_fortune"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "3EB1B94497760A35"
+			tasks: [{
+				id: "716EB26AAD0D0677"
+				type: "item"
+				item: "simplefarming:pea_pod"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "4A2AE833D340AF3E"
+			tasks: [{
+				id: "515DC5FC2A2627E2"
+				type: "item"
+				item: "betterendforge:blossom_berry"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "2DC44973DD7207A6"
+			tasks: [{
+				id: "64AC869AD807837B"
+				type: "item"
+				item: "cavesandcliffs:glow_berries"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "1203A31E638F16F3"
+			tasks: [{
+				id: "0C95EDEB0E5BF435"
+				type: "item"
+				item: "autumnity:foul_berries"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "40B06E24996F4C23"
+			tasks: [{
+				id: "6C930B9574AC503A"
+				type: "item"
+				item: "minecraft:sweet_berries"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "54BCAFFF46B6FEBA"
+			tasks: [{
+				id: "0DC9789D0C3C923F"
+				type: "item"
+				item: "simplefarming:grapes"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "7EA860576EE159F1"
+			tasks: [{
+				id: "31BDA9DB336FE70E"
+				type: "item"
+				item: "simplefarming:olives"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "6A5E12AA2FA174E6"
+			tasks: [{
+				id: "3E77FE48D1452BFA"
+				type: "item"
+				item: "alexsmobs:banana"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "77075C09DB9A0EA7"
+			tasks: [{
+				id: "1000D55C5C6C3C93"
+				type: "item"
+				item: "simplefarming:banana"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "78D81A36D134F33F"
+			tasks: [{
+				id: "70DCA9DBBBB66658"
+				type: "item"
+				item: "betternether:black_apple"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "2EBD5609E9BD64BB"
+			tasks: [{
+				id: "133960008494EBF6"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "55BEF7A660A8AB06"
+			tasks: [{
+				id: "683293ED954E22C5"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "20305710CBC70445"
+			tasks: [{
+				id: "22CF1116F922DDC5"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "1FDA6E653046DB3B"
+			tasks: [{
+				id: "3D2194FCB18F3781"
+				type: "item"
+				item: "mod_lavacow:cactus_fruit"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "1809CEE093E123E7"
+			tasks: [{
+				id: "210A4ECB30840AE3"
+				type: "item"
+				item: "minecraft:carrot"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "6E67207BADECD19A"
+			tasks: [{
+				id: "72F50EF3C34848CF"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "7CD3F7FABAD6AA97"
+			tasks: [{
+				id: "7824E63717D0CFD4"
+				type: "item"
+				item: "minecraft:melon_slice"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "2BB9E704289593C3"
+			tasks: [{
+				id: "0E1187769B6A0D00"
+				type: "item"
+				item: "simplefarming:cantaloupe"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "6BDD6B2EE45AB412"
+			tasks: [{
+				id: "4A29B1D98FDE008D"
+				type: "item"
+				item: "simplefarming:honeydew"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "38210C172E3D94C0"
+			tasks: [{
+				id: "622C90E76DCCC032"
+				type: "item"
+				item: "minecraft:glistering_melon_slice"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "17D2EEB606A4AC90"
+			tasks: [{
+				id: "79E5FA73C629333A"
+				type: "item"
+				item: "simplefarming:blueberries"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "0D96DB42FB739800"
+			tasks: [{
+				id: "53C6F33DBB88CA28"
+				type: "item"
+				item: "simplefarming:blackberries"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "3AEDEC891A9FD2BD"
+			tasks: [{
+				id: "4B4FCD9DBBEE21C9"
+				type: "item"
+				item: "watersource:coconut_piece"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "366C591767206DC6"
+			tasks: [{
+				id: "2D8066EB92BC9474"
+				type: "item"
+				item: "simplefarming:pear"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "26C18B15108BC32B"
+			tasks: [{
+				id: "22202E64BD4F16F4"
+				type: "item"
+				item: "simplefarming:apricot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "0F098329122B51E4"
+			tasks: [{
+				id: "285F4610CBD8ACED"
+				type: "item"
+				item: "simplefarming:orange"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "5895DF6A721571B5"
+			tasks: [{
+				id: "23B2DAA3228A928B"
+				type: "item"
+				item: "simplefarming:plum"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "79EB3E9C1E8D3B6B"
+			tasks: [{
+				id: "7D18923A0CD966DB"
+				type: "item"
+				item: "simplefarming:mango"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["4C8E131A28699E9F"]
+			hide: true
+			id: "4BEDD2D9EFA30597"
+			tasks: [{
+				id: "743A0220BC695981"
+				type: "item"
+				item: "simplefarming:cactus_fruit"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "439B6DBD0976945C"
+			tasks: [{
+				id: "7A3965FD7413A56F"
+				type: "item"
+				item: "dungeonsmod:kraken_tentacle"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "1BC7FA46D0092067"
+			tasks: [{
+				id: "5C47A7622D0CE9B0"
+				type: "item"
+				item: "dungeonsmod:cooked_kraken"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "53B997E62190D8C8"
+			tasks: [{
+				id: "1EF68D83A7F9525D"
+				type: "item"
+				item: "minecraft:porkchop"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "26D13B4682E4DC1F"
+			tasks: [{
+				id: "1AA17008F221B414"
+				type: "item"
+				item: "minecraft:cooked_porkchop"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "2C837F34EAA6780B"
+			tasks: [{
+				id: "3F6315493CC08F60"
+				type: "item"
+				item: "artifacts:eternal_steak"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "41F1E90D26991075"
+			tasks: [{
+				id: "5F6BD0A698EB1C09"
+				type: "item"
+				item: "artifacts:everlasting_beef"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "3E49061537D73C0A"
+			tasks: [{
+				id: "36F7FF666C1B3BE3"
+				type: "item"
+				item: "autumnity:turkey_piece"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "2F2C4A98AF8C3F62"
+			tasks: [{
+				id: "1EEBE2281DDAB1E3"
+				type: "item"
+				item: "autumnity:cooked_turkey_piece"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "0E53FDA912F328BB"
+			tasks: [{
+				id: "746D8533B6A77CD8"
+				type: "item"
+				item: "minecraft:mutton"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "21368CAF2F153031"
+			tasks: [{
+				id: "3EEA915BFA23F768"
+				type: "item"
+				item: "minecraft:cooked_mutton"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "19857ED7D999BF39"
+			tasks: [{
+				id: "31C0250A1735B7FF"
+				type: "item"
+				item: "autumnity:turkey"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "3AF769E06EEA79C9"
+			tasks: [{
+				id: "1CB4EACBB8586BAF"
+				type: "item"
+				item: "autumnity:cooked_turkey"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "4877D69145EA7487"
+			tasks: [{
+				id: "135F52AB2879524B"
+				type: "item"
+				item: "minecraft:beef"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "37F804B5040C3615"
+			tasks: [{
+				id: "53B130E2A798B11F"
+				type: "item"
+				item: "minecraft:cooked_beef"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "46B93A163093AA29"
+			tasks: [{
+				id: "479FB62295D8E8A4"
+				type: "item"
+				item: "minecraft:rabbit"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "3E8190B5F639E33A"
+			tasks: [{
+				id: "54269821C9B9EE9B"
+				type: "item"
+				item: "minecraft:cooked_rabbit"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "2706BCF2E73D8DBA"
+			tasks: [{
+				id: "2E5CA88180A02A0C"
+				type: "item"
+				item: "minecraft:chicken"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "4A8B606550E36D5D"
+			tasks: [{
+				id: "27B49408A7514BA6"
+				type: "item"
+				item: "minecraft:cooked_chicken"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "6575726A55D7A3E4"
+			tasks: [{
+				id: "1A98E0F4FA3AFF71"
+				type: "item"
+				item: "simplefarming:raw_horse_meat"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "0D4E4B826548AE05"
+			tasks: [{
+				id: "2CCAB4DB1C60D376"
+				type: "item"
+				item: "simplefarming:cooked_horse_meat"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "12F6AB32ED297A37"
+			tasks: [{
+				id: "28E99C41FF525D2D"
+				type: "item"
+				item: "mod_lavacow:ptera_wing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "68D40EC59BA56604"
+			tasks: [{
+				id: "59A550023B093655"
+				type: "item"
+				item: "mod_lavacow:ptera_wing_cooked"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "538F8BE02E95F4B6"
+			tasks: [{
+				id: "59B0CBB27BDE3B78"
+				type: "item"
+				item: "alexsmobs:kangaroo_meat"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "1B47909596ADA50B"
+			tasks: [{
+				id: "2CEF724B03479E6F"
+				type: "item"
+				item: "alexsmobs:cooked_kangaroo_meat"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "502A1EAD1F360D4F"
+			tasks: [{
+				id: "3DB927985E6B7533"
+				type: "item"
+				item: "alexsmobs:lobster_tail"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "519B4EA05FDCA4C3"
+			tasks: [{
+				id: "44205763F788785E"
+				type: "item"
+				item: "alexsmobs:cooked_lobster_tail"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "2147F1E8FEF0ED1E"
+			tasks: [{
+				id: "6C3390BCC0314ECC"
+				type: "item"
+				item: "alexsmobs:moose_ribs"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "0671AD164BA92B24"
+			tasks: [{
+				id: "2B9FE2D1E5D7A4FF"
+				type: "item"
+				item: "alexsmobs:cooked_moose_ribs"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "4584E9628CA4D3C4"
+			tasks: [{
+				id: "7D7C0DF3F518625E"
+				type: "item"
+				item: "aquaculture:frog_legs_raw"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "1AA39E78557A5318"
+			tasks: [{
+				id: "4C9AA942597C56FE"
+				type: "item"
+				item: "aquaculture:frog_legs_cooked"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "182386E9364967C3"
+			tasks: [{
+				id: "7383E76DD4E2CC20"
+				type: "item"
+				item: "simplefarming:raw_sausage"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "2FA52CECEEEDDC6D"
+			tasks: [{
+				id: "09A0FB86DE292C97"
+				type: "item"
+				item: "simplefarming:cooked_sausage"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "7388DC80EC4F12F6"
+			tasks: [{
+				id: "4B19337AC201544C"
+				type: "item"
+				item: "simplefarming:raw_chicken_wings"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "35A19ED6E261C225"
+			tasks: [{
+				id: "3307E0253C7A47D9"
+				type: "item"
+				item: "simplefarming:cooked_chicken_wings"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "52BB00E9B957A695"
+			tasks: [{
+				id: "0EA2B1418F3BE219"
+				type: "item"
+				item: "quark:frog_leg"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "4D3B4168B8A03FD6"
+			tasks: [{
+				id: "5FEC75C60A70610A"
+				type: "item"
+				item: "quark:cooked_frog_leg"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "20F84704586AFC2B"
+			tasks: [{
+				id: "557BB320C734128D"
+				type: "item"
+				item: "simplefarming:raw_bacon"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "0E40FED5B73C2C13"
+			tasks: [{
+				id: "433FE398727F013B"
+				type: "item"
+				item: "simplefarming:cooked_bacon"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "216C748959939687"
+			tasks: [{
+				id: "677F456D62807EBC"
+				type: "item"
+				item: "quark:crab_leg"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "339ECB844665B19F"
+			tasks: [{
+				id: "3B5B0CA98A929ACE"
+				type: "item"
+				item: "quark:cooked_crab_leg"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "40DABEE701654A77"
+			tasks: [{
+				id: "1C3E6A3A352FC664"
+				type: "item"
+				item: "minecraft:potato"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "2CE901B7E38A60B2"
+			tasks: [{
+				id: "0F4CAF7D74491C3F"
+				type: "item"
+				item: "minecraft:baked_potato"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "13F8278C83ABF115"
+			tasks: [{
+				id: "471870745D6743F4"
+				type: "item"
+				item: "mod_lavacow:parasite_item_cooked"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "0D7A685FE6C853ED"
+			tasks: [{
+				id: "77AA7730464F505E"
+				type: "item"
+				item: "alexsmobs:maggot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "62F52D9B6A847021"
+			tasks: [{
+				id: "52D8EAB8953F26B1"
+				type: "item"
+				item: "iceandfire:fire_dragon_flesh"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "3FB4C940044BCFF1"
+			tasks: [{
+				id: "33507FCDFD5F3D31"
+				type: "item"
+				item: "iceandfire:ice_dragon_flesh"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["61F2479D3B397C76"]
+			hide: true
+			id: "7339B5D94450D132"
+			tasks: [{
+				id: "7EC71A3A46BCECDA"
+				type: "item"
+				item: "iceandfire:lightning_dragon_flesh"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "0F24F89D45FB9CC3"
+			tasks: [{
+				id: "5992856C0A94CBF6"
+				type: "item"
+				item: "minecraft:cod"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "0C450ECA0843CB2F"
+			tasks: [{
+				id: "5005FA8C78C8DFD9"
+				type: "item"
+				item: "mod_lavacow:mimic_claw"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "4A91D41801EE8E29"
+			tasks: [{
+				id: "26E8386096D6CEB9"
+				type: "item"
+				item: "mod_lavacow:mimic_claw_cooked"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "2DCF1B842C96F9AA"
+			tasks: [{
+				id: "5D8D58F5920D13DE"
+				type: "item"
+				item: "aquamirae:spinefish"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "4733ED0C6D3A974A"
+			tasks: [{
+				id: "166CF4A6F0746395"
+				type: "item"
+				item: "minecraft:cooked_cod"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -13.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "5C8DA07F90FDA9AD"
+			tasks: [{
+				id: "25C6DC31F562E9F5"
+				type: "item"
+				item: "aquamirae:cooked_spinefish"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "002833F23AD5A2EF"
+			tasks: [{
+				id: "3CA2F0F6185C11B9"
+				type: "item"
+				item: "alexsmobs:blobfish"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "4D1882E4790B527D"
+			tasks: [{
+				id: "2943E148D470A4D9"
+				type: "item"
+				item: "mod_lavacow:piranha_item_cooked"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "5A4EC478931E9CC9"
+			tasks: [{
+				id: "5E82DFE48EE2192E"
+				type: "item"
+				item: "mod_lavacow:piranha_item"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "28BD7A3A3ED66A60"
+			tasks: [{
+				id: "79F1D377308B0D50"
+				type: "item"
+				item: "mod_lavacow:swarmer_item"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "4BF7BCAFC690CE47"
+			tasks: [{
+				id: "4BC3C4CF0CAAA7EC"
+				type: "item"
+				item: "mod_lavacow:swarmer_item_cooked"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -12.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "0CD659E9DC4BC7C7"
+			tasks: [{
+				id: "183BB277DBA1E274"
+				type: "item"
+				item: "mod_lavacow:ghostswarmer_item"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "5BD48C12A13A09FC"
+			tasks: [{
+				id: "05C437FEE942D650"
+				type: "item"
+				item: "minecraft:salmon"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "0A9BB8913542A37B"
+			tasks: [{
+				id: "4031C349511E42D6"
+				type: "item"
+				item: "minecraft:cooked_salmon"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "327743A3EB4AAC04"
+			tasks: [{
+				id: "6FB237FB4787F6DD"
+				type: "item"
+				item: "minecraft:tropical_fish"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "21B81E3713722CB4"
+			tasks: [{
+				id: "1D88E51A877FBF90"
+				type: "item"
+				item: "aquaculture:rainbow_trout"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "07A7AB0750C58154"
+			tasks: [{
+				id: "671E4F0957C60F7D"
+				type: "item"
+				item: "aquaculture:bayad"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -11.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "38E00C5E166CF108"
+			tasks: [{
+				id: "0D509F45251FD90B"
+				type: "item"
+				item: "aquaculture:boulti"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "0E48CA8200A09592"
+			tasks: [{
+				id: "1E41158B47D1BAC9"
+				type: "item"
+				item: "aquaculture:perch"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "47C8D608FF3B4543"
+			tasks: [{
+				id: "3F157E3F65C6EA78"
+				type: "item"
+				item: "aquaculture:arapaima"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "269530C26ABFA39C"
+			tasks: [{
+				id: "5F964733D8535C48"
+				type: "item"
+				item: "aquaculture:piranha"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "34518FBB5599E5AE"
+			tasks: [{
+				id: "28A2EA545CB59866"
+				type: "item"
+				item: "aquaculture:tambaqui"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "54384EA0053D92FD"
+			tasks: [{
+				id: "4B400ED12AF1392E"
+				type: "item"
+				item: "aquaculture:red_grouper"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "107462D8801D50D1"
+			tasks: [{
+				id: "66E45DCA2510E4AA"
+				type: "item"
+				item: "aquaculture:tuna"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "7F536E36C7279A63"
+			tasks: [{
+				id: "4981DAD9ABA54E44"
+				type: "item"
+				item: "aquaculture:atlantic_cod"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "71061500131C0751"
+			tasks: [{
+				id: "751E19017F6E348E"
+				type: "item"
+				item: "aquaculture:blackfish"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "50882EEB42653AF0"
+			tasks: [{
+				id: "3681CB5B97D010C8"
+				type: "item"
+				item: "aquaculture:muskellunge"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "1951F0E76B7D130C"
+			tasks: [{
+				id: "53719728ED11257E"
+				type: "item"
+				item: "aquaculture:gar"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "7120A062632013D4"
+			tasks: [{
+				id: "0B370C80F1AA35C4"
+				type: "item"
+				item: "aquaculture:catfish"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "4480B6C5B4B71F15"
+			tasks: [{
+				id: "18F10A016E010941"
+				type: "item"
+				item: "aquaculture:carp"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "255848DA8867EA33"
+			tasks: [{
+				id: "66304336A41ADE21"
+				type: "item"
+				item: "aquaculture:brown_trout"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "29292E89E4A8A005"
+			tasks: [{
+				id: "6D15E92FE3979065"
+				type: "item"
+				item: "aquaculture:bluegill"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "276B98196288769F"
+			tasks: [{
+				id: "09B9A85462E03F12"
+				type: "item"
+				item: "aquaculture:smallmouth_bass"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "172477DD41E519E7"
+			tasks: [{
+				id: "1838A43777831B2F"
+				type: "item"
+				item: "aquaculture:synodontis"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "7DEA7FAE5E717A4C"
+			tasks: [{
+				id: "187DADC265CA32CB"
+				type: "item"
+				item: "aquaculture:capitaine"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "23F57C8536027A28"
+			tasks: [{
+				id: "040D6349640AB6AB"
+				type: "item"
+				item: "aquaculture:brown_shrooma"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "7FE63E56D9D83D9B"
+			tasks: [{
+				id: "735221F2A62CD307"
+				type: "item"
+				item: "aquaculture:pacific_halibut"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "6C2EDA98B3A2729B"
+			tasks: [{
+				id: "4EA125DD01195D6A"
+				type: "item"
+				item: "aquaculture:atlantic_halibut"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "5A6D8138167B6D3A"
+			tasks: [{
+				id: "607AB263F486F99C"
+				type: "item"
+				item: "aquaculture:atlantic_herring"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "15F2A324A9C3789F"
+			tasks: [{
+				id: "3161C254F9F6E9E5"
+				type: "item"
+				item: "aquaculture:pink_salmon"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "72C4A0EAD32E225A"
+			tasks: [{
+				id: "2FEDC57560490C36"
+				type: "item"
+				item: "aquaculture:pollock"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "11FA498FBA4AFAA7"
+			tasks: [{
+				id: "29C88178A48131B5"
+				type: "item"
+				item: {
+					id: "aquaculture:minnow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "1EA9305FCE517BE1"
+			tasks: [{
+				id: "08728092AD67C1C8"
+				type: "item"
+				item: "aquaculture:jellyfish"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "35799D26090D8ECF"
+			tasks: [{
+				id: "0EDA31DDE0C16637"
+				type: "item"
+				item: "aquaculture:starshell_turtle"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "0E4C6A759BDA2C57"
+			tasks: [{
+				id: "4CFC790E24ED5E5D"
+				type: "item"
+				item: "aquaculture:arrau_turtle"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["582E5DCADDF76930"]
+			hide: true
+			id: "5BDD305C7904BA88"
+			tasks: [{
+				id: "4F42E3FDEB13353E"
+				type: "item"
+				item: "aquaculture:algae"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "334EED73CE5921D3"
+			tasks: [{
+				id: "0AFFD6999F96D69E"
+				type: "item"
+				item: "aquaculture:goldfish"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "7064E41E61AC21BE"
+			tasks: [{
+				id: "4B4B9D3A517FC6E8"
+				type: "item"
+				item: "aquaculture:fish_fillet_raw"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "33549E51481C6B6D"
+			tasks: [{
+				id: "772BB3C84D6838F5"
+				type: "item"
+				item: "aquaculture:fish_fillet_cooked"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "061A070163EC47EE"
+			tasks: [{
+				id: "5B716B1BF48A7982"
+				type: "item"
+				item: "simplefarming:peanut_butter_pie"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "41F23D17275C69F6"
+			tasks: [{
+				id: "23092AEBD5C66459"
+				type: "item"
+				item: "simplefarming:strawberry_pie"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "1612306678D8211D"
+			tasks: [{
+				id: "7B1F1BFDE2A2BFD5"
+				type: "item"
+				item: "simplefarming:blackberry_pie"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "2C7FDEC8B4FF98FB"
+			tasks: [{
+				id: "159B52451DE2FBF7"
+				type: "item"
+				item: "simplefarming:blueberry_pie"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "7437DFF5D03EC430"
+			tasks: [{
+				id: "08E87DB9A9393BEA"
+				type: "item"
+				item: "simplefarming:cherry_pie"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "3B4F8156AA9783E7"
+			tasks: [{
+				id: "3E94A00D29184E32"
+				type: "item"
+				item: "simplefarming:apricot_pie"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "1F31B920B7E32EB8"
+			tasks: [{
+				id: "398EF829D437D674"
+				type: "item"
+				item: "simplefarming:apple_pie"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "462EFE216FF8B44A"
+			tasks: [{
+				id: "7842862D51AF7BFC"
+				type: "item"
+				item: "simplefarming:plum_pie"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "34E2E15D99A8F3D8"
+			tasks: [{
+				id: "08CA0B448632C733"
+				type: "item"
+				item: "simplefarming:pear_pie"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "2D5A20AB5024974F"
+			tasks: [{
+				id: "4AABAA33745A19DB"
+				type: "item"
+				item: "minecraft:pumpkin_pie"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "408369FB07678E79"
+			tasks: [{
+				id: "64754B6857A82827"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "12C5EBC4FBC38927"
+			tasks: [{
+				id: "75A4418112F01C81"
+				type: "item"
+				item: "simplefarming:birthday_cake"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "1F4431D531C3168F"
+			tasks: [{
+				id: "2B22DB7A2CCF9639"
+				type: "item"
+				item: "simplefarming:chocolate_cake"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "58E8288476BC4773"
+			tasks: [{
+				id: "0589FDC350DB0891"
+				type: "item"
+				item: "simplefarming:jaffa_cake"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "0CA68B2E5D544021"
+			tasks: [{
+				id: "2D4CAF97DFF992E2"
+				type: "item"
+				item: "simplefarming:cheese_block"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "31CF4365926B93B8"
+			tasks: [{
+				id: "3D1E5DE0C8B95070"
+				type: "item"
+				item: "simplefarming:olive_tomato_salad"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "66B4EE86C4463D9A"
+			tasks: [{
+				id: "288772BD16779A51"
+				type: "item"
+				item: "simplefarming:fruit_salad"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "59264FDD980B8754"
+			tasks: [{
+				id: "784AFE51EA076972"
+				type: "item"
+				item: "simplefarming:corn_salad"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "4E38EA7F32A70596"
+			tasks: [{
+				id: "7275F4595F815757"
+				type: "item"
+				item: "simplefarming:caesar_salad"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "1DE0CED59E09E517"
+			tasks: [{
+				id: "46BC99C4D63C09EC"
+				type: "item"
+				item: "simplefarming:salad"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "3A436CCD1706B5DE"
+			tasks: [{
+				id: "755F716C98FCD4C0"
+				type: "item"
+				item: "mod_lavacow:ghostjelly"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "4F4C074CA9C73E8A"
+			tasks: [{
+				id: "0EEF994F35EA0EC2"
+				type: "item"
+				item: "mod_lavacow:baobing"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "64D33E855CC36731"
+			tasks: [{
+				id: "20310F09798248FA"
+				type: "item"
+				item: "simplefarming:vegetable_medley"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "37477C7246EF2BC0"
+			tasks: [{
+				id: "1A6B1A245B13A7B0"
+				type: "item"
+				item: "simplefarming:peanut_butter_cookie"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "4A6DF5C03AB63080"
+			tasks: [{
+				id: "16057E54D12F6A40"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "78D6B307525C8578"
+			tasks: [{
+				id: "6DDAF5E92942E183"
+				type: "item"
+				item: "simplefarming:pancakes"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "2D55889BC2103474"
+			tasks: [{
+				id: "7E4DF538E8490203"
+				type: "item"
+				item: "bayou_blues:gooseberry_jam_cookie"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "0D3374DC413626D3"
+			tasks: [{
+				id: "78BE0415EBE55538"
+				type: "item"
+				item: "bayou_blues:honey_glazed_gooseberries"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -17.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "1516434608F2D21B"
+			tasks: [{
+				id: "2960E9785859513D"
+				type: "item"
+				item: "simplefarming:candy_cane"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "6B1DFB4C73769005"
+			tasks: [{
+				id: "79D4650E1DFA1179"
+				type: "item"
+				item: "simplefarming:pickled_beetroot"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "5CC9BF4094ABC79C"
+			tasks: [{
+				id: "3EAE078BC93800AD"
+				type: "item"
+				item: "simplefarming:raisins"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "49409C6273339709"
+			tasks: [{
+				id: "6C48EB5B25A0447E"
+				type: "item"
+				item: "simplefarming:trail_mix"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "28EF5DAD473DE84E"
+			tasks: [{
+				id: "08BEFAEAC86D0A9A"
+				type: "item"
+				item: "simplefarming:candy"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "14C958EDAF596AF6"
+			tasks: [{
+				id: "2465516F7CBF4527"
+				type: "item"
+				item: "simplefarming:popcorn"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "494DCF24FEE30947"
+			tasks: [{
+				id: "6924215283520750"
+				type: "item"
+				item: "betterendforge:shadow_berry_jelly"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -17.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "2D34629A93003041"
+			tasks: [{
+				id: "61C45A0594A348B4"
+				type: "item"
+				item: "simplefarming:marshmallow"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -17.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "37E49163F87CC6CC"
+			tasks: [{
+				id: "009DCA5266B4F859"
+				type: "item"
+				item: "supplementaries:candy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -26.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "57425737E7842172"
+			tasks: [{
+				id: "346CD087332B3630"
+				type: "item"
+				item: "mod_lavacow:shattered_ice"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -17.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "5CCCE3B8A999A75F"
+			tasks: [{
+				id: "1D0A562F1400177A"
+				type: "item"
+				item: "simplefarming:golden_habanero"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "61A8C8DD16D2A185"
+			tasks: [{
+				id: "513BC4C539A4B5F1"
+				type: "item"
+				item: "betterendforge:umbrella_cluster_juice"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "7EB9A8876D97B858"
+			tasks: [{
+				id: "13D702042C624E2D"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "4637BA0525ACF544"
+			tasks: [{
+				id: "440A92A3F2F93C8A"
+				type: "item"
+				item: "tea_kettle:half_honey_bottle"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -24.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "0123DF1FA664BCC8"
+			tasks: [{
+				id: "495AE40038D2AFF7"
+				type: "item"
+				item: "tea_kettle:half_honey_bottle"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "78753E51D1A43F27"
+			tasks: [{
+				id: "5E07F4086EE5C9F2"
+				type: "item"
+				item: "tea_kettle:black_latte"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "577CDE93EFCAFCBB"
+			tasks: [{
+				id: "1FD52317C5DB7465"
+				type: "item"
+				item: "tea_kettle:green_latte"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "6C2587F4C368BF35"
+			tasks: [{
+				id: "24276306F8CE5CDD"
+				type: "item"
+				item: "tea_kettle:abundance_lavender_tea"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -23.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "278275E74303A110"
+			tasks: [{
+				id: "05F0BD1976A4632B"
+				type: "item"
+				item: "tea_kettle:white_tea"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "78C2236AA0BF3E6E"
+			tasks: [{
+				id: "13BE4B3D459F687E"
+				type: "item"
+				item: "tea_kettle:black_tea"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "7D9A92A402B78799"
+			tasks: [{
+				id: "7BE6942B0E1EDAFC"
+				type: "item"
+				item: "tea_kettle:rose_tea"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "326E7A8668B12A1A"
+			tasks: [{
+				id: "7769BDD7635F0879"
+				type: "item"
+				item: "simplefarming:wine"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "25341B6A4C74AA92"
+			tasks: [{
+				id: "049CCABB04E4389F"
+				type: "item"
+				item: "simplefarming:vinegar"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -22.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "6CC362A2FAA1A9BB"
+			tasks: [{
+				id: "6CDEA697BDD6EB68"
+				type: "item"
+				item: "simplefarming:olive_oil"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "2856E3F065198027"
+			tasks: [{
+				id: "0F815D42B92D9821"
+				type: "item"
+				item: "simplefarming:tiswin"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "615A6AA3111EBE9A"
+			tasks: [{
+				id: "7954F9CEA394A447"
+				type: "item"
+				item: "simplefarming:sake"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -21.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "1936F6663A219ED8"
+			tasks: [{
+				id: "13FBD7BC7C850627"
+				type: "item"
+				item: "simplefarming:mead"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "7741F3F30758FF3A"
+			tasks: [{
+				id: "5D1187281AE6C41F"
+				type: "item"
+				item: "simplefarming:cider"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "12D75A72613C8F9F"
+			tasks: [{
+				id: "380D016E89BAA9C4"
+				type: "item"
+				item: "simplefarming:cauim"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "4AE268B952D68E22"
+			tasks: [{
+				id: "7650644D4F38E874"
+				type: "item"
+				item: "simplefarming:beer"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "55347AEFCBB998ED"
+			tasks: [{
+				id: "56F2B12C940FECF5"
+				type: "item"
+				item: "simplefarming:whiskey"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "04DF44EEA735622B"
+			tasks: [{
+				id: "4045CA6330A70542"
+				type: "item"
+				item: {
+					id: "simplytea:cup_tea_green"
+					Count: 1b
+					tag: {
+						Damage: 0
+						BlockStateTag: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "371F45A0F9E1344F"
+			tasks: [{
+				id: "6F27365A7A8FF982"
+				type: "item"
+				item: {
+					id: "simplytea:cup_tea_chorus"
+					Count: 1b
+					tag: {
+						Damage: 0
+						BlockStateTag: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "05FC0EFC5CEB20FB"
+			tasks: [{
+				id: "38D4BB6D9306C37B"
+				type: "item"
+				item: {
+					id: "simplytea:cup_tea_floral"
+					Count: 1b
+					tag: {
+						Damage: 0
+						BlockStateTag: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -19.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "710F4A8C2C8B9323"
+			tasks: [{
+				id: "4EC4C2B730659CD7"
+				type: "item"
+				item: {
+					id: "simplytea:cup_tea_chai"
+					Count: 1b
+					tag: {
+						Damage: 0
+						BlockStateTag: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "5751088D18928AC8"
+			tasks: [{
+				id: "34DFC27B54D2B3AF"
+				type: "item"
+				item: {
+					id: "simplytea:cup_tea_black"
+					Count: 1b
+					tag: {
+						Damage: 0
+						BlockStateTag: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "12C38246EC65F170"
+			tasks: [{
+				id: "71C5A83F1D87CE54"
+				type: "item"
+				item: {
+					id: "simplytea:cup_tea_iced"
+					Count: 1b
+					tag: {
+						Damage: 0
+						BlockStateTag: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "5BCAE919DF4AE5FE"
+			tasks: [{
+				id: "44280440FBC30952"
+				type: "item"
+				item: {
+					id: "simplytea:cup_cocoa"
+					Count: 1b
+					tag: {
+						Damage: 0
+						BlockStateTag: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -18.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6363E34DCC9957F1"]
+			hide: true
+			id: "5F3E71141C0A534D"
+			tasks: [{
+				id: "022597BE169D941B"
+				type: "item"
+				item: "abundance:lavender_tea"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "4476B45270CFB5CC"
+			tasks: [{
+				id: "5930AFE0D613C583"
+				type: "item"
+				item: "simplefarming:chicken_parmesan"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6F66DB10449A3245"
+			tasks: [{
+				id: "2F74D0DB5226C8A9"
+				type: "item"
+				item: "simplefarming:eggplant_parmesan"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6EC03F4897D98C50"
+			tasks: [{
+				id: "468A3EC9BF8802C4"
+				type: "item"
+				item: "simplefarming:chicken_curry"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "31C8232133CC7317"
+			tasks: [{
+				id: "13B655DF9B8F7E4D"
+				type: "item"
+				item: "simplefarming:mutton_curry"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "7E8738A342E880BE"
+			tasks: [{
+				id: "6A712EBA995E0DE6"
+				type: "item"
+				item: "simplefarming:beef_curry"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5DD0FE40F9C57695"
+			tasks: [{
+				id: "46501C3C6507A5AC"
+				type: "item"
+				item: "simplefarming:pork_curry"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "7FE6DB54FDD63A64"
+			tasks: [{
+				id: "161AEE7B89A3393C"
+				type: "item"
+				item: "simplefarming:italian_beef"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "3E0F1B6C1329A945"
+			tasks: [{
+				id: "7DA0CCFF9539043B"
+				type: "item"
+				item: "iceandfire:cannoli"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "0EC488E0C0CA6807"
+			tasks: [{
+				id: "5C917398AC358213"
+				type: "item"
+				item: "simplefarming:lasagna"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "10151FDD02983A1D"
+			tasks: [{
+				id: "47A2EA9CCFAA8538"
+				type: "item"
+				item: "simplefarming:fish_and_chips"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "4843078BD5F2D00F"
+			tasks: [{
+				id: "32080DFDFC4721EC"
+				type: "item"
+				item: "simplefarming:squash_casserole"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "0C91CB136FE71823"
+			tasks: [{
+				id: "55E978C24EC8640E"
+				type: "item"
+				item: "simplefarming:chicory_gratin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "1E7C7E3AA0A50E26"
+			tasks: [{
+				id: "3271020DF24E1F49"
+				type: "item"
+				item: "simplefarming:fried_rice"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "3B6861D25A606DD5"
+			tasks: [{
+				id: "708E0991048F92AC"
+				type: "item"
+				item: "mod_lavacow:sausage_roll"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "68F72FB241813012"
+			tasks: [{
+				id: "21E17489272D3CB8"
+				type: "item"
+				item: "mod_lavacow:kung_pao_chicken"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "197F0521898A53DD"
+			tasks: [{
+				id: "164C270462A9A742"
+				type: "item"
+				item: "simplefarming:sushi"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "027FE82FCF4AF6B2"
+			tasks: [{
+				id: "0C8B16143BCDA4DA"
+				type: "item"
+				item: "simplefarming:ice_cream_sundae"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "75F4235C5F3E90AF"
+			tasks: [{
+				id: "5C77184707013D44"
+				type: "item"
+				item: "betterendforge:chorus_mushroom_cooked"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "22D9A7336AF1DB72"
+			tasks: [{
+				id: "26DBC448B48BA71B"
+				type: "item"
+				item: "simplefarming:turnip_beetroot_gratin"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "7FB038B7E3394E9D"
+			tasks: [{
+				id: "77390F2650D044D3"
+				type: "item"
+				item: "simplefarming:hotdog"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6CFDB50CB31CEA39"
+			tasks: [{
+				id: "25F578A2CF1910DD"
+				type: "item"
+				item: "simplefarming:spinach_quinoa_quiche"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5A112BE5B986D0B7"
+			tasks: [{
+				id: "1C1DDFA8B5065E8F"
+				type: "item"
+				item: "simplefarming:spinach_mushroom_quiche"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "59FD75CBDF57ACF1"
+			tasks: [{
+				id: "047AE7B9F7E3810B"
+				type: "item"
+				item: "simplefarming:spaghetti"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "41FDA83C851E9051"
+			tasks: [{
+				id: "394C8426599F543F"
+				type: "item"
+				item: "simplefarming:pizza"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "31CE23A58E161D4A"
+			tasks: [{
+				id: "71E57E8DB68F8484"
+				type: "item"
+				item: "simplefarming:pasta"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "10A4609CA00538D1"
+			tasks: [{
+				id: "1B364A846C210568"
+				type: "item"
+				item: "simplefarming:pad_thai"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "00CF14B5D78C4782"
+			tasks: [{
+				id: "20E6D0BBF0E07566"
+				type: "item"
+				item: "simplefarming:mac_and_cheese"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5ADBDD830CBD9BFA"
+			tasks: [{
+				id: "08D377BABB2C2990"
+				type: "item"
+				item: "mod_lavacow:green_bacon_and_eggs"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "62587D2E98C4A6AA"
+			tasks: [{
+				id: "476E3F9F0B72D4BA"
+				type: "item"
+				item: "simplefarming:vegetable_curry"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "471E7700E320DEE4"
+			tasks: [{
+				id: "74F78B8A53D42E29"
+				type: "item"
+				item: "simplefarming:tofu_scramble"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6200B7CACF31B6D0"
+			tasks: [{
+				id: "1EFF36BED13DBF75"
+				type: "item"
+				item: "simplefarming:squid_ink_pasta"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "2EDAEC03658AD0D3"
+			tasks: [{
+				id: "4B556D71C95028AF"
+				type: "item"
+				item: "alexsmobs:kangaroo_burger"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "59DE6F0CE499083B"
+			tasks: [{
+				id: "2D6A1141138018F0"
+				type: "item"
+				item: "alexsmobs:shrimp_fried_rice"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "75732BD647D050A0"
+			tasks: [{
+				id: "04D0CCD62741EDEC"
+				type: "item"
+				item: "simplefarming:stuffed_corn_zucchini"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "37D90D6BE975EAAA"
+			tasks: [{
+				id: "5E8AF71538BCC7FA"
+				type: "item"
+				item: "simplefarming:beef_and_broccoli"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "2855CF5D3B5F4EEB"
+			tasks: [{
+				id: "04F9CDAEA727AA79"
+				type: "item"
+				item: "meetyourfight:marshy_delight"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5B872B754A57C771"
+			tasks: [{
+				id: "3D8C6413740F1851"
+				type: "item"
+				item: "simplefarming:mushroom_barley"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "462FAAB9531C1DEF"
+			tasks: [{
+				id: "5F84346D22263ED3"
+				type: "item"
+				item: "aquaculture:sushi"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "3AB1B7A84DB0EDB0"
+			tasks: [{
+				id: "289F0E65A8BDD15C"
+				type: "item"
+				item: "alexsmobs:boiled_emu_egg"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "572B442A4EBFA99E"
+			tasks: [{
+				id: "4DB29763F5F4C18C"
+				type: "item"
+				item: "simplefarming:cooked_egg"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6941577BDC5A03F7"
+			tasks: [{
+				id: "4B38429939D8E90F"
+				type: "item"
+				item: "witherstormmod:golden_apple_stew"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5C2963E4303F5E47"
+			tasks: [{
+				id: "33F21F6ED5DC4474"
+				type: "item"
+				item: "simplefarming:baked_yam"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "1B79FB0A91BF7172"
+			tasks: [{
+				id: "032367C27AC761C5"
+				type: "item"
+				item: "simplefarming:baked_sweet_potato"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "1CB0B1EE877C05B1"
+			tasks: [{
+				id: "3F0514F068ACDB61"
+				type: "item"
+				item: "mod_lavacow:meatball"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "40FC9CC84C61DD32"
+			tasks: [{
+				id: "2E6A783A82E212B4"
+				type: "item"
+				item: "mod_lavacow:mousse"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "7AF55F56E64053B5"
+			tasks: [{
+				id: "2DE978CBA19AB6C0"
+				type: "item"
+				item: "mod_lavacow:bonestew"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "4E180D7B4A10E1FC"
+			tasks: [{
+				id: "4D458A38BEB83041"
+				type: "item"
+				item: "simplefarming:tofu"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6ABD208934B10E45"
+			tasks: [{
+				id: "0A2494088F66EEED"
+				type: "item"
+				item: "betternether:hook_mushroom_cooked"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "757B1C6163C9EDFC"
+			tasks: [{
+				id: "54140E6689924918"
+				type: "item"
+				item: "minecraft:dried_kelp"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "1473488549F4BF82"
+			tasks: [{
+				id: "32023E5174B4B018"
+				type: "item"
+				item: "simplefarming:cassava_cake"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6AAE508E2975FA98"
+			tasks: [{
+				id: "2BCFF7848C88ACA4"
+				type: "item"
+				item: "simplefarming:cornbread"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "1B3C0386E1CC9612"
+			tasks: [{
+				id: "424D718CC7BF9F3D"
+				type: "item"
+				item: "simplefarming:banana_bread"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "65325EE3A52DF804"
+			tasks: [{
+				id: "5D8EFA0566F4762A"
+				type: "item"
+				item: "simplefarming:sweet_potato_quinoa_cakes"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "76E735F71102BD98"
+			tasks: [{
+				id: "04C2E51FD29AE7B9"
+				type: "item"
+				item: "simplefarming:zucchini_bread"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "112BFF584CEC3960"
+			tasks: [{
+				id: "3803BA79592F42B5"
+				type: "item"
+				item: "autumnity:pumpkin_bread"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5913F2E338CDC31A"
+			tasks: [{
+				id: "506BCA2F726A654F"
+				type: "item"
+				item: "minecraft:bread"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "7766DC17638CC76A"
+			tasks: [{
+				id: "22CA3050F8469D40"
+				type: "item"
+				item: "simplefarming:rye_bread"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "23A9D4F9CF3A7277"
+			tasks: [{
+				id: "2BF0CC6768AB9BA6"
+				type: "item"
+				item: "simplefarming:oat_bread"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "1CBF7C91BA23A14F"
+			tasks: [{
+				id: "6404A99D5D4468D9"
+				type: "item"
+				item: "simplefarming:barley_bread"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "57286D499F6115FE"
+			tasks: [{
+				id: "05C17082E2CFD9C3"
+				type: "item"
+				item: "simplefarming:rice_bread"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "2C3EC13880BB2A43"
+			tasks: [{
+				id: "6728854A46EDF9AA"
+				type: "item"
+				item: "simplefarming:sorghum_bread"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "24AF86859C6334F1"
+			tasks: [{
+				id: "3E8AC8235CE99961"
+				type: "item"
+				item: "simplefarming:sandwich"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "3C366A68780151E0"
+			tasks: [{
+				id: "559F80AB1533DAD0"
+				type: "item"
+				item: "simplefarming:fish_sandwich"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6BA140A5B5D32D51"
+			tasks: [{
+				id: "1750471FBCA16D84"
+				type: "item"
+				item: "simplefarming:hamburger"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "39BBF96D5EA071BC"
+			tasks: [{
+				id: "68885CAB7B0031A9"
+				type: "item"
+				item: "simplefarming:pbj"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "7D4A72D96BC276A6"
+			tasks: [{
+				id: "27158EB24743E15D"
+				type: "item"
+				item: "simplefarming:blt"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "03851D676EEA0845"
+			tasks: [{
+				id: "16A3C31760402E38"
+				type: "item"
+				item: "simplefarming:pulled_pork_sandwich"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "0F2AC627532969B5"
+			tasks: [{
+				id: "1813A2A138C0A149"
+				type: "item"
+				item: "simplefarming:veggie_burger"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5D6427959A525A78"
+			tasks: [{
+				id: "4243D3CC12798932"
+				type: "item"
+				item: "simplefarming:cheeseburger"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -20.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "52ECAC8AB56975EA"
+			tasks: [{
+				id: "0435E6A797011186"
+				type: "item"
+				item: "simplefarming:quinoa_salad"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "7E5356498939D6D5"
+			tasks: [{
+				id: "177422DBE4D31D22"
+				type: "item"
+				item: "betternether:stalagnate_bowl_wart"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "442CD3E7AA6A97A3"
+			tasks: [{
+				id: "4E24FAE3240180BC"
+				type: "item"
+				item: "betternether:stalagnate_bowl_mushroom"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "253B4B34388131B1"
+			tasks: [{
+				id: "5990F286B3A08FA6"
+				type: "item"
+				item: "betternether:stalagnate_bowl_apple"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "646F38270C6C01B0"
+			tasks: [{
+				id: "3A4BF82271DA270A"
+				type: "item"
+				item: "betternether:herbal_medicine"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "290449608A993705"
+			tasks: [{
+				id: "6DF6F84846ADCF1B"
+				type: "item"
+				item: "betternether:agave_medicine"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5730454331ACCCBB"
+			tasks: [{
+				id: "5D6359891F7FD435"
+				type: "item"
+				item: "aquamirae:sea_stew"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "1ECA440140799624"
+			tasks: [{
+				id: "0C1596B496293B68"
+				type: "item"
+				item: "aquamirae:poseidons_breakfast"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "0AB67F7B30F57E67"
+			tasks: [{
+				id: "748A5AF8EDBD7864"
+				type: "item"
+				item: "aquaculture:turtle_soup"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "2C9259BF5802E6B7"
+			tasks: [{
+				id: "6986D804303516DC"
+				type: "item"
+				item: "alexsmobs:sopa_de_macaco"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "543BC7D198B533C7"
+			tasks: [{
+				id: "64E1AC1F6EA05120"
+				type: "item"
+				item: "watersource:coconut_chicken"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "761E24AFF84C3E7D"
+			tasks: [{
+				id: "6323C221341EBEE8"
+				type: "item"
+				item: "simplefarming:chicken_noodle_soup"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "194AB08FCBA99BE5"
+			tasks: [{
+				id: "06E9D37DC6C99536"
+				type: "item"
+				item: "mod_lavacow:netherstew"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "3A03406B0BBDF068"
+			tasks: [{
+				id: "7FB6DDE772964CB2"
+				type: "item"
+				item: "simplefarming:sausage_barley_soup"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "52C1E1BEFB9BC23D"
+			tasks: [{
+				id: "41EC8ABB3EEB4FB9"
+				type: "item"
+				item: "simplefarming:broccoli_cheese_soup"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "0D30768F43C07F1E"
+			tasks: [{
+				id: "4033CC9F3C0A0CA7"
+				type: "item"
+				item: "simplefarming:carrot_soup"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6DD072517E0456C1"
+			tasks: [{
+				id: "37172840CC43C41D"
+				type: "item"
+				item: "minecraft:mushroom_stew"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "2C3BFB3CC7675F7B"
+			tasks: [{
+				id: "31746E87940742DE"
+				type: "item"
+				item: "simplefarming:borscht"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "5676F571C564B4D0"
+			tasks: [{
+				id: "61FD8AD5C0E15103"
+				type: "item"
+				item: "simplefarming:chili"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "337346659D3E74F3"
+			tasks: [{
+				id: "772312B144BEBC4D"
+				type: "item"
+				item: "simplefarming:sorghum_porridge"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "68F1FD5FF254E4C9"
+			tasks: [{
+				id: "72A4807404E47672"
+				type: "item"
+				item: "simplefarming:squash_soup"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "384F4FB0A8461D69"
+			tasks: [{
+				id: "778957920951D93A"
+				type: "item"
+				item: "simplefarming:onion_soup"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "4F7F2E6B735F2089"
+			tasks: [{
+				id: "3AAB8F814477B1D6"
+				type: "item"
+				item: "simplefarming:tomato_soup"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "33725E0964B1608E"
+			tasks: [{
+				id: "11E66592B2C46059"
+				type: "item"
+				item: "simplefarming:pea_soup"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "64399A6E466ECC19"
+			tasks: [{
+				id: "11E88B8D1AF4D5E6"
+				type: "item"
+				item: "simplefarming:rice_bowl"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "797F3DF9303D1B9F"
+			tasks: [{
+				id: "33D789B8561DCF4D"
+				type: "item"
+				item: "simplefarming:oatmeal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["0496E9A4A26CC6C0"]
+			hide: true
+			id: "6CB7B006D372D50D"
+			tasks: [{
+				id: "7054BA6017B9CB17"
+				type: "item"
+				item: "aquamirae:sea_casserole"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -26.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "4AF9DC081CF51219"
+			tasks: [{
+				id: "563E6353FDDF17B3"
+				type: "item"
+				item: "aquamirae:fin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -26.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["01D79206735C7958"]
+			hide: true
+			id: "612BBE10BF11FFB8"
+			tasks: [{
+				id: "5400FE86B90910A2"
+				type: "item"
+				item: "aquamirae:sharp_bones"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -17.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["67CACCDF5363DD3F"]
+			hide: true
+			id: "1270FF395DB7DAAE"
+			tasks: [{
+				id: "2B13A62CAE81170E"
+				type: "item"
+				item: "betterendforge:sweet_berry_jelly"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "5638A784E66EE806"
+			tasks: [{
+				id: "36CF19806F5BB415"
+				type: "item"
+				item: "betterendforge:end_fish_raw"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["5CA1AE3E321C22A1"]
+			hide: true
+			id: "547A71ED4B98C2C5"
+			tasks: [{
+				id: "498B1896C52ED5C5"
+				type: "item"
+				item: "betterendforge:end_fish_cooked"
+			}]
+		}
+	]
+}

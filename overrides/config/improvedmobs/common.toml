@@ -1,0 +1,204 @@
+
+#With default value every difficulty perk maxes out at difficulty 250
+[general]
+	#Mobs to include for the new light spawning rules.
+	#Only prevention is possible. Meaning you cant allow mobs to spawn at higher light levels
+	"Light list" = []
+	#Should punish time skipping with e.g. bed, commands? If false, difficulty will increase by 0.1 regardless of skipped time.
+	"Punish Time Skip" = true
+	#Blacklist for pet you should't be able to give armor to. Pets from mods, which have custom armor should be included here.
+	"Pet Blacklist" = []
+	#Turn the light list whitelist to blacklist
+	"Light list blacklist" = false
+	#How the difficulty at a position is calculated. Supported values are: 
+	#GLOBAL: Serverwide difficulty value
+	#PLAYERMAX: Maximum difficulty of players in a 128 radius around the position
+	#PLAYERMEAN: Average difficulty of players in a 128 radius around the position
+	#Allowed Values: GLOBAL, PLAYERMAX, PLAYERMEAN
+	"Difficulty type" = "GLOBAL"
+	#Handles increase in difficulty regarding current difficulty.
+	#Format is <minimum current difficulty>-<increase every 2400 ticks>
+	#Example ["0-0.01","10-0.1","30-0"]
+	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day) till it reaches a difficulty of 10.
+	#Then it increases by 1 per mc day till it reaches 30 and then stops.
+	"Difficulty Increase" = ["0-0.3", "40-0.6", "120-0.3"]
+	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
+	"Difficulty Delay" = 0
+	#Disable/Enable friendly fire for owned pets.
+	FriendlyFire = false
+	#Treat pet blacklist as whitelist
+	"Pet Whitelist" = false
+	#Light level >= x will prevent mob spawning for defined mobs.
+	#Range: 0 ~ 16
+	Light = 7
+	#Disable/Enables the whole difficulty scaling of this mod. Requires a mc restart
+	"Enable difficulty scaling" = true
+	#Wether difficulty should only increase with at least one online players or not
+	"Ignore Players" = false
+	#Increase difficulty with time
+	#Here untill its back as a gamerule
+	"Difficulty toggle" = true
+
+#Black/Whitelist for various stuff
+[list]
+	#Treat BLOCKBREAK flags as whitelist
+	"Breaker Whitelist" = false
+	#Treat GUARDIAN flags as whitelist
+	"Guardian Whitelist" = false
+	#Treat HELDITEMS flags as whitelist
+	"Held Equip Whitelist" = false
+	#Treat ARMOR flags as whitelist
+	"Armor Equip Whitelist" = false
+	#Treat TARGETVILLAGER flags as whitelist
+	"Villager Whitelist" = false
+	#Treat NEUTRALAGGRO flags as whitelist
+	"Neutral Aggro Whitelist" = false
+	#Entities added here will be blacklisted from their assigned flags. Usage:
+	#<entity registry name> or <namespace> followed by any of:
+	#[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PARROT,TARGETVILLAGER,NEUTRALAGGRO,REVERSE].
+	#Having no flags is equal to ALL. Use REVERSE to reverse all flags. Some flags do nothing for certain mobs!
+	#Examples:
+	#minecraft:sheep is equal to minecraft:sheep|ALL and excludes sheeps from all modifications
+	#minecraft:sheep|REVERSE|ATTRIBUTES will add sheep to attributes modification only
+	#minecraft:sheep|ATTRIBUTES will add sheep to everything except attributes
+	"More Entities" = ["alexsmobs:centipede_tail", "alexsmobs:snow_leopard", "alexsmobs:lobster", "alexsmobs:seagull", "aquaculture:pink_salmon", "alexsmobs:moose", "alexsmobs:seal", "betterendforge:dragonfly", "aquaculture:atlantic_herring", "alexsmobs:shoebill", "alexsmobs:roadrunner", "minecraft:trader_llama", "alexsmobs:endergrade", "minecraft:horse", "dungeonsmod:pice", "betternether:naga_projectile", "aquaculture:muskellunge", "aquaculture:bayad", "minecraft:llama", "aquaculture:bluegill", "aquamirae:poisoned_chakra", "minecraft:dolphin", "stalwart_dungeons:spore_projectile", "alexsmobs:komodo_dragon", "alexsmobs:hammerhead_shark", "minecraft:donkey", "alexsmobs:tiger", "alexsmobs:grizzly_bear", "quark:stoneling", "aquamirae:golden_moth", "minecraft:bee", "aquaculture:perch", "alexsmobs:crocodile", "quark:toretoise", "quark:frog", "aquaculture:jellyfish", "minecraft:mooshroom", "alexsmobs:frilled_shark", "minecraft:villager", "aquaculture:tuna", "alexsmobs:bald_eagle", "iceandfire:ice_dragon", "mod_lavacow:wisp", "stalwart_dungeons:nether_keeper", "alexsmobs:blobfish", "alexsmobs:gorilla", "autumnity:snail", "aquaculture:blackfish", "aquaculture:arapaima", "dungeonsmod:traveler", "minecraft:strider", "minecraft:parrot", "quark:crab", "aquamirae:spinefish", "mod_lavacow:lavacow", "meetyourfight:swampjaw", "betternether:flying_pig", "minecraft:wandering_trader", "sons_of_sins:iron_oven", "aquaculture:carp", "mod_lavacow:swarmer", "aquaculture:pacific_halibut", "iceandfire:sea_serpent", "mod_lavacow:mimic", "minecraft:iron_golem", "alexsmobs:kangaroo", "mod_lavacow:salamander", "cavesandcliffs:goat", "iceandfire:mob_skull", "mod_lavacow:lilsludge", "mod_lavacow:vespa", "dummmmmmy:target_dummy", "dungeonsmod:extrapart", "alexsmobs:mimic_octopus", "quark:leash_knot_fake", "aquaculture:boulti", "betternether:hydrogen_jellyfish", "alexsmobs:hummingbird", "betternether:chair", "minecraft:mule", "takesapillage:clay_golem", "alexsmobs:crow", "mod_lavacow:unburied", "aquaculture:atlantic_cod", "alexsmobs:centipede_body", "aquaculture:synodontis", "minecraft:pufferfish", "aquaculture:starshell_turtle", "mod_lavacow:cactoid", "alexsmobs:tarantula_hawk", "minecraft:fox", "aquaculture:smallmouth_bass", "alexsmobs:cachalot_whale", "mod_lavacow:raven", "mod_lavacow:warpedfirefly", "alexsmobs:warped_toad", "minecraft:chicken", "betternether:firefly", "dungeonsmod:piranha", "alexsmobs:emu", "alexsmobs:cockroach", "aquaculture:minnow", "mod_lavacow:weta", "aquaculture:tambaqui", "betterendforge:end_fish", "minecraft:hoglin", "aquaculture:catfish", "alexsmobs:capuchin_monkey", "iceandfire:dread_horse", "aquaculture:brown_shrooma", "cavesandcliffs:axolotl", "iceandfire:myrmex_swarmer", "minecraft:polar_bear", "iceandfire:lightning_dragon", "mod_lavacow:ptera", "iceandfire:dragon_skull", "aquaculture:brown_trout", "minecraft:pig", "minecraft:turtle", "alexsmobs:alligator_snapping_turtle", "aquaculture:red_shrooma", "minecraft:sheep", "aquaculture:atlantic_halibut", "minecraft:ender_dragon", "supplementaries:firefly", "dungeonsmod:sun", "mod_lavacow:ghostray", "graveyard:ghoul", "alexsmobs:rattlesnake", "iceandfire:fire_dragon", "quark:foxhound", "minecraft:cod", "aquaculture:gar", "alexsmobs:mantis_shrimp", "aquaculture:red_grouper", "dungeonsmod:guard", "alexsmobs:raccoon", "alexsmobs:platypus", "minecraft:squid", "minecraft:skeleton_horse", "iceandfire:myrmex_soldier", "minecraft:cow", "aquaculture:rainbow_trout", "alexsmobs:fly", "iceandfire:hippocampus", "quark:shiba", "iceandfire:pixie", "minecraft:salmon", "iceandfire:myrmex_queen", "minecraft:snow_golem", "iceandfire:myrmex_sentinel", "betterendforge:silk_moth", "supplementaries:red_merchant", "iceandfire:myrmex_royal", "minecraft:rabbit", "artifacts:mimic", "dungeonsmod:crow", "aquaculture:piranha", "aquaculture:box_turtle", "alexsmobs:orca", "alexsmobs:leafcutter_ant", "cavesandcliffs:glow_squid", "mod_lavacow:scarecrow", "alexsmobs:mungus", "minecraft:bat", "alexsmobs:spectre", "betterendforge:cubozoa", "iceandfire:amphithere", "aquaculture:pollock", "aquamirae:maze_rose", "mod_lavacow:seagull", "autumnity:turkey", "mod_lavacow:ghostswarmer", "dungeonsmod:sandcloud", "aquaculture:arrau_turtle", "alexsmobs:elephant", "aquaculture:capitaine", "alexsmobs:gazelle", "alexsmobs:enderiophage", "minecraft:zombie_horse", "alexsmobs:sunbird", "iceandfire:cockatrice", "alexsmobs:tasmanian_devil", "iceandfire:myrmex_worker", "minecraft:cat", "alexsmobs:stradpole", "minecraft:tropical_fish", "iceandfire:hippogryph", "bygonenether:wither_skeleton_horse", "minecraft:ocelot", "iceandfire:deathworm", "minecraft:wolf", "minecraft:panda", "mod_lavacow:piranha", "dungeonsmod:slimewolf", "farlanders:looter|HELDITEMS", "farlanders:rebel|HELDITEMS", "farlanders:enderminion|HELDITEMS"]
+	#Treat PARROT flags as whitelist
+	"Parrot Whitelist" = true
+	#Treat LADDER flags as whitelist
+	"Ladder Whitelist" = false
+	#Treat USEITEM flags as whitelist
+	"Item Use Whitelist" = false
+	#Put the above flags here to completly disable them.
+	"Flag Blacklist" = []
+	#Treat ATTRIBUTES flags as whitelist
+	"Attribute Whitelist" = false
+	#Treat STEAL flags as whitelist
+	"Steal Whitelist" = false
+
+#Debugging
+[debug]
+	#Enable showing of entity paths
+	"Path Debugging" = false
+
+#Settings for mod integration
+[integration]
+	#Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)
+	"Use Scaling Health Mod" = true
+
+#Settings regarding custom ai for mobs
+[ai]
+	#Chance for mobs to be able to ride a guardian
+	#Range: 0.0 ~ 1.0
+	"Guardian Chance" = 0.0
+	#Chance for mobs to be able to ride a parrot
+	"Fly Chance" = 0.0
+	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
+	"Breaking items" = ["minecraft:diamond_pickaxe;1"]
+	#Should mobs be able to break tile entities? Evaluated before the break list
+	"Break Tiles" = true
+	#Chance for a mob to be able to break blocks
+	#Range: 0.0 ~ 1.0
+	"Breaker Chance" = 0.3
+	#List for of pairs containing which mobs auto target others. Syntax is [mob id]-[mob id] where second value is the target.
+	# e.g. minecraft:zombie-minecraft:skeleton makes all zombies target skeletons
+	"Auto Target List" = []
+	#Difficulty at which mobs are able to steal items
+	"Difficulty Steal AI" = 0.0
+	#Use the block breaking sound instead of a knocking sound
+	Sound = false
+	#Initial cooldown for block breaking mobs
+	"Breaker Initial Cooldown" = 120
+	#Treat Block Whitelist as Blocklist
+	"Block as Blacklist" = false
+	#Chance for a mob to be able to steal items
+	#Range: 0.0 ~ 1.0
+	"Stealer Chance" = 0.4
+	#Chance for neutral mobs to be aggressive
+	#Range: 0.0 ~ 1.0
+	"Neutral Aggressive Chance" = 0.3
+	#Difficulty at which mobs are able to break blocks
+	"Difficulty Break AI" = 0.0
+	#Whitelist for blocks, which can be actively broken. 
+	#Usage: <registry name;classname;tag;namespace> put "!" infront to exclude blocks
+	#Note: If you include common blocks (like grass blocks) the pathfinding will be a bit strange
+	"Block Whitelist" = ["forge:glass", "forge:glass_panes", "minecraft:fence_gates", "forge:fence_gates", "minecraft:wooden_doors"]
+	#Delay for the coroutil repair block. Coroutil integration needs to be enabled
+	"Repair Ticks" = 500
+	#Cooldown for breaking blocks
+	"Breaker Cooldown" = 20
+
+#Configs regarding mobs spawning with equipment
+[equipment]
+	#Base chance for each armor pieces to get enchanted
+	#Range: 0.0 ~ 1.0
+	"Enchanting Chance" = 0.0
+	#Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel
+	"Enchanting Calc" = ["0-5-10", "25-5-15", "50-10-17", "100-15-25", "200-20-30", "250-30-35"]
+	#Adds additional x*difficulty% to base enchanting chance
+	"Enchanting Addition" = 0.0
+	#Blacklist for specific mobs and items they shouldnt use (e.g. skeletons already use bows)
+	#<entity registry name-item>
+	#For different items but same entity use multiple lines
+	#Some special names are BOW, TRIDEN, CROSSBOW refering to every bow/trident/crossbow item (So you dont need to type e.g. every bow item)
+	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
+	#Base chance that a mob can have one piece of armor
+	#Range: 0.0 ~ 1.0
+	"Equipment Chance" = 0.2
+	#Chance for mobs to have a weapon
+	#Range: 0.0 ~ 1.0
+	"Weapon Chance" = 0.1
+	#Should mobs drop the armor equipped through this mod? (Other methods e.g. through vanilla is not included)
+	"Should drop equipment" = false
+	#Adds additional x*difficulty% to base item chance
+	"Item Chance add" = 0.2
+	#Base chance for each additional armor pieces
+	#Range: 0.0 ~ 1.0
+	"Additional Equipment Chance" = 0.4
+	#Blacklist for items mobs should never be able to use.
+	#Use as in using the item similar to players (e.g. shooting bows)
+	"Item Use Blacklist" = ["bigbrain:buckler"]
+	#Chance for mobs to have an item in offhand
+	#Range: 0.0 ~ 1.0
+	"Item Equip Chance" = 0.05
+	#Blacklist for mods. Add modid to prevent items from that mod being equipped. (For individual items use the equipment.json)
+	"Item Blacklist" = []
+	#Turn the use blacklist into a whitelist
+	"Item Use Whitelist" = false
+	#Adds additional x*difficulty% to base equip chance
+	"Equipment Addition" = 0.3
+	#Adds additional x*difficulty% to base weapon chance
+	"Weapon Chance Add" = 0.3
+	#Use blacklist as whitelist
+	"Item Whitelist" = false
+
+#Settings for attribute modifiers
+[attributes]
+	#Maximum increase in magic resistance. Magic reduction is percentage
+	#Range: 0.0 ~ 1.0
+	"Max Magic Resistance" = 0.4
+	#Maximum increase in knockback
+	"Max Knockback" = 0.5
+	#Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable
+	"Magic Resistance Increase" = 1.0
+	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
+	"Speed Increase" = 1.0
+	#Damage will be multiplied by difficulty*0.008*x. Set to 0 to disable
+	"Damage Increase Multiplier" = 0.8
+	#Projectile damage will be multiplied by maximum of this
+	"Max Projectile Damage" = 2.0
+	#Round health to the nearest x. Set to 0 to disable
+	"Round HP" = 0.5
+	#Projectile Damage will be multiplied by 1+difficulty*0.008*x. Set to 0 to disable
+	"Projectile Damage Increase" = 1.0
+	#Health will be multiplied by difficulty*0.016*x. Set to 0 to disable
+	"Health Increase Multiplier" = 1.1
+	#Damage will be multiplied by at maximum this. Set to 0 means no limit
+	"Max Damage Increase" = 0.0
+	#Health will be multiplied by at maximum this. Set to 0 means no limit
+	"Max Health Increase" = 0.0
+	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
+	"Knockback Increase" = 1.0
+	#Maximum increase in speed
+	#Range: 0.0 ~ 1.0
+	"Max Speed" = 0.1
+

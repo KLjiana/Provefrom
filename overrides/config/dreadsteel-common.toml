@@ -1,0 +1,17 @@
+
+["Configs for Dreadsteel"]
+	#Dreadsteel leggings's armor value (Default = 12)
+	"Leggings armor" = 14
+	#Dreadsteel armor piece knockback resistance (Default = 0.25)
+	"Armor knockback resistance" = 0.5
+	#Dreadsteel boots' armor value (Default = 9)
+	"Boots armor" = 11
+	#Dreadsteel Scythe's attack damage (also Projectile's damage) (Default = 50)
+	"Scythe attack damage" = 0
+	#Dreadsteel chestplate's armor value (Default = 15)
+	"Chestplate armor" = 17
+	#Dreadsteel helmet's armor value (Default = 10)
+	"Helmet armor" = 12
+	#Dreadsteel armor piece toughness (Default = 8)
+	"Armor toughness" = 10
+

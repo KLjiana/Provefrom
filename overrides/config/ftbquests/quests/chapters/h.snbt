@@ -1,0 +1,11 @@
+{
+	id: "5DF936B43409BA0A"
+	group: "6F3A77339C659300"
+	order_index: 4
+	filename: "h"
+	title: "&9K.遗失饰物"
+	icon: "losttrinkets:creepo"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

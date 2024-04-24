@@ -1,0 +1,51 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 14, 2023, 1:27:49 PM
+
+#forge:ender
+
+#forge:experience
+- cofh_core:experience
+
+#forge:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- betterportals:portal_fluid_still
+- betterportals:portal_fluid_flowing
+- watersource:purified_water
+- watersource:soul_water
+- watersource:purified_water_flowing
+- watersource:soul_water_flowing
+- watersource:coconut_milk
+- watersource:coconut_milk_flowing
+
+#forge:redstone
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:glowstone
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:latex
+
+#forge:honey
+- cofh_core:honey
+
+#forge:creosote
+
+#tea_kettle:teable
+- minecraft:water
+
+#forge:potion
+- cofh_core:potion
+
+#watersource:drink
+- minecraft:water
+- watersource:purified_water
+- watersource:coconut_milk
+- watersource:soul_water

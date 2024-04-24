@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:magma_cube",
+  "weight": 5,
+  "display": {
+    "scale": 1.0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "nameplate": false,
+    "particles": true,
+    "volume": 0.5,
+    "side": "LEFT"
+  },
+  "data": {
+    "nbt": "{Size: 0}",
+    "tick": true,
+    "onground": true,
+    "inwater": true,
+    "aggressive": false,
+    "inlove": false,
+    "walk": false,
+    "crouch": false
+  }
+}

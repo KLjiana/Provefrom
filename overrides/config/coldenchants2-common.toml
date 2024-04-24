@@ -1,0 +1,67 @@
+
+["Enable/Disable Enchantments in Survival Mode"]
+	"Escape Artist Enabled" = true
+	"Golden Bite Enabled" = false
+	"Momentum Enabled" = true
+	"Botanist Enabled" = true
+	"Nourish Enabled" = true
+	"Cleave Enabled" = true
+	"Counter Enabled" = true
+	"Cat Paw Enabled" = true
+	"Ender Pull Enabled" = true
+	"Fireball Enabled" = true
+	"Restful Enabled" = true
+	"Sand Wall Enabled" = true
+	"Summoner Enabled" = true
+	"Frostfire Enabled" = true
+	"Levitate Enabled" = true
+	"Crit Enabled" = true
+	"Venomous Enabled" = true
+	"Nether Bane Enabled" = true
+	"Elder Protection Enabled" = true
+	"Blinding Enabled" = true
+	"Reinforced Enabled" = true
+	"Smithing Enabled" = false
+	"Nether Run Enabled" = true
+	"Gravity Enabled" = true
+	"juggernaut Enabled" = true
+	"Floating Enabled" = true
+	"Poseidon's Call Enabled" = true
+	"Hearthing Enabled" = true
+	"Butchering Enabled" = false
+	"Scavanger Enabled" = true
+	"Lifestealing Enabled" = false
+	"Death Wish Enabled" = true
+	"Phantom Enabled" = true
+	"Radiance Enabled" = true
+	"Night Vision Enabled" = true
+	"Healing Enabled" = true
+	"Chopper Enabled" = true
+	"Ender Throw Enabled" = true
+	"Wisdom Enabled" = true
+	"Firebrand Enabled" = true
+	"Wisp Caller Enabled" = true
+	"Frostball Enabled" = true
+	"Bounding Enabled" = true
+	#Can still be given using commands.
+	"Berserker Enabled" = true
+	"Wander Enabled" = true
+	"YoYo Enabled" = true
+	"Renew Enabled" = true
+	"Flurry Enabled" = true
+	"Strength Enabled" = true
+	"Poison Cloud Enabled" = true
+	"Warding Enabled" = true
+	"Freezing Enabled" = true
+	"Wither Enabled" = true
+	"Stealing Enabled" = true
+	"Slimy Enabled" = true
+	"Water Breathing Enabled" = true
+	"Weighted Enabled" = true
+	"Torchbringer Enabled" = true
+
+["Wandering Trader Settings"]
+	#Enchantments must ALSO be ENABLED in Survival Mode to appear on the Wandering Traders List.
+	"Trader can sell Hearthing Enchantments" = true
+	"Trader can sell Wanderer Enchantments" = true
+

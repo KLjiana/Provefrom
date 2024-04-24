@@ -1,0 +1,35 @@
+{
+  "id": "minecraft:player",
+  "weight": 31,
+  "display": {
+    "scale": 1.0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "nameplate": true,
+    "particles": true,
+    "volume": 0.5,
+    "side": "RIGHT"
+  },
+  "data": {
+    "nbt": "{}",
+    "tick": true,
+    "onground": true,
+    "inwater": true,
+    "aggressive": false,
+    "inlove": false,
+    "walk": false,
+    "crouch": false
+  },
+  "player": {
+    "profile": "",
+    "model": {
+      "cape": true,
+      "jacket": true,
+      "left_sleeve": true,
+      "right_sleeve": true,
+      "left_pants_leg": true,
+      "right_pants_leg": true,
+      "hat": true
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+	id: "659C7F131C3DD60C"
+	group: "35E3234857D9CE2B"
+	order_index: 1
+	filename: "j"
+	title: "&bI.宜家"
+	icon: "pfm:working_table"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&e冒险也要装饰家"
+			icon: "pfm:furniture_book"
+			x: -0.5d
+			y: -2.0d
+			description: ["如果书丢了，你还可以用铁锭+橙色染料+书制作"]
+			size: 2.3d
+			id: "017E608C170AC8F6"
+			tasks: [{
+				id: "2653DD40CD273120"
+				type: "checkmark"
+				title: "冒险也要装饰家"
+			}]
+			rewards: [{
+				id: "135D2D27356E8EF3"
+				type: "item"
+				item: "pfm:furniture_book"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			subtitle: "&6一切从这个不起眼的木工台开始"
+			dependencies: ["017E608C170AC8F6"]
+			id: "7043DEDE0C4F0B40"
+			tasks: [{
+				id: "6D26675EE7EC9891"
+				type: "item"
+				item: "pfm:working_table"
+			}]
+		}
+		{
+			title: "木板"
+			x: 0.0d
+			y: -7.5d
+			id: "0728E0EEE913A65B"
+			tasks: [
+				{
+					id: "5F6CF48195A4F64D"
+					type: "item"
+					item: "minecraft:oak_planks"
+				}
+				{
+					id: "1120C628A042FA01"
+					type: "item"
+					item: "minecraft:spruce_planks"
+				}
+				{
+					id: "15151C7933107F2B"
+					type: "item"
+					item: "minecraft:birch_planks"
+				}
+				{
+					id: "57F059C98E1B9EB1"
+					type: "item"
+					item: "minecraft:jungle_planks"
+				}
+				{
+					id: "1F89AEEDF2224E4B"
+					type: "item"
+					item: "minecraft:acacia_planks"
+				}
+				{
+					id: "6C3CA657ABD459CE"
+					type: "item"
+					item: "minecraft:dark_oak_planks"
+				}
+				{
+					id: "013AA715CE2A8142"
+					type: "item"
+					item: "minecraft:crimson_planks"
+				}
+				{
+					id: "1D529B6F7D218A2E"
+					type: "item"
+					item: "minecraft:warped_planks"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			id: "43864C684261BD39"
+			tasks: [
+				{
+					id: "472F29B13E4D4BAA"
+					type: "item"
+					item: "minecraft:oak_log"
+				}
+				{
+					id: "468FD37377706FCE"
+					type: "item"
+					item: "minecraft:spruce_log"
+				}
+				{
+					id: "264B55EF62724435"
+					type: "item"
+					item: "minecraft:birch_log"
+				}
+				{
+					id: "24955D1E1EA6F9D5"
+					type: "item"
+					item: "minecraft:jungle_log"
+				}
+				{
+					id: "750871A02FB1B34A"
+					type: "item"
+					item: "minecraft:acacia_log"
+				}
+				{
+					id: "640A94F58C3BE712"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+				}
+				{
+					id: "40432FC2086BAC5B"
+					type: "item"
+					item: "minecraft:crimson_stem"
+				}
+				{
+					id: "3660A3EB2BDDF368"
+					type: "item"
+					item: "minecraft:warped_stem"
+				}
+			]
+		}
+	]
+}

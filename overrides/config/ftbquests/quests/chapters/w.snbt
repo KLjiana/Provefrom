@@ -1,0 +1,2272 @@
+{
+	id: "3A148716703CDA9B"
+	group: "5836B7C1B847157F"
+	order_index: 2
+	filename: "w"
+	title: "&3C.武器"
+	icon: {
+		id: "betternether:cincinnasite_sword_diamond"
+		Count: 1b
+		tag: {
+			Unbreakable: 1b
+			savor_the_tasted_target: "minecraft:creeper"
+			"quark:RuneAttached": 1b
+			Enchantments: [
+				{
+					lvl: 1s
+					id: "miningmaster:leeching"
+				}
+				{
+					lvl: 6s
+					id: "minecraft:sharpness"
+				}
+				{
+					lvl: 3s
+					id: "minecraft:sweeping"
+				}
+				{
+					lvl: 1s
+					id: "ma-enchants:combo"
+				}
+				{
+					lvl: 3s
+					id: "flowingagony:savor_the_tasted"
+				}
+				{
+					lvl: 2s
+					id: "ma-enchants:ice_aspect"
+				}
+				{
+					lvl: 3s
+					id: "miningmaster:freezing"
+				}
+				{
+					lvl: 5s
+					id: "ma-enchants:faster_attack"
+				}
+				{
+					lvl: 2s
+					id: "flowingagony:trickster"
+				}
+				{
+					lvl: 3s
+					id: "flowingagony:fresh_revenge"
+				}
+				{
+					lvl: 1s
+					id: "wonderful_enchantments:leech"
+				}
+				{
+					lvl: 1s
+					id: "ma-enchants:lifesteal"
+				}
+				{
+					lvl: 5s
+					id: "mod_lavacow:corrosive"
+				}
+			]
+			display: {
+				Name: "{\"text\":\"辛纳卡米\"}"
+			}
+			"quark:RuneColor": {
+				id: "quark:light_blue_rune"
+				Count: 1b
+			}
+			combo: 0
+			Damage: 0
+			itemModifier: "modifiers:legendary"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "799C811FC3A35634"
+			tasks: [{
+				id: "0645E847D34A0B45"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "6AC3E020BE79BA5A"
+			tasks: [{
+				id: "04716E2D47D2EB98"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "50EE04FB457A4C28"
+			tasks: [{
+				id: "29C532AF3613B937"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "12A71AB1E6C9597B"
+			tasks: [{
+				id: "5E50C50A979FA320"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			id: "13DC2D024B445362"
+			tasks: [{
+				id: "07D43329ED7E4757"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						succeed: 100
+						sword_attribute: 20
+						openattribute: 1
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 9
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									3420642
+									4521530
+									4156145
+									2193645
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -2.4d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									3420642
+									4521530
+									4156145
+									2193645
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			id: "51831C89E7E194C0"
+			tasks: [{
+				id: "015F1138DB7AD9AB"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			id: "44351D51F093DD9D"
+			tasks: [{
+				id: "2AC2D6E8901E8B40"
+				type: "item"
+				item: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			id: "3C4E5040E44D27AB"
+			tasks: [{
+				id: "14CB49F800F35A1B"
+				type: "item"
+				item: {
+					id: "savageandravage:cleaver_of_beheading"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			id: "615C475881EC9872"
+			tasks: [{
+				id: "795932DDA6778D3F"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:wooden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			id: "485C3F0C28184E3A"
+			tasks: [{
+				id: "115DA7E2EF70D1B5"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			id: "71C9033DE638DBE8"
+			tasks: [{
+				id: "5403AA662116CBD8"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			id: "63E9C64F63BA44C3"
+			tasks: [{
+				id: "7DF9EB6E62B3F88F"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:golden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			id: "2593420257B1574D"
+			tasks: [{
+				id: "39136E625E3B72BF"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:diamond_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			id: "7B0A530AC566E516"
+			tasks: [{
+				id: "7500E109C54FACF2"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:netherite_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			id: "30C6D8E3F4AC112C"
+			tasks: [{
+				id: "491C0EF6538C5266"
+				type: "item"
+				item: {
+					id: "ba_bt:platinum_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "597DEB1C47A4C650"
+			tasks: [{
+				id: "77528052DDF5CDE9"
+				type: "item"
+				item: "dreadsteel:dreadsteel_scythe"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			id: "73AE717F06263F1F"
+			tasks: [{
+				id: "13B8F9E3434492E3"
+				type: "item"
+				item: {
+					id: "graveyard:bone_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			id: "03AB90A380D51D00"
+			tasks: [{
+				id: "037767B82614E799"
+				type: "item"
+				item: {
+					id: "aquamirae:terrible_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			id: "46BEE2A531441A39"
+			tasks: [{
+				id: "55320DE14DEE3AA7"
+				type: "item"
+				item: {
+					id: "aquamirae:fin_cutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 5.0d
+			id: "5E0CEC8D24EAB04B"
+			tasks: [{
+				id: "1638EBCB02ECB144"
+				type: "item"
+				item: {
+					id: "aquamirae:divider"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			id: "32AB8F4F290EF01E"
+			tasks: [{
+				id: "5868E0A07060E582"
+				type: "item"
+				item: {
+					id: "aquamirae:whisper_of_the_abyss"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			id: "79D5538270A6F77B"
+			tasks: [{
+				id: "45FD8CD99B4B42BC"
+				type: "item"
+				item: {
+					id: "aquamirae:remnants_saber"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			id: "7E6BBF5823979CE3"
+			tasks: [{
+				id: "63E3E847C8BC6178"
+				type: "item"
+				item: {
+					id: "aquamirae:poisoned_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			id: "523EA3D68D6FFBE6"
+			tasks: [{
+				id: "53815A07982E1C78"
+				type: "item"
+				item: {
+					id: "aquamirae:coral_lance"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 5.0d
+			id: "1CF4F32ED88D6E8B"
+			tasks: [{
+				id: "37AE9969C35016D1"
+				type: "item"
+				item: {
+					id: "aquamirae:dagger_of_greed"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			id: "24B5BFD1264D0B55"
+			tasks: [{
+				id: "29DB2FEE989F984B"
+				type: "item"
+				item: {
+					id: "iceandfire:silver_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			id: "5D1FCD4DEFB56363"
+			tasks: [{
+				id: "23A2D459E2D381C9"
+				type: "item"
+				item: {
+					id: "iceandfire:copper_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			id: "232C9F0FDA73F814"
+			tasks: [{
+				id: "2F5653CD816A292E"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			id: "5F2648DA20CC8044"
+			tasks: [{
+				id: "1A3B2415E34608C7"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			id: "55BD3A99F99E39FA"
+			tasks: [{
+				id: "252CD20DCF512A13"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			id: "092B1D2917522269"
+			tasks: [{
+				id: "210D775AD942D699"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_lightning"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.0d
+			id: "77F35FE38DBD09A2"
+			tasks: [{
+				id: "29E2D18F9E7B31E7"
+				type: "item"
+				item: {
+					id: "iceandfire:hippogryph_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			id: "235B3C035148EF45"
+			tasks: [{
+				id: "5FC9A2A45B0426A5"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			id: "4534B32F63DD7476"
+			tasks: [{
+				id: "19F828330D0125B7"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_sword_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			id: "4D3E0BC1FF84BD76"
+			tasks: [{
+				id: "1C9AAB9CD233A2B3"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			id: "5E3B16323F8EDE75"
+			tasks: [{
+				id: "5483E46B72D5794B"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_sword_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			id: "25D9D58AC5743363"
+			tasks: [{
+				id: "50A11D80D884261B"
+				type: "item"
+				item: {
+					id: "iceandfire:amphithere_macuahuitl"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			id: "758E0BB1C54259BA"
+			tasks: [{
+				id: "4C48150A0764DC6E"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			id: "72D66F946A690D40"
+			tasks: [{
+				id: "26D294B26F8A971C"
+				type: "item"
+				item: {
+					id: "iceandfire:tide_trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			id: "794602F628338949"
+			tasks: [{
+				id: "0BA19DB26E90101A"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			id: "2245804D7305A4C9"
+			tasks: [{
+				id: "4232B212239B6ECA"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			id: "60A36F101A34FCA7"
+			tasks: [{
+				id: "390F35E312390A23"
+				type: "item"
+				item: {
+					id: "iceandfire:dread_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			id: "11CA2521E6949BA2"
+			tasks: [{
+				id: "6614D0977E393FB9"
+				type: "item"
+				item: {
+					id: "iceandfire:dread_knight_sword"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						Damage: 0
+						itemModifier: "modifiers:sluggish"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 4.0d
+			id: "05647452019839F1"
+			tasks: [{
+				id: "289CCBDD48672F11"
+				type: "item"
+				item: {
+					id: "iceandfire:ghost_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			id: "696A335B8694E7C8"
+			tasks: [{
+				id: "2AEF639E4ACE2FEC"
+				type: "item"
+				item: {
+					id: "iceandfire:dread_queen_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			id: "547004974D1AF590"
+			tasks: [{
+				id: "7715664E16B31EAC"
+				type: "item"
+				item: {
+					id: "iceandfire:troll_weapon_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			id: "5CAACEB08AC03033"
+			tasks: [{
+				id: "11F9096667FE9D67"
+				type: "item"
+				item: {
+					id: "iceandfire:troll_weapon_column"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			id: "01CF60DFF4B63418"
+			tasks: [{
+				id: "4040F6AD8544DDE6"
+				type: "item"
+				item: {
+					id: "iceandfire:troll_weapon_column_forest"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			id: "51DDB04CABC80129"
+			tasks: [{
+				id: "64446AD673392284"
+				type: "item"
+				item: {
+					id: "iceandfire:troll_weapon_column_frost"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			id: "41816B641A1C1CF7"
+			tasks: [{
+				id: "496842DA845681D0"
+				type: "item"
+				item: {
+					id: "iceandfire:troll_weapon_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			id: "66F22DDAE36DFCE2"
+			tasks: [{
+				id: "0CCF32A1E80E5A49"
+				type: "item"
+				item: {
+					id: "iceandfire:troll_weapon_trunk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.0d
+			id: "102F56A0BFFE3CF0"
+			tasks: [{
+				id: "2FBD3D841712C05C"
+				type: "item"
+				item: {
+					id: "iceandfire:troll_weapon_trunk_frost"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			id: "79B4F85BF901E38F"
+			tasks: [{
+				id: "597986812A8F1FC9"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			id: "528823B216CB5315"
+			tasks: [{
+				id: "4434975CB16F5015"
+				type: "item"
+				item: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			id: "19D93C419333F3AA"
+			tasks: [{
+				id: "599D8323771F4595"
+				type: "item"
+				item: {
+					id: "mod_lavacow:bonesword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			id: "039A0636312AEDCB"
+			tasks: [{
+				id: "33123E2E57224AEB"
+				type: "item"
+				item: {
+					id: "mod_lavacow:moltenhammer"
+					Count: 1b
+					tag: {
+						onCraftEnchantments: { }
+						Unbreakable: 1b
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:fire_aspect"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			id: "71E8BDCDF4AB7CE6"
+			tasks: [{
+				id: "47A79F4514D4FD2B"
+				type: "item"
+				item: {
+					id: "mod_lavacow:reapers_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 5.0d
+			id: "129EDA14475D9D82"
+			tasks: [{
+				id: "2480EED809736C3A"
+				type: "item"
+				item: {
+					id: "mod_lavacow:famine"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			id: "75F3DA4312D2566E"
+			tasks: [{
+				id: "1AD814B047A0C30B"
+				type: "item"
+				item: {
+					id: "mod_lavacow:tooth_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.0d
+			id: "4D1E15BC59FF9EAA"
+			tasks: [{
+				id: "0258862726365EF5"
+				type: "item"
+				item: {
+					id: "mod_lavacow:vespa_dagger"
+					Count: 1b
+					tag: {
+						onCraftEnchantments: { }
+						Unbreakable: 1b
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "mod_lavacow:poisonous"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.0d
+			id: "11E7BFC68E07D0A6"
+			tasks: [{
+				id: "41AA908A8D933800"
+				type: "item"
+				item: {
+					id: "mod_lavacow:frozen_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 6.0d
+			id: "6304A60987588FD2"
+			tasks: [{
+				id: "332A50CC5DE83A14"
+				type: "item"
+				item: "mod_lavacow:spectral_dagger"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			id: "34CC2F6DB48B5F3E"
+			tasks: [{
+				id: "0FEE1E7E5BFA27B4"
+				type: "item"
+				item: {
+					id: "mod_lavacow:beast_claw"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			id: "06B28EA5EB3120E0"
+			tasks: [{
+				id: "4B3BBD1C52C65B36"
+				type: "item"
+				item: {
+					id: "mod_lavacow:skeletonking_mace"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			id: "6FE89D0D8296962D"
+			tasks: [{
+				id: "0759FA6561626D31"
+				type: "item"
+				item: {
+					id: "mod_lavacow:soulfirehammer"
+					Count: 1b
+					tag: {
+						onCraftEnchantments: { }
+						Unbreakable: 1b
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:fire_aspect"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			id: "2ECE5B8AE4D23624"
+			tasks: [{
+				id: "5B9FE56FF712639B"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			id: "7BDE52AA2F09611B"
+			tasks: [{
+				id: "6E4594601A343C7A"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			id: "2EE2CF66121EC5A1"
+			tasks: [{
+				id: "3DA156C079B7504F"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			id: "569DCC680BB85D03"
+			tasks: [{
+				id: "2DF955502FA1CD03"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			id: "55C20C1E07FC9EB9"
+			tasks: [{
+				id: "27D348968313C95A"
+				type: "item"
+				item: {
+					id: "betternether:cincinnasite_sword_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			id: "475AA6ED54B5D14A"
+			tasks: [{
+				id: "745C8CA0EB2F2BCD"
+				type: "item"
+				item: {
+					id: "betternether:nether_ruby_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			id: "35BCB567C406D6A9"
+			tasks: [{
+				id: "4662D67540C8CFE9"
+				type: "item"
+				item: {
+					id: "piglin_expansion:piglin_divinity_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			id: "24EC4FF21D42CF94"
+			tasks: [{
+				id: "672C19F0095D8C64"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:chorundum_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			id: "1FBDB689117344DE"
+			tasks: [{
+				id: "3EE5F33D150FDF0C"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			id: "509CBF030F4D7D7C"
+			tasks: [{
+				id: "33E0B673A9672185"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 4.0d
+			id: "3D81C69CA5526495"
+			tasks: [{
+				id: "42FC4F3C5F21F59A"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:awful_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			id: "2503D709E4C6AA89"
+			tasks: [{
+				id: "6B257A825F7D06B5"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:nether_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			id: "27BC992E0AE6ED9D"
+			tasks: [{
+				id: "06069616D5A70412"
+				type: "item"
+				item: {
+					id: "byg:pendorite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			id: "261711FE8A2A54F1"
+			tasks: [{
+				id: "56480A6E10EF612D"
+				type: "item"
+				item: "witherstormmod:command_block_sword"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			id: "35004E470FB15296"
+			tasks: [{
+				id: "412942B0C564EAF6"
+				type: "item"
+				item: {
+					id: "meetyourfight:cocktail_cutlass"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			id: "40B0F2D7AF0D73E5"
+			tasks: [{
+				id: "7170DB14BEC60708"
+				type: "item"
+				item: {
+					id: "meetyourfight:depth_star"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			id: "2F5624428328F222"
+			tasks: [{
+				id: "00E2B4109B787E74"
+				type: "item"
+				item: {
+					id: "mowziesmobs:spear"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						recast: 0
+						succeed: 100
+						sword_attribute: 3
+						openattribute: 1
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 12
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									1332180
+									2244949
+									4156007
+									903074
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -3.2d
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									1332180
+									2244949
+									4156007
+									903074
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+						itemModifier: "modifiers:damaged"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			id: "14BEEB618948A60A"
+			tasks: [{
+				id: "5394083007F36D21"
+				type: "item"
+				item: "mowziesmobs:wrought_axe"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 6.0d
+			id: "24EC71D82E7EC9A4"
+			tasks: [{
+				id: "58A0C1812D3CADE5"
+				type: "item"
+				item: {
+					id: "mowziesmobs:naga_fang_dagger"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						recast: 0
+						succeed: 100
+						sword_attribute: 3
+						openattribute: 1
+						Damage: 0
+						AttributeModifiers: [
+							{
+								Amount: 3
+								Slot: "mainhand"
+								AttributeName: "generic.attack_damage"
+								Operation: 0
+								UUID: [I;
+									4309099
+									3019338
+									3015900
+									2667938
+								]
+								Name: "generic.attack_damage"
+							}
+							{
+								Amount: -1
+								Slot: "mainhand"
+								AttributeName: "generic.attack_speed"
+								Operation: 0
+								UUID: [I;
+									4309099
+									3019338
+									3015900
+									2667938
+								]
+								Name: "generic.attack_speed"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.25d
+			shape: "octagon"
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"&e嘿;-)，你好。这里是加拿。你现在所在的是战斗章节，这里也是整合包最精彩最有趣的地方。现在让我来带你了解一下吧(˃ ⌑ ˂ഃ )。"
+			]
+			size: 2.0d
+			id: "7460412AFBE7FE9A"
+			tasks: [{
+				id: "1FDEA60F48CC4B00"
+				type: "checkmark"
+				title: "&e大概"
+				icon: "alexsmobs:void_worm_eye"
+			}]
+		}
+		{
+			icon: "minecraft:experience_bottle"
+			x: 1.75d
+			y: -10.5d
+			shape: "gear"
+			description: [
+				"&l&o&d以下内容来自&eplayerex添加&9加拿&r&l&o&d编写"
+				""
+				"&e嗯，你是否在背包的右上角做看到了个卷轴，请点进去。"
+				"{image:kubejs:textures/point.png width:200 height:200 align:1}"
+				"&e这个东西将会是你变强的关键。虽然我禁用了闪避，吸血与攻速加成。但是加点是无尽的，你永远也无法到达极限。tips：好好想想怎么快速搞经验吧(ง •̀_•́)ง。不然你后期会被摁着打的（bushi"
+				"{image:kubejs:textures/number.png width:200 height:220 align:1}"
+			]
+			dependencies: ["7460412AFBE7FE9A"]
+			size: 1.5d
+			id: "4A94AB7648B7BA40"
+			tasks: [{
+				id: "340C035A6FDE655F"
+				type: "checkmark"
+				title: "&e加点"
+			}]
+		}
+		{
+			title: "&dxpbook"
+			icon: {
+				id: "xpbook:xp_tome"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.0d
+			y: -10.5d
+			shape: "octagon"
+			subtitle: "&4不给我爆经验我就撒了你！！！"
+			description: [
+				"&l&o&d以下内容来自&expbook添加&9加拿&r&l&o&d编写"
+				""
+				"&e这是一本书，一本可以存储你经验的书。保护你的经验不会因为死亡而消失，右键书本是汲取经验，shift+右键则是吸收经验。一本经验之书可以存储四十五级的经验。"
+			]
+			dependencies: ["4A94AB7648B7BA40"]
+			id: "22FC7013D9423399"
+			tasks: [{
+				id: "44CC68AE7D92203A"
+				type: "checkmark"
+				title: "xpbook"
+			}]
+		}
+		{
+			title: "&e盾"
+			icon: "dreadsteel:dreadsteel_shield"
+			x: 2.5d
+			y: -7.75d
+			description: [
+				"&l&o&d以下内容来自&eShield Expansion添加&9加拿&r&l&o&d编写"
+				""
+				"&ekinkinkangkanヽ(*^^*)ノ，盾牌在整合包中削弱了也加强了。盾牌现在有了六个属性，所有的属性都是因盾而异的："
+				"{image:kubejs:textures/shield.png width:160 height:130 align:1}"
+				"&9防御冷却&e——顾名思义，在使用了盾牌之后，系统会给予玩家盾牌冷却。"
+				"&9防御耐力&e——没搞懂，应该是跟普通防御抵消的伤害有关。"
+				"&9举盾移速&e——使用盾牌时移动的速度。"
+				"&9招架反伤&e——成功招架对方伤害时给予对方的伤害，贼好用！"
+				"&9招架判定窗口&e——玩家举盾时可成功招架的时间阈值。"
+				"&9爆炸抗性&e——盾牌可以抵挡的爆炸伤害。"
+				"{image:kubejs:textures/ding.png width:200 height:110 align:1}"
+				"&e盾反是盾牌系统里面上限最高的也是最难是地方，可以要在判定时间内成功招架对方的攻击，并且还会取消冷却，而且盾牌还有一个长达2s的弹射物格挡时间，在这时间内盾牌可以格挡走一切的弹射物。"
+			]
+			dependencies: ["7460412AFBE7FE9A"]
+			id: "4ADCB116200890E7"
+			tasks: [{
+				id: "5053DC5EA3182882"
+				type: "checkmark"
+				title: "盾"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.25d
+			id: "35FFAAD343454F41"
+			tasks: [{
+				id: "2DEB37F3442A5904"
+				type: "item"
+				item: {
+					id: "shieldexp:wooden_shield"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						Damage: 0
+						itemModifier: "modifiers:agile"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -8.25d
+			id: "57790803155982DD"
+			tasks: [{
+				id: "1A24D36934CE867E"
+				type: "item"
+				item: {
+					id: "shieldexp:golden_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.25d
+			id: "040F62247BEC3F4F"
+			tasks: [{
+				id: "54A29B38D199D7C5"
+				type: "item"
+				item: {
+					id: "shieldexp:iron_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.25d
+			id: "7B57F9A16934A0E3"
+			tasks: [{
+				id: "6EE6C7FBA7F1BF4A"
+				type: "item"
+				item: {
+					id: "shieldexp:diamond_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -8.25d
+			id: "79EC9F997D1B25AF"
+			tasks: [{
+				id: "6352F9A3A7E8BC50"
+				type: "item"
+				item: {
+					id: "shieldexp:paragon_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.25d
+			id: "323DD3A45D3FCDD8"
+			tasks: [{
+				id: "0C25CCEAC91F2B52"
+				type: "item"
+				item: {
+					id: "shieldexp:netherite_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.25d
+			id: "314BE53DEA31F17A"
+			tasks: [{
+				id: "35BCFEA371B9CEA6"
+				type: "item"
+				item: {
+					id: "shieldexp:griefer_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.25d
+			id: "7C29743C0B751147"
+			tasks: [{
+				id: "3494A54EBDE48847"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:tungsten_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.25d
+			id: "02717151E121D2AB"
+			tasks: [{
+				id: "45D9F12BF27EEBA8"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:warted_tungsten_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.25d
+			id: "61D1959B5A62D23A"
+			tasks: [{
+				id: "6C978ABA14CBD9B6"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:chorundum_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.25d
+			id: "3CB2FFDE3FC73C91"
+			tasks: [{
+				id: "158E041615AEED8F"
+				type: "item"
+				item: "artifacts:umbrella"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.25d
+			id: "68F17495BC90BD98"
+			tasks: [{
+				id: "6B88BD4731D87889"
+				type: "item"
+				item: {
+					id: "alexsmobs:shield_of_the_deep"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "&e战 斗 系 统~~~"
+			icon: {
+				id: "aquamirae:remnants_saber"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -5.75d
+			description: ["&e这绝对是一个颠覆性的战斗系统"]
+			dependencies: ["7460412AFBE7FE9A"]
+			id: "4EE2078D549FCA7F"
+			tasks: [{
+				id: "65193CDBE0912C6E"
+				type: "checkmark"
+				title: "战 斗 系 统~~~"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.75d
+			description: [
+				"{image:kubejs:textures/duang.png width:200 height:120 align:1}"
+				"&e剑现在可以在对方攻击的一瞬间挥出来抵挡对手的致命伤害"
+			]
+			id: "4A52C353DA27E167"
+			tasks: [{
+				id: "037274A28D859E6C"
+				type: "checkmark"
+				title: "&e剑格挡"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.75d
+			description: ["&e每一把剑都有着攻击cd，而且必须等待cd结束以后才可以挥出，所以选择一把趁手的兵器还是很重要的！"]
+			id: "1158981DC9186816"
+			tasks: [{
+				id: "272DD8457B3F0D36"
+				type: "checkmark"
+				title: "&e攻击cd"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.75d
+			description: [
+				"{image:kubejs:textures/back.png width:200 height:120 align:1}"
+				"&e攻击可以背刺，伤害造成原来的三倍，就看你怎么去搞了"
+			]
+			id: "7017C87833968540"
+			tasks: [{
+				id: "786C66AA23C126CE"
+				type: "checkmark"
+				title: "&e背刺"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"&e敲吧，使劲敲，敲疯你！"
+				"&6&m我是赌狗"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7460412AFBE7FE9A"]
+			id: "44CDDF7F9B70AC45"
+			tasks: [{
+				id: "070812FFD20B3E41"
+				type: "checkmark"
+				title: "&e锻&4造&9系&2统"
+				icon: {
+					id: "betterendforge:terminite_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: "betternether:lapis_pile"
+			x: 2.5d
+			y: -2.0d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"&e武器现在被分成了三大类型，分别是："
+				"{image:kubejs:textures/sium.png width:145 height:100 align:1}"
+				"&9&l锐器&r&9，默认伤害8点，攻速1.6"
+				"{image:kubejs:textures/sum.png width:160 height:100 align:1}"
+				"&c&l利器，&r&c默认伤害4点，攻速3点"
+				"{image:kubejs:textures/bium.png width:160 height:100 align:1}"
+				"&5&l钝器，&r&5默认伤害13点，攻速0.8"
+				"&e而聪明的你已经发现了，这个类型下面的两行信息——锻造次数与成功率，这便是使武器变强的关键。"
+				"武器的分类都在下面了"
+				"&eps:武器只能在箱子里面开出或者是怪物掉落"
+			]
+			hide_dependency_lines: true
+			dependencies: ["44CDDF7F9B70AC45"]
+			id: "4E4EE8C54DEFDDB6"
+			tasks: [{
+				id: "0EB7980D225A69F5"
+				type: "checkmark"
+				title: "&e武器&9三&c大&5类"
+			}]
+		}
+		{
+			icon: {
+				id: "betterendforge:thallasium_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: -2.0d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"&e武器如何升级，看这！"
+				"{image:kubejs:textures/forging_stone.png width:140 height:120 align:1}"
+				"&e阵型都是这样摆的！不管方面放的锻造材料不一样就对了。每升级一次，武器的锻造次数减一，锤子的耐久就会减少20，产出一个锻造废料。"
+				"{image:kubejs:textures/forgine_zero.png width:150 height:100 align:1}"
+				"&e而概率及伤害的计算是各分三种情况的："
+				"&6概率——当概率在70以上，每次锻造概率便会/1.06"
+				"&6      当概率在70到30之间，每次锻造概率/1.04"
+				"&6      当概率在30以下时，则/1.02"
+				"&c武器伤害："
+				"&c当伤害在30以内时，则为原伤害+原伤害*0~0.8的随机数。"
+				"&c当伤害在30到70之间，则为原伤害+原伤害*0~0.3的随机数。"
+				"&c当伤害在70以上时，则为原伤害+原伤害*0~0.08的随机数。"
+				"&e锻造武器不容易啊……"
+				"&e而成功概率越低，失败的机会也越高哦"
+				"&e失败时则会让原伤害*0~0.4的随机数"
+				"所以……"
+				"{image:kubejs:textures/i_am_sb.png width:140 height:150 align:1}"
+				"&m我是赌狗&r悲催的画面……"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4E4EE8C54DEFDDB6"]
+			id: "0A49CF666041F97B"
+			tasks: [{
+				id: "0EC890998A3BEA59"
+				type: "checkmark"
+				title: "&e升级，level up！"
+			}]
+		}
+		{
+			icon: "kubejs:sium"
+			x: 6.5d
+			y: -2.0d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"&e搞升级材料有两种办法："
+				"{image:kubejs:textures/chest.png width:130 height:100 align:1}"
+				"&e开箱子获得，每一个的概率为1%，并不算低"
+				"{image:kubejs:textures/switch.png width:200 height:120 align:1}"
+				"&e通过主手64个锻造材料，副手是对应的3颗龙心，右键即可转换成对应的材料"
+			]
+			dependencies: ["0A49CF666041F97B"]
+			id: "35D31F75D429A11B"
+			tasks: [{
+				id: "7B39F98A91B13ED8"
+				type: "checkmark"
+				title: "&e我要怎么搞升级材料"
+			}]
+		}
+		{
+			icon: "kubejs:scrap"
+			x: 4.5d
+			y: -0.5d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"&e获取方式也是两种"
+				"{image:kubejs:textures/drop.png width:140 height:100 align:1}"
+				"&e每一只怪物掉落一个"
+				"{image:kubejs:textures/forging_stone.png width:120 height:100 align:1}"
+				"&e每次锻造出一个"
+			]
+			dependencies: ["0A49CF666041F97B"]
+			id: "6EEA2E3F92FFB3E2"
+			tasks: [{
+				id: "55CA9D073711D54F"
+				type: "checkmark"
+				title: "关于锻造废料的二三事"
+			}]
+		}
+		{
+			icon: "kubejs:sium_advanced_orb"
+			x: 8.5d
+			y: -2.0d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"&e有珠子，每一颗加3次，只能合成"
+			]
+			dependencies: ["35D31F75D429A11B"]
+			id: "773A526D4C5AAD61"
+			tasks: [
+				{
+					id: "366EA9F3A4DC460B"
+					type: "checkmark"
+					title: "我没有锻造次数了怎么办……"
+				}
+				{
+					id: "42128241C7F6ECFD"
+					type: "item"
+					item: "kubejs:sium_advanced_orb"
+				}
+				{
+					id: "2420E665173F95CD"
+					type: "item"
+					item: "kubejs:bium_advanced_orb"
+				}
+				{
+					id: "4305B32CCDC2D666"
+					type: "item"
+					item: "kubejs:sum_advanced_orb"
+				}
+			]
+		}
+		{
+			icon: "kubejs:stay"
+			x: 10.5d
+			y: -2.0d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"击杀怪物，或者合成呗~"
+				"就是有点难获取，但是可以直接锻造成功"
+				"实在不行换一把刀！"
+			]
+			dependencies: ["773A526D4C5AAD61"]
+			id: "250883AACB6FE1AB"
+			tasks: [
+				{
+					id: "4E987E58F959778E"
+					type: "checkmark"
+					title: "那那那那……那概率低呢"
+				}
+				{
+					id: "6C09447074C24704"
+					type: "item"
+					item: "kubejs:stay"
+				}
+			]
+		}
+		{
+			title: "&e好难找龙怎么办"
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["0A49CF666041F97B"]
+			id: "4817471BE248DAAC"
+			tasks: [
+				{
+					id: "1BB99DF95972075A"
+					type: "item"
+					item: "dragonseeker:godly_dragonseeker"
+				}
+				{
+					id: "327B4786B8B64476"
+					type: "item"
+					item: "eyeofdragons:eye_of_firedragon"
+				}
+				{
+					id: "550932A896799769"
+					type: "item"
+					item: "eyeofdragons:eye_of_icedragon"
+				}
+				{
+					id: "474FD884A6A091C6"
+					type: "item"
+					item: "eyeofdragons:eye_of_lightningdragon"
+				}
+			]
+		}
+		{
+			title: "&e如何更好的跑图"
+			x: 5.5d
+			y: -1.0d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"跑图利器！"
+			]
+			dependencies: ["0A49CF666041F97B"]
+			id: "35AF9B63FA06117F"
+			tasks: [{
+				id: "5378E1F6685C7733"
+				type: "item"
+				item: "kubejs:companion_scrolls"
+			}]
+		}
+		{
+			title: "&6但是我跑着跑着东西没了咋办"
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["35AF9B63FA06117F"]
+			id: "6D2B489CC6022404"
+			tasks: [{
+				id: "2DEFD70CB525B028"
+				type: "item"
+				item: {
+					id: "inventoryprotection:protector"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"§9物品护符\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			description: ["右键指南针则会提示你当前的坐标"]
+			dependencies: ["0A49CF666041F97B"]
+			id: "5715690F28D7E949"
+			tasks: [{
+				id: "6F4278198AF2143E"
+				type: "item"
+				item: {
+					id: "minecraft:compass"
+					Count: 1b
+					tag: {
+						"quark:compass_calculated": 1b
+						"quark:compass_in_nether": 0b
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			description: [
+				"刷附魔好帮手，还能解决不要的附魔书"
+				""
+				"&e铁砧和任何其他形式的附魔现在有概率会腐蚀物品，使它们受到诅咒。诅咒现在是装备的一个正常部分，因为被附魔的装备很少会没有诅咒。完美的附魔物品更难实现，使装备的升级更具挑战性。物品附魔能力越高，受到诅咒的概率就越低。"
+			]
+			dependencies: ["0A49CF666041F97B"]
+			id: "6F96EFF47F795A68"
+			tasks: [{
+				id: "5B3DE8B8DA0D9D4A"
+				type: "item"
+				item: "wonderful_enchantments:wonderful_book"
+			}]
+		}
+		{
+			icon: "losttrinkets:creepo"
+			x: 3.5d
+			y: -1.0d
+			description: ["&e整合包添加了很多的饰品，其中Lost Trinkets的饰品要通过快捷键&2g&e来打开专门是饰品栏装备，其他的则是背包玩家左下角打开的饰品栏安装。"]
+			dependencies: ["0A49CF666041F97B"]
+			id: "2A9912FFEB259707"
+			tasks: [{
+				id: "2D45E55059E6E07F"
+				type: "checkmark"
+				title: "&2饰品&r与&4饰品"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.75d
+			description: [
+				"&e整合包添加了headshot模组，也就是爆头。"
+				"&e爆头对方中了伤害是原来的50倍！"
+				"&e头盔也不管用，照样爆头！！！"
+				""
+				"&4怪也会爆头……"
+			]
+			id: "1EB44D78FCDFCC6C"
+			tasks: [{
+				id: "30C1E72D49964B99"
+				type: "checkmark"
+				title: "&4爆头"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			id: "62575BA0539A4AD6"
+			tasks: [{
+				id: "2346C0D0EC2D6332"
+				type: "item"
+				item: {
+					id: "farlanders:nightfall_sword"
+					Count: 1b
+					tag: {
+						Unbreakable: 1b
+						Damage: 0
+						itemModifier: "modifiers:deadly"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+
+#These options affect only the client that loads the mod.
+[clientOnly]
+	#How long (in ticks) do streaks last?
+	#Range: > 5
+	streakTime = 100
+	#What's the opacity of streaks, in %
+	#Range: 0 ~ 100
+	streakOpacity = 0
+	#Render a player's sprint trail?
+	#Range: > 0
+	sprintTrail = 6
+	#Should streaks render in first person
+	renderInFirstPerson = false
+	#Which entities to attach streaks to, using the resource name, EG: minecraft:pig
+	attachTo = ["minecraft:player"]
+	#Who (by name) should have specific flavours, EG: iChun:Nyan
+	setFlavors = []
+

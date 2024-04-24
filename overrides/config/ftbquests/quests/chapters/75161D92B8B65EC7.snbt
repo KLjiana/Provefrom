@@ -1,0 +1,622 @@
+{
+	id: "75161D92B8B65EC7"
+	group: "5836B7C1B847157F"
+	order_index: 4
+	filename: "75161D92B8B65EC7"
+	title: "&5D.末地之路"
+	icon: "minecraft:dragon_head"
+	subtitle: [
+		"&e最终归家之路"
+		"&d击败末影龙，回到自己的宇宙"
+		"&4死亡不是生命的终点，遗忘才是......"
+	]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 23.5d
+		y: 6.0d
+		width: 50.0d
+		height: 50.0d
+		rotation: 0.0d
+		image: "kubejs:textures/ender_dargen.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "末地"
+			icon: "endrem:ancient_portal_frame"
+			x: 22.5d
+			y: 11.5d
+			shape: "octagon"
+			subtitle: "末路"
+			description: [
+				"&5打完龙后没什么东西给你，就给你这个吧"
+				""
+				"&e对了，记得去末地外地逛逛，有好看的美景哦。"
+			]
+			dependencies: [
+				"0C8E39111314CD4E"
+				"73F80574B68E6AE3"
+				"02E599C369D45BC9"
+				"761DFD74312AA547"
+				"51920689C1C67A7A"
+				"75BCE60AF2F40378"
+				"3AE266A93ECA2D1B"
+				"689B3D1CD0F649C8"
+				"31D53220120B8AAE"
+				"49DE77F92C8F63FF"
+				"4BD1E4228D540AC2"
+				"4D272FE13817A293"
+			]
+			size: 5.0d
+			id: "379B95CDF16BBC58"
+			tasks: [
+				{
+					id: "6332877FFD33CC37"
+					type: "dimension"
+					title: "来临"
+					dimension: "minecraft:the_end"
+				}
+				{
+					id: "45A5F468B0274A01"
+					type: "kill"
+					icon: "minecraft:dragon_egg"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "36A7E3300574AA9C"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2079677715
+									-510443156
+									-1808788442
+									1210252623
+								]
+								Properties: {
+									textures: [{
+										Value: "eyJ0aW1lc3RhbXAiOjE2OTIwMjA5NzUwNjYsInByb2ZpbGVJZCI6IjdiZjU1ZDEzZTE5MzQxNmM5NDMwMTQyNjQ4MjJmZDRmIiwicHJvZmlsZU5hbWUiOiJLTF9qaWFuYSIsImlzUHVibGljIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vbGl0dGxlc2tpbi5jbi90ZXh0dXJlcy9kMTUxZWRiMzNmMTY4MTcyMDFjYWRjMWM4OTYxZTAzZWJlMjkwZmRhNmUwYjhiZjBhZDc2NTEzNWY2ZjQ4OWQ2IiwibWV0YWRhdGEiOnsibW9kZWwiOiJzbGltIn19LCJDQVBFIjp7InVybCI6Imh0dHBzOi8vbGl0dGxlc2tpbi5jbi90ZXh0dXJlcy80YTEwOTJlOGNiMmQyMmRiZmM3ZWJhZmMwYjA5YjE1YjlhNDI2MDU0ZjBmNmM2ZWFlZDMyNTc1MGVjZGNhMTA1In19LCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZX0="
+										Signature: "jbX7AutyVnqMMIvNOhmZxwHwJl/xErtMt72q3sDD0WuoUJyI9kzzanhcGkIcnNX1RL0o/Ugy/faUhwGJSc+ZRik+L0ya6erVUOWzwU1Yih9duOdxCVrhu73KIx//fqfGa8SNuAYCXPEFbGGHRHb4L0TWy9OQtkOsySoIbKXsm0Bi662ZRUewMntnrunnUz29KEdv7Sw0+pVMyFBJPSH+EnDRqfXqnF1flDDXm4R1BTa5FeTSGUkadxRWUv3EQg6S74QYQphjxbSm5sP4BZln05IIhxZYdYpunRM+46lR2Z4nKYMYvcNkMtvVDLwV28We3Lcp5WvibbOuamCC1cx0dBEnPVdoTp6jQ5qMX+I7iUwfZ2vZ3AcvmTqcDYo9AT2xxkCFJeOLQoervga93c2Xh3fMy//yJGRKF7R/5Qv94P5WqU4ix5UkpZb2naVjDL2n16XKhWvis4AFz1svlaZKeMT/P6PAwk6D2PKtXnYUQFP1s0SC+g35UbMl1BFlUmM6IIyxuAzgDLi+gFa0kI+NUYAZvs/OGamOS3c+JiEyZMkDLmooayHIONE/E3x4W45AkwzOnB5TKU3GfNj9BzWDge0hZenu/N5aRN620vV35tSGCdw+pF6MJu8NuMiN46ccZi5rSjNAOjDN4RbPkhEd7HJlcPWhdIQRcPyZuTpoUZw="
+									}]
+									uploadableTextures: [{
+										Value: "skin,cape"
+										Signature: "QcQVFjzn1iIts/HV1PakfAjI+2b9mYnX7SwY5Kqlbqt96aa3x+3c8H7J6PDl2Hb/M3q1rm5LHgda51EMbsyhm1zbXX7Xakkp5aoAm+jsZo9MZuL7KRW2IVwo44sWaUH37NM72nIyn4YBxja1Wg5pKspxDdg2iF8BTR/27vIXLejS+ZAFvo+pERJL+ye+2CQcpknbuZN9a8ns5ylSr71kJ0xo6lVpAgOO5M7RiD7SXrICSLGItopIankq2Ra64pR/GR86AfHgfbY8D0jPmtc0p6/KH6wbQtNSgxRnf6A0VFSoUvj+G7kwgOb3Fh2hnfnDsWlLl3MxVSqNrpoL/y0p9OjytHyVZmoTiCVE3dX5qehebo5wmNvHYV1sS0zCsjqomu9JipKmt5uQtujez6mymXtwL1oVsKpkaxZYb4FoDRnuMF8rWElilMiMyZNDcACr0fDTtUC/w+u2IMTiSMisNL/XELzPoZdVwf3z+1Eklyn3kIhlvIH4mnj4r8C1FtEMYPMVFmXIFNFv10qh32vHTSGoA3ZNduPd72rERkfC4wZYAGfkWQ0fT2f2BwRoeJm4ixDrMoHTCi5MgXC7t9Cij/tyuoaYx80DIxc8sA5itmpLV4o1LqO3DC8n8QWDcN3sRtxEP08ToyR5Q35HjyImPMcLkf/wEAepAujKScQmvO0="
+									}]
+								}
+								Name: "KL_jiana"
+							}
+						}
+					}
+				}
+				{
+					id: "21AC295AE520EA0D"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-581526511
+									1849442107
+									-1116392898
+									-1544745972
+								]
+								Name: "Susanlynna"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 19.0d
+			y: 10.0d
+			description: [
+				"击杀日之子获得"
+				"通过玩家在陵寝之中穿着护甲6点，拥有生命值6点并手持6个铁块召唤"
+			]
+			dependencies: ["3758368EDF957F63"]
+			dependency_requirement: "one_completed"
+			id: "0C8E39111314CD4E"
+			tasks: [{
+				id: "3CF48D8FAF8C21B4"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: 11.5d
+			description: [
+				"击杀下届合金巨兽获得"
+				"遗迹在地狱生成"
+			]
+			dependencies: ["54AF2FE42254455B"]
+			id: "73F80574B68E6AE3"
+			tasks: [{
+				id: "011334A2A28B51FA"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: 13.0d
+			description: ["击杀科妮莉亚船长的幽灵获得"]
+			dependencies: ["0574EC0285384552"]
+			id: "02E599C369D45BC9"
+			tasks: [{
+				id: "5F43D2250713B80F"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 26.0d
+			y: 10.0d
+			description: [
+				"击杀骷髅王获得"
+				"通过受诅咒的王之冠在沙漠中右键骷髅头获得"
+			]
+			dependencies: ["5504E013D4EC9A4C"]
+			id: "31D53220120B8AAE"
+			tasks: [{
+				id: "578C734CA8A6CE87"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 26.0d
+			y: 11.5d
+			description: [
+				"击杀灾厄术士获得，灾厄术士在最高级袭击最后一波中生成。"
+				"不祥之兆通过用打火石右击灾厄旗帜获得"
+			]
+			dependencies: ["3E875A4C38759565"]
+			id: "689B3D1CD0F649C8"
+			tasks: [{
+				id: "552E276001C6A79A"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 26.0d
+			y: 13.0d
+			description: [
+				"击杀无名巫师获得"
+				"生化大蛇的遗迹在丛林之中生成"
+			]
+			dependencies: ["7AD217BA76AAF046"]
+			id: "3AE266A93ECA2D1B"
+			tasks: [{
+				id: "63D01BE8CC2E10D5"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 21.0d
+			y: 15.0d
+			description: ["击杀远古守卫者获得"]
+			dependencies: ["1218247BAC2CAB16"]
+			id: "761DFD74312AA547"
+			tasks: [{
+				id: "624ABA25141141B5"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: 15.0d
+			description: ["煮！"]
+			dependencies: ["10CE5028121C1B2D"]
+			id: "51920689C1C67A7A"
+			tasks: [{
+				id: "001836BC1D34489A"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: 15.0d
+			description: [
+				"击杀焰魔获得"
+				"焰魔遗迹于地狱生成"
+			]
+			dependencies: ["261C15882EDB6FD4"]
+			id: "75BCE60AF2F40378"
+			tasks: [{
+				id: "44AC3971492D4F7C"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 21.0d
+			y: 8.0d
+			description: ["击杀凋零获得"]
+			dependencies: ["12ED95B309E96D90"]
+			id: "4D272FE13817A293"
+			tasks: [{
+				id: "1A1D97C0F378E7FD"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: 8.0d
+			description: ["合成获得，需迎战所以怪物的素材，末影水晶碎片与末影之眼"]
+			dependencies: ["122C8264EF5EAC5C"]
+			id: "49DE77F92C8F63FF"
+			tasks: [{
+				id: "4A4F077B11CC8097"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: 8.0d
+			description: ["合成获得。需凋零的素材，巴拉巴拉，一堆东西！"]
+			id: "4BD1E4228D540AC2"
+			tasks: [{
+				id: "3492090A09D7B7C6"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 24.0d
+			y: 6.5d
+			description: ["迎战模组怪物召唤物"]
+			hide: true
+			id: "122C8264EF5EAC5C"
+			tasks: [
+				{
+					id: "2B23B60FF8F2EBB3"
+					type: "item"
+					item: "meetyourfight:fossil_bait"
+				}
+				{
+					id: "1EFDA266D902AD9E"
+					type: "item"
+					item: "meetyourfight:haunted_bell"
+				}
+				{
+					id: "7E214B1134A9FE65"
+					type: "item"
+					item: "meetyourfight:devils_ante"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 13.0d
+			description: [
+				"通过击杀船长室中的船长获得"
+				"{image:minecraft:textures/gui/provefrom/mob1.png width:200 height:100 align:1}"
+			]
+			dependencies: ["20F6D04898274ED0"]
+			id: "0574EC0285384552"
+			tasks: [{
+				id: "3E09BF4505CD3552"
+				type: "item"
+				item: "aquamirae:shell_horn"
+			}]
+		}
+		{
+			x: 27.5d
+			y: 10.0d
+			description: [
+				"合成获得"
+				"被沾污的王之冠通过击杀蛰髑获得"
+				"蛰髑一般在沙漠中生成，或在地狱的灵魂沙峡谷生成"
+			]
+			dependencies: ["794732D480EA2642"]
+			id: "5504E013D4EC9A4C"
+			tasks: [{
+				id: "697BCC7979AA452F"
+				type: "item"
+				item: "mod_lavacow:cursed_kings_crown"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 13.0d
+			description: [
+				"通过探险家指南针寻找Ship发现遗迹"
+				"{image:minecraft:textures/gui/provefrom/ship.png width:200 height:100 align:1}"
+			]
+			hide: true
+			id: "20F6D04898274ED0"
+			tasks: [{
+				id: "69BDC3984951FC77"
+				type: "checkmark"
+				title: "遗迹寻找"
+			}]
+		}
+		{
+			x: 21.0d
+			y: 16.5d
+			description: ["使用探险家指南针搜索海底神殿"]
+			hide: true
+			id: "1218247BAC2CAB16"
+			tasks: [{
+				id: "54895A3C57E08CCF"
+				type: "checkmark"
+				title: "寻找"
+			}]
+		}
+		{
+			x: 21.0d
+			y: 6.5d
+			description: ["使用三个凋零头与四个灵魂沙召唤"]
+			hide: true
+			id: "12ED95B309E96D90"
+			tasks: [{
+				id: "23ED13646D08536F"
+				type: "checkmark"
+				title: "召唤"
+				icon: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 10.0d
+			hide: true
+			id: "794732D480EA2642"
+			tasks: [
+				{
+					id: "2D0E4153DDDE7CAB"
+					type: "item"
+					item: "mod_lavacow:hatred_shard"
+					count: 7L
+				}
+				{
+					id: "5558E3A3CDA1C31A"
+					type: "item"
+					item: "mod_lavacow:stained_kings_crown"
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: 16.5d
+			hide: true
+			id: "10CE5028121C1B2D"
+			tasks: [
+				{
+					id: "0115C86779C64475"
+					type: "item"
+					item: "mowziesmobs:wrought_helmet"
+				}
+				{
+					id: "0B61E95094EBABA0"
+					type: "item"
+					item: "nethers_delight:mimicarnation"
+					count: 2L
+				}
+				{
+					id: "2C8A544B8A9E5686"
+					type: "item"
+					item: "nethers_delight:stuffed_hoglin_item"
+				}
+				{
+					id: "61A7BC8E04D87D0D"
+					type: "item"
+					item: "nethers_delight:rich_soul_soil"
+					count: 2L
+				}
+				{
+					id: "37953CAE9B47F059"
+					type: "item"
+					item: "alexsmobs:guster_eye"
+				}
+			]
+		}
+		{
+			x: 27.5d
+			y: 11.5d
+			description: ["点燃旗帜获得 不祥之兆"]
+			hide: true
+			id: "3E875A4C38759565"
+			tasks: [{
+				id: "243FA8EB149A8047"
+				type: "item"
+				item: {
+					id: "minecraft:white_banner"
+					Count: 1b
+					tag: {
+						HideFlags: 32
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Pattern: "mr"
+									Color: 9
+								}
+								{
+									Pattern: "bs"
+									Color: 8
+								}
+								{
+									Pattern: "cs"
+									Color: 7
+								}
+								{
+									Pattern: "bo"
+									Color: 8
+								}
+								{
+									Pattern: "ms"
+									Color: 15
+								}
+								{
+									Pattern: "hh"
+									Color: 8
+								}
+								{
+									Pattern: "mc"
+									Color: 8
+								}
+								{
+									Pattern: "bo"
+									Color: 15
+								}
+							]
+						}
+						display: {
+							Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+						}
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 10.0d
+			description: ["探险家指南针搜索The Catacombs"]
+			hide: true
+			id: "3758368EDF957F63"
+			tasks: [{
+				id: "130D2A81CC675E2D"
+				type: "checkmark"
+				title: "陵寝"
+			}]
+		}
+		{
+			title: "遗迹"
+			x: 24.0d
+			y: 16.5d
+			description: [
+				"探险家指南针通过搜索Burning Arena找到"
+				""
+				"使用燃烧的灰烬右键火焰祭坛召唤"
+			]
+			hide: true
+			id: "261C15882EDB6FD4"
+			tasks: [
+				{
+					id: "1D6FF9D8DD9B946A"
+					type: "checkmark"
+				}
+				{
+					id: "12FB32A9FA3DC473"
+					type: "item"
+					item: "cataclysm:burning_ashes"
+				}
+			]
+		}
+		{
+			title: "灵魂锻造厂"
+			x: 17.5d
+			y: 11.5d
+			description: ["探险家指南针搜索Soul Black Smith"]
+			hide: true
+			id: "54AF2FE42254455B"
+			tasks: [{
+				id: "7E60507E8B8D3934"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 27.5d
+			y: 13.0d
+			id: "7AD217BA76AAF046"
+			tasks: [{
+				id: "31BE40E823F74B57"
+				type: "kill"
+				entity: "redstone_monstrosity_mod:namelessone"
+				value: 1L
+			}]
+		}
+	]
+}

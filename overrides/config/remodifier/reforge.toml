@@ -1,0 +1,5 @@
+
+[Remodifier]
+	UniversalReforgeItem = "minecraft:crying_obsidian"
+	DisableRepairingReforging = false
+

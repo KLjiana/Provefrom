@@ -1,0 +1,32 @@
+type = customizablemenus
+
+com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
+net.minecraft.client.gui.screen.ShareToLanScreen {
+}
+
+net.minecraft.client.gui.screen.DeathScreen {
+}
+
+net.minecraft.client.gui.screen.EnchantmentScreen {
+}
+
+net.optifine.gui.GuiChatOF {
+}
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+

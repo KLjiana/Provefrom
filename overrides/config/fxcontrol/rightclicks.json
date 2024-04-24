@@ -1,0 +1,80 @@
+[
+    {
+      "playerhelditem": "iceandfire:dragonegg_red",
+      "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+      "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_green",
+        "message":"龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_bronze",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_gray",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_blue",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_white",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_black",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_copper",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_sapphire",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_amythest",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_silver",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "playerhelditem": "iceandfire:dragonegg_electric",
+        "message": "龙蛋已被禁用了哦 (￣▽￣) ",
+        "result": "deny"
+    },
+
+    {
+        "block": "minecraft:enchanting_table",
+        "message": "凡人！这岂是你所可用之物？",
+        "result": "deny"
+    }
+]
+   

@@ -1,0 +1,337 @@
+{
+	id: "14936ECF3D64860F"
+	order_index: 1
+	title: "装备奖励"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:wooden_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:wooden_axe"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:wooden_hoe"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:stone_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:stone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:stone_axe"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:stone_hoe"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 3
+				}
+			}
+			weight: 6
+		}
+		{ item: "iceandfire:ghost_ingot" }
+		{
+			item: {
+				id: "stalwart_dungeons:iron_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:crossbow"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{ item: "minecraft:totem_of_undying", weight: 6 }
+		{
+			item: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "hunterillager:boomerang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:stone_sword"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:netherite_sword"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "savageandravage:wand_of_freezing"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "stalwart_dungeons:stone_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 3
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "quark:pickarang"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "ba_bt:platinum_sword"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "stalwart_dungeons:golden_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:golden_sword"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:wooden_sword"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:golden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:golden_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:golden_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "minecraft:golden_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 6
+		}
+		{
+			item: {
+				id: "iceandfire:silver_sword"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+			weight: 6
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "_"
+	}
+}

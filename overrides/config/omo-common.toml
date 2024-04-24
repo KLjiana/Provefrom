@@ -1,0 +1,14 @@
+
+#General settings
+[general]
+	#Can player use RTP
+	RTP = true
+	#RTP max X
+	#Range: > 0
+	"Random Max X" = 5000
+	#RTP max Z
+	#Range: > 0
+	"Random Max Z" = 5000
+	#Can player use OMOTP
+	OMOTP = false
+

@@ -1,0 +1,15 @@
+[
+    {
+      "mobsfrombiome": "monster",
+      "persecond": 0.5,
+      "attempts": 20,
+      "amount": {
+        "minimum": 2,
+        "maximum": 5
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxhostile": 402
+      }
+    }
+  ]

@@ -1,0 +1,11 @@
+
+["Config for InventoryProtection Mod !"]
+	#保护符lore
+	lore = ["§7将此护身符放在背包中", "§7死亡时，你的背包将会受到保护", "§7而不会掉落"]
+	#保留经验值
+	level = true
+	#物品名称
+	disPlayName = "§9物品护符"
+	#复活后发送的消息
+	message = "§2你背包中的 §9灿烂天狼保护符 §2已被消耗以激活死亡保护。"
+

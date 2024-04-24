@@ -1,0 +1,53 @@
+{
+	id: "6B4042C97FA17987"
+	group: "6F3A77339C659300"
+	order_index: 2
+	filename: "g"
+	title: "&6H.赞助"
+	icon: "kubejs:silver_key"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "losttrinkets:ruby_heart"
+			x: -1.0d
+			y: -0.5d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"这里是加拿的赞助者物品介绍地方"
+				"以后有更多的就好了"
+				"{image:kubejs:textures/money.png width:200 height:250 align:1}"
+				"&e&l谢谢你"
+			]
+			size: 2.3d
+			id: "110D996307B4B301"
+			tasks: [{
+				id: "6A60BF9E4D5CD8E2"
+				type: "checkmark"
+				title: "&6介绍"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: [
+				"&l&o&d以下内容来自&9加拿&r&l&o&d本人，无他人所写（毕竟其他人也不知道"
+				""
+				"&e由&r&7&l叁拾柒&r&e赞助创造"
+				"&e以1%的概率在宝箱生成。"
+				"&c1.&e在玩家右键点击门时触发事件,判断玩家是否手持名为银钥匙的物品。"
+				"&c2.&e消耗玩家手中的钥匙数量。"
+				"&c3.&e以10%的概率给予玩家一个保护物品。"
+				"&c4.&e在给予奖励时,以20%的概率额外奖励一个保护符文,并提示获得了祝福。"
+				"&c5.&e否则提示玩家被拒绝,并传送玩家到虚空处死。"
+			]
+			id: "79D9FB80D4000839"
+			tasks: [{
+				id: "364ED9A2505936D2"
+				type: "item"
+				item: "kubejs:silver_key"
+			}]
+		}
+	]
+}

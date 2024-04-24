@@ -1,0 +1,7 @@
+
+[SparseStructuresReforged]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	extraSeparationPercentage = 0.8
+	#Range: 0.0 ~ 1.7976931348623157E308
+	extraSpacingPercentage = 0.8
+

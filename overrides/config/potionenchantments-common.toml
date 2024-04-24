@@ -1,0 +1,5 @@
+#
+#The maximum level of the enchantments
+#Range: > 1
+allEnchantmentsMaxLevel = 5
+

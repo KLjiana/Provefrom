@@ -1,0 +1,6 @@
+
+[DeathButThree]
+	ValidBosses = ["minecraft:ender_dragon", "meetyourfight:swampjaw", "meetyourfight:dame_fortuna", "meetyourfight:bellringer", "witherstormmod:command_block", "witherstormmod:wither_storm", "witherstormmod:withered_symbiont", "farlanders:titan", "dungeonsmod:voidmaster", "dungeonsmod:sun", "dungeonsmod:kraken", "dungeonsmod:king", "dungeonsmod:winterhunter", "dungeonsmod:deserted", "dungeonsmod:crawler", "stalwart_dungeons:shelterer", "stalwart_dungeons:nether_keeper", "stalwart_dungeons:awful_ghast", "mowziesmobs:frostmaw", "mowziesmobs:barako", "mowziesmobs:ferrous_wroughtnaut", "mod_lavacow:skeletonking", "cataclysm:ender_guardian", "cataclysm:netherite_monstrosity", "cataclysm:ignis", "alexsmobs:void_worm", "alexsmobs:warped_mosco", "aquamirae:captain_cornelia", "minecraft:wither", "redstone_monstrosity_mod:redstone_monstrosity", "redstone_monstrosity_mod:obsidian_monstrosity", "redstone_monstrosity_mod:namelessone", "illageandspillage:magispeller", "redstone_monstrosity_mod:mooshroom_monstrosity", "minecraft:elder_guardian", "conjurer_illager:conjurer"]
+	#Range: > 1
+	maxDeathTimes = 5
+

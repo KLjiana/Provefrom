@@ -1,0 +1,22 @@
+{
+	id: "22845985234491DA"
+	group: "35E3234857D9CE2B"
+	order_index: 0
+	filename: "c"
+	title: "&aE.小憩"
+	icon: "tea_kettle:green_tea"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		icon: "tea_kettle:boiling_kettle"
+		x: 0.0d
+		y: 0.0d
+		description: ["没写，没时间，等着吧"]
+		id: "65B56D3CDB6FE74A"
+		tasks: [{
+			id: "445A57D3396B8912"
+			type: "checkmark"
+			title: "我想休息一下"
+		}]
+	}]
+}

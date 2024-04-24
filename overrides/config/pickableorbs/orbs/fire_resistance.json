@@ -1,0 +1,20 @@
+{
+  "OrbData": {
+    "type": "minecraft:fire_resistance",
+    "effectMultiplier": 0,
+    "effectDuration": 300,
+    "color": "#FF8300",
+    "blockList": [],
+    "blockListType": "whitelist",
+    "blockDropChance": 0.0,
+    "entityList": [],
+    "entityListType": "blacklist",
+    "entityDropChance": 5
+  },
+  "ExtraData": {
+    "follow-player": false,
+    "pickup-delay": 10,
+    "sound": true,
+    "pickup-message": "你获取到了火焰之石！"
+  }
+}

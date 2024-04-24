@@ -1,0 +1,87 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = true
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = ffffff
+}
+
+customization {
+  visible = false
+  x = 2
+  textcolor = 
+  action = editforgestatustext
+  y = 0
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  action = editforgememoryinfo
+  y = 9
+}
+
+customization {
+  visible = false
+  x = 0
+  action = editprogressbar
+  y = -50
+  barcolor = 000000
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #ffffff
+  x = 0
+  width = 1086
+  action = addshape
+  actionid = 91efc59b-4d24-43aa-9afd-d21ffa7cd2d41691655778866
+  y = 80
+  height = 191
+}
+
+customization {
+  path = material/shin.png
+  orientation = bottom-centered
+  x = 5
+  width = 208
+  action = addtexture
+  actionid = 211e905f-79e0-4842-a5ac-0d4eabcab87e1691655682012
+  y = 0
+  height = 22
+}
+
+customization {
+  path = material/future.png
+  orientation = mid-centered
+  x = 4
+  width = 210
+  action = addtexture
+  actionid = 445a8d9f-69f7-4367-8a05-1fbf0762d7371696576140431
+  y = -12
+  height = 68
+}
+
+customization {
+  orientation = bottom-centered
+  bartexture = material/load.png
+  x = 5
+  width = 226
+  actionid = 8b024c24-8ca4-4b58-8b2b-eafd55c747cd1697324678161
+  y = -43
+  action = addcustomprogressbar
+  backgroundtexture = material/edition.png
+  height = 26
+  direction = right
+  barcolor = #ffffff
+  backgroundcolor = #5c5c5c80
+}
+

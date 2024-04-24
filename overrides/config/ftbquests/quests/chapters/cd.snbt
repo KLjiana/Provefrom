@@ -1,0 +1,176 @@
+{
+	id: "381F3FBCFCADC7C0"
+	group: "5836B7C1B847157F"
+	order_index: 1
+	filename: "cd"
+	title: "&cB.游戏难度"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: -2.0d
+			description: ["在这个计时结束后，你才能通过后面的任务来减少游戏的难度"]
+			id: "78E38628DCA6F488"
+			tasks: [{
+				id: "7C27242041AA5289"
+				type: "questsadditions:time"
+				elapsedTime: 30000L
+				gameTime: "game"
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: -1.5d
+			y: -3.5d
+			description: ["减50"]
+			dependencies: ["78E38628DCA6F488"]
+			id: "0E4711D4BF360D4F"
+			tasks: [{
+				id: "32975490EE92A504"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "711E578EB51AD31D"
+					type: "command"
+					auto: "invisible"
+					command: "/improvedmobs difficulty add -50"
+					player_command: false
+				}
+				{
+					id: "31B17181DE96A15E"
+					type: "questsadditions:repeat"
+					auto: "enabled"
+					table_id: 4557474287603058988L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["减10"]
+			dependencies: ["78E38628DCA6F488"]
+			id: "3A18BC42584CD1E9"
+			tasks: [{
+				id: "764EB2F58C1F3F9C"
+				type: "kill"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7DBED64E3198D336"
+					type: "command"
+					auto: "invisible"
+					command: "/improvedmobs difficulty add -10"
+					player_command: false
+				}
+				{
+					id: "77B04424B83C12E3"
+					type: "questsadditions:repeat"
+					auto: "enabled"
+					table_id: 4557474287603058988L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: ["减10"]
+			dependencies: ["78E38628DCA6F488"]
+			id: "086E1C215D7E0FF3"
+			tasks: [{
+				id: "07880E1A825280B8"
+				type: "item"
+				item: "aquaculture:neptunium_block"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "4831881FCACE852C"
+					type: "command"
+					auto: "invisible"
+					command: "/improvedmobs difficulty add -10"
+					player_command: false
+				}
+				{
+					id: "4F8077AD68A75F3C"
+					type: "questsadditions:repeat"
+					auto: "enabled"
+					table_id: 4557474287603058988L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			description: ["减20"]
+			dependencies: ["78E38628DCA6F488"]
+			id: "55522444362C5041"
+			tasks: [
+				{
+					id: "2E593E8748054D12"
+					type: "item"
+					item: "nethers_delight:stuffed_hoglin_item"
+					consume_items: true
+				}
+				{
+					id: "704A161768088BCF"
+					type: "item"
+					item: "butchersdelight:bbq_pork_ribs"
+					consume_items: true
+				}
+				{
+					id: "0B21FB4D19C3A149"
+					type: "item"
+					item: "farmersdelight:shepherds_pie_block"
+					consume_items: true
+				}
+				{
+					id: "4BAC4AE630FC2F1C"
+					type: "item"
+					item: "farmersdelight:honey_glazed_ham_block"
+					consume_items: true
+				}
+				{
+					id: "7F84DF96F091CFCD"
+					type: "item"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					consume_items: true
+				}
+				{
+					id: "0DD1B7DD2272A402"
+					type: "item"
+					item: "farmersdelight:roast_chicken_block"
+					consume_items: true
+				}
+				{
+					id: "79849996C4C70208"
+					type: "item"
+					item: "dumplings_delight:dumpling_medley"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1674B7D2AFA8DCD0"
+					type: "command"
+					auto: "invisible"
+					command: "/improvedmobs difficulty add -20"
+					player_command: false
+				}
+				{
+					id: "2AFB582D1B77573A"
+					type: "questsadditions:repeat"
+					auto: "enabled"
+					table_id: 4557474287603058988L
+				}
+			]
+		}
+	]
+}

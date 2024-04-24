@@ -1,0 +1,20 @@
+{
+  "OrbData": {
+    "type": "minecraft:speed",
+    "effectMultiplier": 1,
+    "effectDuration": 100,
+    "color": "#51E5FF",
+    "blockList": [],
+    "blockListType": "whitelist",
+    "blockDropChance": 0.0,
+    "entityList": [],
+    "entityListType": "blacklist",
+    "entityDropChance": 5
+  },
+    "ExtraData": {
+    "follow-player": false,
+    "pickup-delay": 10,
+    "sound": true,
+    "pickup-message": "你获取到了速度之石！"
+  }
+}

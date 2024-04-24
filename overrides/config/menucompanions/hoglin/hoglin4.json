@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:hoglin",
+  "weight": 1,
+  "display": {
+    "scale": 1.0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "nameplate": false,
+    "particles": true,
+    "volume": 0.5,
+    "side": "LEFT"
+  },
+  "data": {
+    "nbt": "{Passengers: [{Passengers: [{IsBaby: 1, id: \"piglin\"}], IsBaby: 1, id: \"piglin\"}], Age: -24000}",
+    "tick": true,
+    "onground": true,
+    "inwater": true,
+    "aggressive": false,
+    "inlove": false,
+    "walk": false,
+    "crouch": false
+  }
+}

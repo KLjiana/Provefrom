@@ -1,0 +1,38 @@
+
+[general]
+	#Show current player coordinates on the death screen.
+	"Death Screen Coordinates" = false
+	#Give the player a death compass on respawn leading to their point of death.
+	"Death Compass" = true
+	#Give the player a death map on respawn leading to their point of death.
+	"Death Map" = true
+	#Add coordinates to the end of ever death message.
+	"Death Message Coordinates" = false
+
+[death_messages]
+	#Show death message for named entities.
+	"Named Entity Deaths" = false
+	#Entities to be excluded when "All Deaths" is enabled. Format for every entry is "<namespace>:<id>".
+	"Entity Blacklist" = ["minecraft:bat"]
+	#Only entities to be included when "All Deaths" is enabled. Format for every entry is "<namespace>:<id>".
+	"Entity Whitelist" = []
+	#Show death message for tamed entities.
+	"Pet Deaths" = true
+	#Show death message for players.
+	"Player Deaths" = true
+	#Show death message for all entities.
+	"All Deaths" = false
+
+[death_items]
+	#Icon to mark death point on a map with.
+	#Allowed Values: PLAYER, FRAME, RED_MARKER, BLUE_MARKER, TARGET_X, TARGET_POINT, PLAYER_OFF_MAP, PLAYER_OFF_LIMITS, MANSION, MONUMENT, BANNER_WHITE, BANNER_ORANGE, BANNER_MAGENTA, BANNER_LIGHT_BLUE, BANNER_YELLOW, BANNER_LIME, BANNER_PINK, BANNER_GRAY, BANNER_LIGHT_GRAY, BANNER_CYAN, BANNER_PURPLE, BANNER_BLUE, BANNER_BROWN, BANNER_GREEN, BANNER_RED, BANNER_BLACK, RED_X
+	"Death Map Marker" = "TARGET_X"
+	#Use a custom texture for the death compass.
+	"Custom Compass Texture" = true
+	#Give death items only to players that dropped items from their inventory upon dying.
+	"No Empty Inventory " = false
+	#Remove death tracking items from inventory when approaching death point.
+	"Remove Death Trackers" = true
+	#Give map and compass items even when the "keepInventory" gamerule is enabled.
+	"Ignore Keep Inventory" = false
+

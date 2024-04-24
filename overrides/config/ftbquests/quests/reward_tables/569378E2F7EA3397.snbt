@@ -1,0 +1,13 @@
+{
+	id: "569378E2F7EA3397"
+	order_index: 3
+	title: "吊坠"
+	icon: "artifacts:shock_pendant"
+	loot_size: 1
+	rewards: [
+		{ item: "artifacts:shock_pendant" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "minecraft:dirt", count: 23, weight: 3 }
+	]
+}

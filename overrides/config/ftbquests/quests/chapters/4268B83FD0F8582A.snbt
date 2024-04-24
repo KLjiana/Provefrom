@@ -1,0 +1,984 @@
+{
+	id: "4268B83FD0F8582A"
+	group: "6F3A77339C659300"
+	order_index: 3
+	filename: "4268B83FD0F8582A"
+	title: "&dJ.饰品"
+	icon: "bountifulbaubles:magic_mirror"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "bountifulbaubles:amulet_cross"
+			x: -0.7d
+			y: 0.0d
+			subtitle: "花样饰品"
+			description: ["对应形状对应所需原材料（左上角的2个）"]
+			hide_dependency_lines: true
+			dependencies: [
+				"2CF52EC140ED12A0"
+				"6EBC068FAF7A414D"
+				"5B88A33A88AD89F4"
+				"449AABCA5F6766E9"
+				"756420C9D3EDDA4E"
+				"21EDADCD28B307DF"
+				"3E036EDFEF01FFEC"
+				"64310F95CE5FFAA7"
+				"0A9A311DFE58F7EE"
+				"199860A2AD4A503F"
+				"7A2117FDFDF31BA4"
+				"6A6B09FA116C9CC2"
+				"13102D9945805788"
+				"6D0B8FC3FAECE06A"
+				"66451BD4E7624DCD"
+				"5EAD1E63E25475F8"
+				"352650BE64F2DCD9"
+				"4CD92AE933D48775"
+				"6A3BBBB51F83FA4F"
+				"2098ACC0938E6399"
+				"0E64A36CC97C2503"
+				"39EC61EAC272BFF8"
+				"7B1B59AFDDF8EEC7"
+				"71667C422246395B"
+				"52592DB9216B4CD9"
+				"775B6054D1B25909"
+				"12AA479E2D1C88D8"
+				"491B271FAA0ACFB2"
+				"327F4DCA953EC709"
+				"2DDEAD2F16EFD63C"
+				"3CB493ADB8CC29B4"
+				"768A85AC35619C86"
+				"04CF3F70677FF70E"
+				"12FA585165DEF070"
+			]
+			size: 2.3d
+			id: "75542C09F7D9EBA5"
+			tasks: [{
+				id: "37142969C022CCEA"
+				type: "checkmark"
+				title: "&c富贵之身"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			shape: "rsquare"
+			id: "768A85AC35619C86"
+			tasks: [{
+				id: "57E8DDE9C8F71495"
+				type: "item"
+				item: "bountifulbaubles:sunglasses"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			shape: "rsquare"
+			optional: true
+			id: "199860A2AD4A503F"
+			tasks: [{
+				id: "2A945A5B3D86E4B3"
+				type: "item"
+				item: "bountifulbaubles:balloon"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			id: "327F4DCA953EC709"
+			tasks: [{
+				id: "15FC45D16AE4EA75"
+				type: "item"
+				item: "bountifulbaubles:obsidian_skull"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			id: "04CF3F70677FF70E"
+			tasks: [{
+				id: "1F61D7DD2111E6B4"
+				type: "item"
+				item: "bountifulbaubles:bezoar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			id: "2DDEAD2F16EFD63C"
+			tasks: [{
+				id: "18430A57482C2799"
+				type: "item"
+				item: "bountifulbaubles:apple"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["449AABCA5F6766E9"]
+			id: "21EDADCD28B307DF"
+			tasks: [{
+				id: "6400AA6B8EC87486"
+				type: "item"
+				item: "bountifulbaubles:amulet_sin_gluttony"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			shape: "rsquare"
+			id: "6D0B8FC3FAECE06A"
+			tasks: [{
+				id: "1B9BF28880CC5944"
+				type: "item"
+				item: "bountifulbaubles:gloves_dexterity"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			shape: "rsquare"
+			optional: true
+			id: "0A9A311DFE58F7EE"
+			tasks: [{
+				id: "1B58B025600E2AAF"
+				type: "item"
+				item: "bountifulbaubles:lucky_horseshoe"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			dependencies: [
+				"71667C422246395B"
+				"12FA585165DEF070"
+			]
+			dependency_requirement: "one_completed"
+			id: "7B1B59AFDDF8EEC7"
+			tasks: [{
+				id: "3127A1EED398F399"
+				type: "item"
+				item: "bountifulbaubles:black_dragon_scale"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["449AABCA5F6766E9"]
+			id: "756420C9D3EDDA4E"
+			tasks: [{
+				id: "1F252E8206385007"
+				type: "item"
+				item: "bountifulbaubles:amulet_sin_wrath"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			id: "66451BD4E7624DCD"
+			tasks: [{
+				id: "3CE3E7152129D78E"
+				type: "item"
+				item: {
+					id: "bountifulbaubles:gloves_digging_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			id: "24D83500638A6C1A"
+			tasks: [{
+				id: "23E0E5BBA24F85E1"
+				type: "item"
+				item: {
+					id: "bountifulbaubles:gloves_digging_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			dependencies: [
+				"199860A2AD4A503F"
+				"0A9A311DFE58F7EE"
+			]
+			dependency_requirement: "one_completed"
+			id: "7A2117FDFDF31BA4"
+			tasks: [{
+				id: "2209D5FDC5ECDDB5"
+				type: "item"
+				item: "bountifulbaubles:horseshoe_balloon"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			id: "5EAD1E63E25475F8"
+			tasks: [{
+				id: "6B6C62FD99C239F1"
+				type: "item"
+				item: {
+					id: "bountifulbaubles:gloves_digging_diamond"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["2098ACC0938E6399"]
+			id: "13102D9945805788"
+			tasks: [{
+				id: "609C6A67F4D9581E"
+				type: "item"
+				item: "bountifulbaubles:broken_heart"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: [
+				"0E64A36CC97C2503"
+				"64310F95CE5FFAA7"
+			]
+			id: "6A6B09FA116C9CC2"
+			tasks: [{
+				id: "65C312B8EFBAC45A"
+				type: "item"
+				item: "bountifulbaubles:magic_mirror"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "2CF52EC140ED12A0"
+			tasks: [{
+				id: "502D961467C6CCE3"
+				type: "item"
+				item: "bountifulbaubles:spectral_silt"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["0E64A36CC97C2503"]
+			id: "71667C422246395B"
+			tasks: [{
+				id: "1F74679FCB7782DB"
+				type: "item"
+				item: "bountifulbaubles:ender_dragon_scale"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: [
+				"13102D9945805788"
+				"6A6B09FA116C9CC2"
+			]
+			id: "3E036EDFEF01FFEC"
+			tasks: [{
+				id: "27104EE2D7269C1C"
+				type: "item"
+				item: "bountifulbaubles:phylactery_charm"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			shape: "rsquare"
+			dependencies: ["71667C422246395B"]
+			id: "12FA585165DEF070"
+			tasks: [{
+				id: "4797AB14029F8488"
+				type: "item"
+				item: "bountifulbaubles:broken_black_dragon_scale"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "5B88A33A88AD89F4"
+			tasks: [{
+				id: "2BBFCCCA5B3C33A1"
+				type: "item"
+				item: "bountifulbaubles:disintegration_tablet"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["2CF52EC140ED12A0"]
+			id: "6EBC068FAF7A414D"
+			tasks: [{
+				id: "33929BB972CF8C9A"
+				type: "item"
+				item: "bountifulbaubles:resplendent_token"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "rsquare"
+			id: "449AABCA5F6766E9"
+			tasks: [{
+				id: "1A0DC611513063E6"
+				type: "item"
+				item: "bountifulbaubles:amulet_sin_empty"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			id: "352650BE64F2DCD9"
+			tasks: [{
+				id: "330B4A45C0A1E59D"
+				type: "item"
+				item: "bountifulbaubles:shield_cobalt"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			dependencies: [
+				"491B271FAA0ACFB2"
+				"775B6054D1B25909"
+			]
+			id: "12AA479E2D1C88D8"
+			tasks: [{
+				id: "7D7F638DB70B4438"
+				type: "item"
+				item: "bountifulbaubles:shield_ankh"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: [
+				"3CB493ADB8CC29B4"
+				"6A3BBBB51F83FA4F"
+				"768A85AC35619C86"
+				"2DDEAD2F16EFD63C"
+				"52592DB9216B4CD9"
+			]
+			id: "775B6054D1B25909"
+			tasks: [{
+				id: "7A5E05ADAA0C3BFA"
+				type: "item"
+				item: "bountifulbaubles:ankh_charm"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: [
+				"327F4DCA953EC709"
+				"352650BE64F2DCD9"
+			]
+			dependency_requirement: "one_completed"
+			id: "491B271FAA0ACFB2"
+			tasks: [{
+				id: "5A3EC50837F82BE5"
+				type: "item"
+				item: "bountifulbaubles:shield_obsidian"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			dependencies: [
+				"04CF3F70677FF70E"
+				"7B1B59AFDDF8EEC7"
+			]
+			id: "52592DB9216B4CD9"
+			tasks: [{
+				id: "185FD603A8B2B839"
+				type: "item"
+				item: "bountifulbaubles:mixed_dragon_scale"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["39EC61EAC272BFF8"]
+			id: "0E64A36CC97C2503"
+			tasks: [{
+				id: "20C5FF74B77F1E62"
+				type: "item"
+				item: "bountifulbaubles:wormhole_mirror"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			id: "39EC61EAC272BFF8"
+			tasks: [{
+				id: "13677F91E58D0653"
+				type: "item"
+				item: "bountifulbaubles:potion_wormhole"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			id: "64310F95CE5FFAA7"
+			tasks: [{
+				id: "1D6340E6FB3249A3"
+				type: "item"
+				item: "bountifulbaubles:potion_recall"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			id: "2098ACC0938E6399"
+			tasks: [{
+				id: "0C251F386192E4D1"
+				type: "item"
+				item: "bountifulbaubles:shulker_heart"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			id: "4CD92AE933D48775"
+			tasks: [{
+				id: "43BD6A5B978E6BF2"
+				type: "item"
+				item: "bountifulbaubles:ring_overclocking"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: [
+				"2098ACC0938E6399"
+				"4CD92AE933D48775"
+			]
+			id: "6A3BBBB51F83FA4F"
+			tasks: [{
+				id: "1BE002EA61E6A15D"
+				type: "item"
+				item: "bountifulbaubles:ring_free_action"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			id: "3CB493ADB8CC29B4"
+			tasks: [{
+				id: "78CAC364E39A35E4"
+				type: "item"
+				item: "bountifulbaubles:vitamins"
+			}]
+		}
+		{
+			title: "&d身着百样"
+			icon: "artifacts:cross_necklace"
+			x: 9.8d
+			y: 0.0d
+			subtitle: "奇异饰品和majrusz的配件"
+			description: [
+				"正方形：项链"
+				"圆形：头饰"
+				"六边形：腰带"
+				"菱形：手饰"
+				"矩形：脚饰"
+				"齿轮：饰品（所有栏位均可佩戴）"
+				"五边形：口袋"
+			]
+			size: 2.3d
+			id: "3DF9AB9587FBC2C9"
+			tasks: [{
+				id: "7CA92E30FF7C3748"
+				type: "checkmark"
+				title: "&d身着百样"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			id: "2F78263E7BFC1307"
+			tasks: [{
+				id: "44271B88017D9188"
+				type: "item"
+				item: "artifacts:panic_necklace"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			shape: "square"
+			id: "49206BB53D97CD65"
+			tasks: [{
+				id: "2966D84BAA90132C"
+				type: "item"
+				item: "artifacts:shock_pendant"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			shape: "square"
+			id: "5779F9BC656F0450"
+			tasks: [{
+				id: "36E240CD03C3C966"
+				type: "item"
+				item: "artifacts:flame_pendant"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			shape: "square"
+			id: "1B89D7246548121B"
+			tasks: [{
+				id: "31F38134A5A230C2"
+				type: "item"
+				item: "artifacts:thorn_pendant"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			id: "0E3E4979479D5210"
+			tasks: [{
+				id: "50A0BF732829A30E"
+				type: "item"
+				item: "artifacts:plastic_drinking_hat"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			id: "00B5D47899D83D3A"
+			tasks: [{
+				id: "08085796E04B1B51"
+				type: "item"
+				item: "artifacts:novelty_drinking_hat"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			id: "013B9556099CAE58"
+			tasks: [{
+				id: "2A6ECC1E567A3A60"
+				type: "item"
+				item: "artifacts:snorkel"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			id: "3E9085FE0FC07E33"
+			tasks: [{
+				id: "7BA1973CA08CD72C"
+				type: "item"
+				item: "artifacts:night_vision_goggles"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			id: "672428AC84F2C0DB"
+			tasks: [{
+				id: "5779B7FC8CF740EE"
+				type: "item"
+				item: "artifacts:villager_hat"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 2.0d
+			id: "154AA474D15333F0"
+			tasks: [{
+				id: "6E643245C3E3588F"
+				type: "item"
+				item: "artifacts:superstitious_hat"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			shape: "square"
+			id: "4881B4D9F53338FF"
+			tasks: [{
+				id: "56456A6D5EC1DB83"
+				type: "item"
+				item: "artifacts:lucky_scarf"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			shape: "square"
+			id: "4C5F4F22D2095733"
+			tasks: [{
+				id: "1FF9A17E925046AE"
+				type: "item"
+				item: "artifacts:scarf_of_invisibility"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			shape: "square"
+			id: "426D724126726FA0"
+			tasks: [{
+				id: "4DCEE76438CF554C"
+				type: "item"
+				item: "artifacts:cross_necklace"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			shape: "square"
+			id: "1442F19B919017DC"
+			tasks: [{
+				id: "32B52495D7C12D6B"
+				type: "item"
+				item: "artifacts:charm_of_sinking"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			shape: "hexagon"
+			id: "711E09BF4F9F62B4"
+			tasks: [{
+				id: "76EAA0B268FD49FE"
+				type: "item"
+				item: "artifacts:cloud_in_a_bottle"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			shape: "hexagon"
+			id: "5D4BC4F0BB08095E"
+			tasks: [{
+				id: "6EB6ED3094A15012"
+				type: "item"
+				item: "artifacts:obsidian_skull"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			shape: "hexagon"
+			id: "0EED7CC979BDF546"
+			tasks: [{
+				id: "340945D8D2516F68"
+				type: "item"
+				item: "artifacts:antidote_vessel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			shape: "hexagon"
+			id: "3E2BDCAB4145256D"
+			tasks: [{
+				id: "05D53408B0E68BC7"
+				type: "item"
+				item: "artifacts:universal_attractor"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			shape: "hexagon"
+			id: "4496983D1EF8E07C"
+			tasks: [{
+				id: "4247FCDBAC105D31"
+				type: "item"
+				item: "artifacts:helium_flamingo"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.0d
+			shape: "diamond"
+			id: "1AA0A971ECBC7C52"
+			tasks: [{
+				id: "4B11B840AC53FA77"
+				type: "item"
+				item: "artifacts:digging_claws"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			shape: "diamond"
+			id: "4B09CDDDF6F1688F"
+			tasks: [{
+				id: "12CD621F482323AB"
+				type: "item"
+				item: "artifacts:feral_claws"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 5.0d
+			shape: "diamond"
+			id: "5CEEF99E550C356A"
+			tasks: [{
+				id: "38119F0DB6A2C2E6"
+				type: "item"
+				item: "artifacts:pocket_piston"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			shape: "diamond"
+			id: "645917DA39669F2B"
+			tasks: [{
+				id: "478DAC4CA4BAC25D"
+				type: "item"
+				item: "artifacts:power_glove"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			shape: "diamond"
+			id: "11228154FB07CED2"
+			tasks: [{
+				id: "67E570DC05AD0514"
+				type: "item"
+				item: "artifacts:fire_gauntlet"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			shape: "diamond"
+			id: "4B764D9AE9381DFA"
+			tasks: [{
+				id: "677FCC3EB435003F"
+				type: "item"
+				item: "artifacts:vampiric_glove"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.5d
+			shape: "diamond"
+			id: "264189A1557200D6"
+			tasks: [{
+				id: "4E2FE22C32EC8736"
+				type: "item"
+				item: "artifacts:golden_hook"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.5d
+			shape: "rsquare"
+			id: "2126A53EA3B9E707"
+			tasks: [{
+				id: "2A3AF9176284C820"
+				type: "item"
+				item: "artifacts:aqua_dashers"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.5d
+			shape: "rsquare"
+			id: "454F1B5219E76ECB"
+			tasks: [{
+				id: "6AB0868802B8F4B0"
+				type: "item"
+				item: "artifacts:bunny_hoppers"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 8.0d
+			shape: "rsquare"
+			id: "79235A6A01E75369"
+			tasks: [{
+				id: "1075A00DF1DD5B6D"
+				type: "item"
+				item: "artifacts:kitty_slippers"
+			}]
+		}
+		{
+			x: 8.25d
+			y: 8.0d
+			shape: "rsquare"
+			id: "23427B3A32FAE373"
+			tasks: [{
+				id: "55A0D2497467DA37"
+				type: "item"
+				item: "artifacts:running_shoes"
+			}]
+		}
+		{
+			x: 9.75d
+			y: 8.0d
+			shape: "rsquare"
+			id: "623F3115303802E4"
+			tasks: [{
+				id: "2163FB2A668CA6B6"
+				type: "item"
+				item: "artifacts:steadfast_spikes"
+			}]
+		}
+		{
+			x: 11.25d
+			y: 8.0d
+			shape: "rsquare"
+			id: "21A161E0660C1AE8"
+			tasks: [{
+				id: "2AF990C4D2693619"
+				type: "item"
+				item: "artifacts:flippers"
+			}]
+		}
+		{
+			x: 12.75d
+			y: 8.0d
+			shape: "gear"
+			id: "49DC90B4F67532BF"
+			tasks: [{
+				id: "57E1AA3C7597C7FE"
+				type: "item"
+				item: "artifacts:whoopee_cushion"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.5d
+			shape: "pentagon"
+			id: "5D4837488126407D"
+			tasks: [{
+				id: "3553C7E200B03550"
+				type: "item"
+				item: {
+					id: "majruszs_accessories:fisherman_emblem"
+					Count: 1b
+					tag: {
+						Effectiveness: {
+							Value: -0.3d
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.5d
+			shape: "pentagon"
+			id: "48180415876972AF"
+			tasks: [{
+				id: "1CBCCDB45B42DF4F"
+				type: "item"
+				item: {
+					id: "majruszs_accessories:lucky_rock"
+					Count: 1b
+					tag: {
+						Effectiveness: {
+							Value: -0.3d
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.5d
+			shape: "pentagon"
+			id: "7CF034C9F0B06D6E"
+			tasks: [{
+				id: "1970EBCCA0D62B72"
+				type: "item"
+				item: {
+					id: "majruszs_accessories:giant_seed"
+					Count: 1b
+					tag: {
+						Effectiveness: {
+							Value: -0.3d
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.5d
+			shape: "pentagon"
+			id: "66D9AE5E8ECFE471"
+			tasks: [{
+				id: "66FFCE9DC1676E6D"
+				type: "item"
+				item: {
+					id: "majruszs_accessories:idol_of_fertility"
+					Count: 1b
+					tag: {
+						Effectiveness: {
+							Value: -0.3d
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			shape: "pentagon"
+			id: "55F410A41D7C3813"
+			tasks: [{
+				id: "7E7D14C003971477"
+				type: "item"
+				item: {
+					id: "majruszs_accessories:taming_certificate"
+					Count: 1b
+					tag: {
+						Effectiveness: {
+							Value: -0.3d
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 9.5d
+			shape: "pentagon"
+			id: "4F150BC490FE4BBA"
+			tasks: [{
+				id: "2249511DA1FAEA9F"
+				type: "item"
+				item: {
+					id: "majruszs_accessories:secret_ingredient"
+					Count: 1b
+					tag: {
+						Effectiveness: {
+							Value: -0.3d
+						}
+					}
+				}
+			}]
+		}
+	]
+}

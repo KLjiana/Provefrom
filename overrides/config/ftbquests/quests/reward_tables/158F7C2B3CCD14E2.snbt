@@ -1,0 +1,30 @@
+{
+	id: "158F7C2B3CCD14E2"
+	order_index: 0
+	title: "开局装备"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:bread", count: 16 }
+		{
+			item: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:oak_planks", count: 32 }
+		{
+			item: {
+				id: "minecraft:stone_axe"
+				Count: 1b
+				tag: {
+					EA_ENABLED: 1b
+					Damage: 0
+					RARITY: 1
+				}
+			}
+		}
+	]
+}

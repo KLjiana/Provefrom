@@ -1,0 +1,168 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = cool_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=3763941%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 380
+  width = 200
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 655b281a-8500-486a-8eb9-46f8d3279fb11686984086516
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 197
+  action = deep_customization_element:title_screen_branding
+  actionid = 89d93988-8a85-44ce-8124-6ac552fe67f01686984086544
+  y = 258
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 311
+  width = 168
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 65af33a8-d779-437f-85f0-48209ee5fad01686984086544
+  y = 250
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 81c8ab49-20c6-41a8-a756-7035101c10bd1686984086544
+  y = 231
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 763c9ddc-59af-430f-88f7-2d2dbc663a881686984086544
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 29f1b21d-4b97-499b-a580-daa89847344d1686984086544
+  y = 0
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 1.4
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 2.2
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 1.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  seconds = 1.8
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 2.6
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 2.6
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 2.0
+  action = hidebuttonfor
+}
+
